@@ -203,6 +203,116 @@ function rankBestAttacks(levelUpMoves, machineMoves, moveDetails, ownTypes) {
   return top;
 }
 
+const METHOD_LABELS = {
+  walk: "Walking in grass",
+  surf: "Surfing",
+  "old-rod": "Fishing (Old Rod)",
+  "good-rod": "Fishing (Good Rod)",
+  "super-rod": "Fishing (Super Rod)",
+  "rock-smash": "Rock Smash",
+  gift: "Gift",
+  "gift-egg": "Gift",
+  "npc-trade": "In-game trade",
+  pokeflute: "Poké Flute",
+  cave: "Walking in caves",
+};
+
+function labelMethod(name) {
+  return METHOD_LABELS[name] ?? properName(name);
+}
+
+// Turns a location-area slug like "kanto-route-2-south-towards-viridian-city"
+// or "saffron-city-silph-co-7f" into a readable label.
+function labelArea(slug) {
+  let s = slug.replace(/^kanto-/, "").replace(/-area$/, "");
+  s = s.replace(/-b(\d+)f\b/g, " B$1F").replace(/-(\d+)f\b/g, " $1F");
+  return s
+    .split("-")
+    .map((w) => (/^\d+F$|^B\d+F$/i.test(w) ? w.toUpperCase() : properName(w)))
+    .join(" ")
+    .replace(/\s+/g, " ")
+    .replace(/\bPokemon\b/g, "Pokémon")
+    .trim();
+}
+
+// Condition values that meaningfully change how a location applies (which
+// fossil/starter/trade item is needed, how many coins, etc).
+function labelCondition(name) {
+  if (name.startsWith("item-") && name.endsWith("-fossil")) {
+    return `if you chose the ${properName(name.replace(/^item-/, "").replace(/-fossil$/, ""))} Fossil`;
+  }
+  if (name.startsWith("trade-")) return `trade your own ${properName(name.replace(/^trade-/, ""))}`;
+  if (name.startsWith("coins-")) return `costs ${name.replace(/^coins-/, "")} Game Corner coins`;
+  return null;
+}
+
+// Builds a per-Pokemon list of where/how to find it in FireRed/LeafGreen from
+// the /pokemon/{id}/encounters endpoint, collapsing the many probability
+// "slots" PokeAPI reports into one row per (area, method), and merging
+// FireRed/LeafGreen when they're identical (flagging it when they differ,
+// e.g. version-exclusive Pokemon or different levels/rarity per game).
+function buildLocations(encounters) {
+  const perVersion = { firered: [], leafgreen: [] };
+  for (const loc of encounters) {
+    const area = labelArea(loc.location_area.name);
+    for (const vd of loc.version_details) {
+      if (!perVersion[vd.version.name]) continue;
+      const byMethod = new Map();
+      for (const detail of vd.encounter_details) {
+        const key = detail.method.name;
+        const entry = byMethod.get(key) ?? {
+          method: key,
+          minLevel: detail.min_level,
+          maxLevel: detail.max_level,
+          chance: 0,
+          conditions: new Set(),
+        };
+        entry.minLevel = Math.min(entry.minLevel, detail.min_level);
+        entry.maxLevel = Math.max(entry.maxLevel, detail.max_level);
+        entry.chance += detail.chance;
+        for (const c of detail.condition_values) {
+          const label = labelCondition(c.name);
+          if (label) entry.conditions.add(label);
+        }
+        byMethod.set(key, entry);
+      }
+      for (const entry of byMethod.values()) {
+        perVersion[vd.version.name].push({
+          area,
+          method: entry.method,
+          minLevel: entry.minLevel,
+          maxLevel: entry.maxLevel,
+          chance: Math.min(100, entry.chance),
+          conditions: [...entry.conditions],
+        });
+      }
+    }
+  }
+
+  const rowKey = (r) => `${r.area}|${r.method}|${r.minLevel}|${r.maxLevel}|${r.conditions.join(",")}`;
+  const leafKeys = new Set(perVersion.leafgreen.map(rowKey));
+  const fireKeys = new Set(perVersion.firered.map(rowKey));
+
+  const rows = [];
+  for (const r of perVersion.firered) {
+    rows.push({ ...r, versions: leafKeys.has(rowKey(r)) ? ["firered", "leafgreen"] : ["firered"] });
+  }
+  for (const r of perVersion.leafgreen) {
+    if (!fireKeys.has(rowKey(r))) rows.push({ ...r, versions: ["leafgreen"] });
+  }
+
+  return rows
+    .map((r) => ({
+      area: r.area,
+      method: labelMethod(r.method),
+      levelRange: r.minLevel === r.maxLevel ? `Lv. ${r.minLevel}` : `Lv. ${r.minLevel}-${r.maxLevel}`,
+      chance: r.chance,
+      versions: r.versions,
+      notes: r.conditions,
+    }))
+    .sort((a, b) => b.chance - a.chance);
+}
+
 function computeMatchups(ownTypes, typeRelations) {
   const multiplier = Object.fromEntries(ALL_TYPES.map((t) => [t, 1]));
   for (const ownType of ownTypes) {
@@ -242,6 +352,9 @@ async function main() {
   console.log(`Fetching ${DEX_COUNT} pokemon + species...`);
   const pokemonList = await mapLimit(ids, 6, (id) => cachedFetch(`${BASE}/pokemon/${id}`));
   const speciesList = await mapLimit(ids, 6, (id) => cachedFetch(`${BASE}/pokemon-species/${id}`));
+
+  console.log("Fetching encounter locations...");
+  const encountersByPokemon = await mapLimit(ids, 6, (id) => cachedFetch(`${BASE}/pokemon/${id}/encounters`));
 
   console.log("Fetching evolution chains...");
   const chainUrls = [...new Set(speciesList.map((s) => s.evolution_chain.url))];
@@ -342,6 +455,7 @@ async function main() {
       evolutions: evolutionsBySpeciesId.get(p.id) ?? [],
       levelUpMoves,
       bestAttacks: rankBestAttacks(levelUpMovesByPokemon[i], machineMovesByPokemon[i], moveDetails, types),
+      locations: buildLocations(encountersByPokemon[i]),
     };
   });
 

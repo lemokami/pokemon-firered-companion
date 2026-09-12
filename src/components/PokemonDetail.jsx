@@ -6,6 +6,7 @@ import EvolutionChain from "./EvolutionChain";
 import BestAttacks from "./BestAttacks";
 import MoveTable from "./MoveTable";
 import TypeMatchups from "./TypeMatchups";
+import WhereToFind from "./WhereToFind";
 
 export default function PokemonDetail() {
   const { id } = useParams();
@@ -49,6 +50,8 @@ export default function PokemonDetail() {
           {mon.flavorText.firered && <p className="detail-flavor">{mon.flavorText.firered}</p>}
         </div>
       </header>
+
+      <WhereToFind mon={mon} />
 
       <StatBars stats={mon.stats} />
 

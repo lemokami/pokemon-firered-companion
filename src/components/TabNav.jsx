@@ -12,6 +12,9 @@ export default function TabNav() {
         <NavLink to="/pokedex" className={({ isActive }) => (isActive ? "tab active" : "tab")}>
           Pokédex
         </NavLink>
+        <NavLink to="/teams" className={({ isActive }) => (isActive ? "tab active" : "tab")}>
+          Teams
+        </NavLink>
         <NavLink to="/tips" className={({ isActive }) => (isActive ? "tab active" : "tab")}>
           General Tips
         </NavLink>
