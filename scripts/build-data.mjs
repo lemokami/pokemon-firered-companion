@@ -190,16 +190,16 @@ function rankBestAttacks(levelUpMoves, machineMoves, moveDetails, ownTypes) {
     return (a.level ?? 0) - (b.level ?? 0);
   });
 
-  const top = damaging.slice(0, 4).map((move) => {
-    const source = move.method === "machine" ? "TM/HM" : `learned at level ${move.level}`;
-    return {
-      name: move.name,
-      type: move.type,
-      power: move.power,
-      damageClass: move.damageClass,
-      reason: move.stab ? `STAB • ${move.power} power, ${source}` : `${move.power} power, ${source}`,
-    };
-  });
+  const top = damaging.slice(0, 4).map((move) => ({
+    name: move.name,
+    type: move.type,
+    power: move.power,
+    damageClass: move.damageClass,
+    // How to actually unlock this move in FireRed/LeafGreen: a level-up
+    // move shows the level, a TM/HM move has no level (bought/found instead).
+    unlockedAt: move.method === "machine" ? "TM/HM" : `Level ${move.level}`,
+    reason: move.stab ? "STAB — same type as this Pokémon (1.5× damage)" : "Best coverage option available",
+  }));
   return top;
 }
 
@@ -252,65 +252,44 @@ function labelCondition(name) {
 // FireRed/LeafGreen when they're identical (flagging it when they differ,
 // e.g. version-exclusive Pokemon or different levels/rarity per game).
 function buildLocations(encounters) {
-  const perVersion = { firered: [], leafgreen: [] };
+  // This is a FireRed companion, so only FireRed's own encounters apply -
+  // a LeafGreen-exclusive Pokemon simply isn't findable in the wild here.
+  const rows = [];
   for (const loc of encounters) {
     const area = labelArea(loc.location_area.name);
-    for (const vd of loc.version_details) {
-      if (!perVersion[vd.version.name]) continue;
-      const byMethod = new Map();
-      for (const detail of vd.encounter_details) {
-        const key = detail.method.name;
-        const entry = byMethod.get(key) ?? {
-          method: key,
-          minLevel: detail.min_level,
-          maxLevel: detail.max_level,
-          chance: 0,
-          conditions: new Set(),
-        };
-        entry.minLevel = Math.min(entry.minLevel, detail.min_level);
-        entry.maxLevel = Math.max(entry.maxLevel, detail.max_level);
-        entry.chance += detail.chance;
-        for (const c of detail.condition_values) {
-          const label = labelCondition(c.name);
-          if (label) entry.conditions.add(label);
-        }
-        byMethod.set(key, entry);
+    const vd = loc.version_details.find((v) => v.version.name === "firered");
+    if (!vd) continue;
+    const byMethod = new Map();
+    for (const detail of vd.encounter_details) {
+      const key = detail.method.name;
+      const entry = byMethod.get(key) ?? {
+        method: key,
+        minLevel: detail.min_level,
+        maxLevel: detail.max_level,
+        chance: 0,
+        conditions: new Set(),
+      };
+      entry.minLevel = Math.min(entry.minLevel, detail.min_level);
+      entry.maxLevel = Math.max(entry.maxLevel, detail.max_level);
+      entry.chance += detail.chance;
+      for (const c of detail.condition_values) {
+        const label = labelCondition(c.name);
+        if (label) entry.conditions.add(label);
       }
-      for (const entry of byMethod.values()) {
-        perVersion[vd.version.name].push({
-          area,
-          method: entry.method,
-          minLevel: entry.minLevel,
-          maxLevel: entry.maxLevel,
-          chance: Math.min(100, entry.chance),
-          conditions: [...entry.conditions],
-        });
-      }
+      byMethod.set(key, entry);
+    }
+    for (const entry of byMethod.values()) {
+      rows.push({
+        area,
+        method: labelMethod(entry.method),
+        levelRange: entry.minLevel === entry.maxLevel ? `Lv. ${entry.minLevel}` : `Lv. ${entry.minLevel}-${entry.maxLevel}`,
+        chance: Math.min(100, entry.chance),
+        notes: [...entry.conditions],
+      });
     }
   }
 
-  const rowKey = (r) => `${r.area}|${r.method}|${r.minLevel}|${r.maxLevel}|${r.conditions.join(",")}`;
-  const leafKeys = new Set(perVersion.leafgreen.map(rowKey));
-  const fireKeys = new Set(perVersion.firered.map(rowKey));
-
-  const rows = [];
-  for (const r of perVersion.firered) {
-    rows.push({ ...r, versions: leafKeys.has(rowKey(r)) ? ["firered", "leafgreen"] : ["firered"] });
-  }
-  for (const r of perVersion.leafgreen) {
-    if (!fireKeys.has(rowKey(r))) rows.push({ ...r, versions: ["leafgreen"] });
-  }
-
-  return rows
-    .map((r) => ({
-      area: r.area,
-      method: labelMethod(r.method),
-      levelRange: r.minLevel === r.maxLevel ? `Lv. ${r.minLevel}` : `Lv. ${r.minLevel}-${r.maxLevel}`,
-      chance: r.chance,
-      versions: r.versions,
-      notes: r.conditions,
-    }))
-    .sort((a, b) => b.chance - a.chance);
+  return rows.sort((a, b) => b.chance - a.chance);
 }
 
 function computeMatchups(ownTypes, typeRelations) {

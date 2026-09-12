@@ -479,6 +479,18 @@ h2,
 .damage-class {
   text-transform: capitalize;
 }
+.unlocked-at-badge {
+  display: inline-block;
+  margin-bottom: 6px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-family: "VT323", monospace;
+  font-size: 0.95rem;
+  font-weight: 700;
+  background: var(--accent-soft);
+  color: var(--accent-dark);
+  border: 1px solid var(--window-border);
+}
 .best-attack-reason {
   font-size: 0.95rem;
   color: var(--text-muted);
@@ -513,17 +525,6 @@ h2,
 .location-table td:nth-child(2) {
   white-space: normal;
   min-width: 160px;
-}
-.version-tag {
-  display: inline-block;
-  margin-left: 6px;
-  padding: 1px 6px;
-  border-radius: 4px;
-  font-size: 0.85rem;
-  font-family: "VT323", monospace;
-  background: var(--track-bg);
-  color: var(--text-muted);
-  border: 1px solid var(--window-border);
 }
 .location-note {
   color: var(--text-muted);

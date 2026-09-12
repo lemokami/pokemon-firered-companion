@@ -1,15 +1,6 @@
 import { Link } from "react-router-dom";
 import { byId } from "../utils/evolution";
 
-function VersionTag({ versions }) {
-  if (versions.length === 2) return null;
-  return (
-    <span className={`version-tag ${versions[0]}`}>
-      {versions[0] === "firered" ? "FireRed only" : "LeafGreen only"}
-    </span>
-  );
-}
-
 export default function WhereToFind({ mon }) {
   if (mon.locations.length > 0) {
     return (
@@ -28,10 +19,7 @@ export default function WhereToFind({ mon }) {
             <tbody>
               {mon.locations.map((loc, i) => (
                 <tr key={i}>
-                  <td>
-                    {loc.area}
-                    <VersionTag versions={loc.versions} />
-                  </td>
+                  <td>{loc.area}</td>
                   <td>
                     {loc.method}
                     {loc.notes.length > 0 && <span className="location-note"> ({loc.notes.join("; ")})</span>}
@@ -58,7 +46,7 @@ export default function WhereToFind({ mon }) {
       <h2>Where to Find</h2>
       {parent ? (
         <p>
-          Not found in the wild in FireRed/LeafGreen — evolve{" "}
+          Not found in the wild in FireRed — evolve{" "}
           <Link to={`/pokedex/${parent.id}`} className="inline-link">
             {parent.name}
           </Link>
@@ -66,8 +54,8 @@ export default function WhereToFind({ mon }) {
         </p>
       ) : (
         <p>
-          Not available by wild encounter in FireRed/LeafGreen — it's obtained as a starter, gift, fossil,
-          trade, or other special in-game event rather than found in the grass.
+          Not available by wild encounter in FireRed — it's obtained as a starter, gift, fossil, trade, or
+          other special in-game event rather than found in the grass.
         </p>
       )}
     </section>

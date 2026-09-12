@@ -28,6 +28,7 @@ export default function BestAttacks({ attacks }) {
               <span className="damage-class">{a.damageClass}</span>
               <span>{a.power} power</span>
             </div>
+            <span className="unlocked-at-badge">Unlocked: {a.unlockedAt}</span>
             <p className="best-attack-reason">{a.reason}</p>
           </div>
         ))}
