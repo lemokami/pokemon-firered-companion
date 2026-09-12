@@ -1,0 +1,22 @@
+:root {
+  color-scheme: light dark;
+  font: 20px/1.4 "VT323", ui-monospace, monospace;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
