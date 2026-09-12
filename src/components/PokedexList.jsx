@@ -25,14 +25,26 @@ export default function PokedexList() {
   return (
     <div className="pokedex-page">
       <div className="pokedex-controls">
+        <label className="visually-hidden" htmlFor="pokedex-search">
+          Search by name or Pokédex number
+        </label>
         <input
+          id="pokedex-search"
           type="text"
           placeholder="Search by name or #..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           className="search-input"
         />
-        <select value={typeFilter} onChange={(e) => setTypeFilter(e.target.value)} className="type-select">
+        <label className="visually-hidden" htmlFor="pokedex-type-filter">
+          Filter by type
+        </label>
+        <select
+          id="pokedex-type-filter"
+          value={typeFilter}
+          onChange={(e) => setTypeFilter(e.target.value)}
+          className="type-select"
+        >
           <option value="">All types</option>
           {ALL_TYPES.map((t) => (
             <option key={t} value={t}>

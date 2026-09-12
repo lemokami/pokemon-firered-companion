@@ -340,6 +340,19 @@ h2,
   gap: 10px;
   font-size: 1rem;
 }
+.stat-total-row {
+  grid-template-columns: 90px 1fr;
+  margin-top: 4px;
+  padding-top: 9px;
+  border-top: 2px dashed var(--window-border);
+}
+.stat-total-row .stat-label {
+  color: var(--accent-dark);
+}
+.stat-total-row .stat-value {
+  font-size: 1.3rem;
+  color: var(--accent-dark);
+}
 .stat-label {
   color: var(--text-muted);
   font-size: 0.58rem;

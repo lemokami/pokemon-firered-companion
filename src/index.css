@@ -20,3 +20,17 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+/* Screen-reader-only label: keeps a real <label> for accessibility on
+   inputs whose visible design uses just a placeholder. */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

@@ -9,6 +9,7 @@ const STAT_LABELS = {
 const MAX_STAT = 255; // the actual maximum a base stat can be, so bars never clip (e.g. Chansey's 250 HP)
 
 export default function StatBars({ stats }) {
+  const total = Object.values(stats).reduce((sum, v) => sum + v, 0);
   return (
     <section className="panel">
       <h2>Base Stats</h2>
@@ -26,6 +27,10 @@ export default function StatBars({ stats }) {
             </div>
           );
         })}
+        <div className="stat-row stat-total-row">
+          <span className="stat-label">Total</span>
+          <span className="stat-value">{total}</span>
+        </div>
       </div>
     </section>
   );

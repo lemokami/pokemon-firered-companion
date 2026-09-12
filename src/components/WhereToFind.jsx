@@ -3,6 +3,7 @@ import { byId } from "../utils/evolution";
 
 export default function WhereToFind({ mon }) {
   if (mon.locations.length > 0) {
+    const hasSafariZone = mon.locations.some((loc) => loc.area.includes("Safari Zone"));
     return (
       <section className="panel">
         <h2>Where to Find</h2>
@@ -31,6 +32,12 @@ export default function WhereToFind({ mon }) {
             </tbody>
           </table>
         </div>
+        {hasSafariZone && (
+          <p className="panel-hint">
+            Safari Zone rules are different: you only get Safari Balls (no other Poké Balls work there),
+            wild Pokémon can flee before you act, and you can't battle — just throw balls or bait/rocks.
+          </p>
+        )}
       </section>
     );
   }

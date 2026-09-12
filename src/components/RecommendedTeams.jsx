@@ -124,6 +124,11 @@ export default function RecommendedTeams() {
       <section className="panel tips-panel">
         <h2>Why These Picks</h2>
         <ul className="tips-list">
+          <li>
+            <strong>{byId.get(starter.stages.at(-1).id).name}</strong> (Starter) — Your first Pokémon and
+            the anchor of the team; whichever line you pick, it'll be your strongest single STAB attacker
+            for most of the game.
+          </li>
           {CORE_SLOTS.map((slot) => (
             <li key={slot.id}>
               <strong>{byId.get(slot.stages.at(-1).id).name}</strong> ({slot.role}) — {slot.why}
