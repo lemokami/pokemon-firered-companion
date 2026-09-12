@@ -379,23 +379,37 @@ h2,
   height: 100%;
 }
 
-/* Evolution chain */
+/* Evolution chain — everything lives inside ONE connected card (a "sunken"
+   screen area within the Evolution panel) so it reads as a single unit to
+   scan and click, instead of separate floating boxes per stage. */
 .evo-none {
   color: var(--text-muted);
 }
 .evolution-chain {
   overflow-x: auto;
+  background: var(--track-bg);
+  border: 2px solid var(--window-border);
+  border-radius: 10px;
+  padding: 14px 16px;
 }
 .evo-branch {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 6px;
   flex-wrap: wrap;
 }
 .evo-branch-children {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 4px;
+}
+/* A genuine branch (2+ evolutions, e.g. Eevee) gets a tree connector so the
+   options read as one grouped list under their parent, not loose cards. */
+.evo-branch-children.multi {
+  margin-left: 14px;
+  padding-left: 14px;
+  border-left: 3px dashed var(--window-border);
+  gap: 6px;
 }
 .evo-arrow-group {
   display: flex;
@@ -405,35 +419,40 @@ h2,
 }
 .evo-arrow {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  font-size: 0.85rem;
+  gap: 4px;
+  font-size: 0.82rem;
   color: var(--text-muted);
-  min-width: 80px;
-  text-align: center;
+  white-space: nowrap;
 }
 .evo-arrow-line {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: var(--accent);
   line-height: 1;
 }
 .evo-stage {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 6px;
-  padding: 8px;
+  gap: 10px;
+  padding: 8px 12px;
   border-radius: 8px;
   border: 2px solid transparent;
-  min-width: 96px;
+}
+.evo-stage:hover {
+  background: var(--window-1);
+  border-color: var(--window-border);
 }
 .evo-stage span {
-  font-size: 0.62rem;
+  font-size: 0.68rem;
   line-height: 1.4;
 }
 .evo-stage.current {
   border-color: var(--accent);
-  background: rgba(217, 66, 47, 0.12);
+  background: rgba(217, 66, 47, 0.15);
+}
+.evo-sprite {
+  width: 48px;
+  height: 48px;
 }
 
 /* Best attacks */

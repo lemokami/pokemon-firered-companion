@@ -154,25 +154,25 @@
         "reason": "STAB • 120 power, learned at level 46"
       },
       {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Giga Drain",
+        "type": "grass",
+        "power": 75,
+        "damageClass": "special",
+        "reason": "STAB • 75 power, TM/HM"
+      },
+      {
         "name": "Razor Leaf",
         "type": "grass",
         "power": 55,
         "damageClass": "physical",
         "reason": "STAB • 55 power, learned at level 20"
-      },
-      {
-        "name": "Vine Whip",
-        "type": "grass",
-        "power": 45,
-        "damageClass": "physical",
-        "reason": "STAB • 45 power, learned at level 10"
-      },
-      {
-        "name": "Tackle",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
       }
     ]
   },
@@ -331,25 +331,25 @@
         "reason": "STAB • 120 power, learned at level 56"
       },
       {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Giga Drain",
+        "type": "grass",
+        "power": 75,
+        "damageClass": "special",
+        "reason": "STAB • 75 power, TM/HM"
+      },
+      {
         "name": "Razor Leaf",
         "type": "grass",
         "power": 55,
         "damageClass": "physical",
         "reason": "STAB • 55 power, learned at level 22"
-      },
-      {
-        "name": "Vine Whip",
-        "type": "grass",
-        "power": 45,
-        "damageClass": "physical",
-        "reason": "STAB • 45 power, learned at level 10"
-      },
-      {
-        "name": "Tackle",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
       }
     ]
   },
@@ -499,25 +499,25 @@
         "reason": "STAB • 120 power, learned at level 65"
       },
       {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Giga Drain",
+        "type": "grass",
+        "power": 75,
+        "damageClass": "special",
+        "reason": "STAB • 75 power, TM/HM"
+      },
+      {
         "name": "Razor Leaf",
         "type": "grass",
         "power": 55,
         "damageClass": "physical",
         "reason": "STAB • 55 power, learned at level 22"
-      },
-      {
-        "name": "Vine Whip",
-        "type": "grass",
-        "power": 45,
-        "damageClass": "physical",
-        "reason": "STAB • 45 power, learned at level 1"
-      },
-      {
-        "name": "Tackle",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
       }
     ]
   },
@@ -659,6 +659,20 @@
     ],
     "bestAttacks": [
       {
+        "name": "Overheat",
+        "type": "fire",
+        "power": 130,
+        "damageClass": "special",
+        "reason": "STAB • 130 power, TM/HM"
+      },
+      {
+        "name": "Fire Blast",
+        "type": "fire",
+        "power": 110,
+        "damageClass": "special",
+        "reason": "STAB • 110 power, TM/HM"
+      },
+      {
         "name": "Flamethrower",
         "type": "fire",
         "power": 90,
@@ -671,20 +685,6 @@
         "power": 40,
         "damageClass": "special",
         "reason": "STAB • 40 power, learned at level 7"
-      },
-      {
-        "name": "Fire Spin",
-        "type": "fire",
-        "power": 35,
-        "damageClass": "special",
-        "reason": "STAB • 35 power, learned at level 49"
-      },
-      {
-        "name": "Slash",
-        "type": "normal",
-        "power": 70,
-        "damageClass": "physical",
-        "reason": "70 power, learned at level 37"
       }
     ]
   },
@@ -826,6 +826,20 @@
     ],
     "bestAttacks": [
       {
+        "name": "Overheat",
+        "type": "fire",
+        "power": 130,
+        "damageClass": "special",
+        "reason": "STAB • 130 power, TM/HM"
+      },
+      {
+        "name": "Fire Blast",
+        "type": "fire",
+        "power": 110,
+        "damageClass": "special",
+        "reason": "STAB • 110 power, TM/HM"
+      },
+      {
         "name": "Flamethrower",
         "type": "fire",
         "power": 90,
@@ -838,20 +852,6 @@
         "power": 40,
         "damageClass": "special",
         "reason": "STAB • 40 power, learned at level 1"
-      },
-      {
-        "name": "Fire Spin",
-        "type": "fire",
-        "power": 35,
-        "damageClass": "special",
-        "reason": "STAB • 35 power, learned at level 55"
-      },
-      {
-        "name": "Slash",
-        "type": "normal",
-        "power": 70,
-        "damageClass": "physical",
-        "reason": "70 power, learned at level 41"
       }
     ]
   },
@@ -1005,6 +1005,20 @@
     ],
     "bestAttacks": [
       {
+        "name": "Overheat",
+        "type": "fire",
+        "power": 130,
+        "damageClass": "special",
+        "reason": "STAB • 130 power, TM/HM"
+      },
+      {
+        "name": "Fire Blast",
+        "type": "fire",
+        "power": 110,
+        "damageClass": "special",
+        "reason": "STAB • 110 power, TM/HM"
+      },
+      {
         "name": "Heat Wave",
         "type": "fire",
         "power": 95,
@@ -1017,20 +1031,6 @@
         "power": 90,
         "damageClass": "special",
         "reason": "STAB • 90 power, learned at level 34"
-      },
-      {
-        "name": "Wing Attack",
-        "type": "flying",
-        "power": 60,
-        "damageClass": "physical",
-        "reason": "STAB • 60 power, learned at level 36"
-      },
-      {
-        "name": "Ember",
-        "type": "fire",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
       }
     ]
   },
@@ -1186,25 +1186,25 @@
         "reason": "STAB • 110 power, learned at level 47"
       },
       {
-        "name": "Bubble",
+        "name": "Surf",
         "type": "water",
-        "power": 40,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 7"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Water Gun",
+        "name": "Waterfall",
         "type": "water",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 13"
-      },
-      {
-        "name": "Skull Bash",
-        "type": "normal",
-        "power": 130,
+        "power": 80,
         "damageClass": "physical",
-        "reason": "130 power, learned at level 40"
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -1360,25 +1360,25 @@
         "reason": "STAB • 110 power, learned at level 53"
       },
       {
-        "name": "Bubble",
+        "name": "Surf",
         "type": "water",
-        "power": 40,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Water Gun",
+        "name": "Waterfall",
         "type": "water",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 13"
-      },
-      {
-        "name": "Skull Bash",
-        "type": "normal",
-        "power": 130,
+        "power": 80,
         "damageClass": "physical",
-        "reason": "130 power, learned at level 45"
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -1525,25 +1525,25 @@
         "reason": "STAB • 110 power, learned at level 68"
       },
       {
-        "name": "Bubble",
+        "name": "Surf",
         "type": "water",
-        "power": 40,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Water Gun",
+        "name": "Waterfall",
         "type": "water",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 13"
-      },
-      {
-        "name": "Skull Bash",
-        "type": "normal",
-        "power": 130,
+        "power": 80,
         "damageClass": "physical",
-        "reason": "130 power, learned at level 55"
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -1813,6 +1813,13 @@
         "reason": "STAB • 60 power, learned at level 47"
       },
       {
+        "name": "Aerial Ace",
+        "type": "flying",
+        "power": 60,
+        "damageClass": "physical",
+        "reason": "STAB • 60 power, TM/HM"
+      },
+      {
         "name": "Gust",
         "type": "flying",
         "power": 40,
@@ -1820,18 +1827,11 @@
         "reason": "STAB • 40 power, learned at level 28"
       },
       {
-        "name": "Psybeam",
-        "type": "psychic",
-        "power": 65,
+        "name": "Hyper Beam",
+        "type": "normal",
+        "power": 150,
         "damageClass": "special",
-        "reason": "65 power, learned at level 34"
-      },
-      {
-        "name": "Confusion",
-        "type": "psychic",
-        "power": 50,
-        "damageClass": "special",
-        "reason": "50 power, learned at level 1"
+        "reason": "150 power, TM/HM"
       }
     ]
   },
@@ -2080,6 +2080,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Twineedle",
         "type": "bug",
         "power": 25,
@@ -2094,18 +2101,11 @@
         "reason": "STAB • 25 power, learned at level 35"
       },
       {
-        "name": "Pursuit",
-        "type": "dark",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 30"
-      },
-      {
-        "name": "Rage",
+        "name": "Hyper Beam",
         "type": "normal",
-        "power": 20,
-        "damageClass": "physical",
-        "reason": "20 power, learned at level 25"
+        "power": 150,
+        "damageClass": "special",
+        "reason": "150 power, TM/HM"
       }
     ]
   },
@@ -2239,32 +2239,32 @@
     ],
     "bestAttacks": [
       {
+        "name": "Fly",
+        "type": "flying",
+        "power": 90,
+        "damageClass": "physical",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Facade",
+        "type": "normal",
+        "power": 70,
+        "damageClass": "physical",
+        "reason": "STAB • 70 power, TM/HM"
+      },
+      {
+        "name": "Secret Power",
+        "type": "normal",
+        "power": 70,
+        "damageClass": "physical",
+        "reason": "STAB • 70 power, TM/HM"
+      },
+      {
         "name": "Wing Attack",
         "type": "flying",
         "power": 60,
         "damageClass": "physical",
         "reason": "STAB • 60 power, learned at level 25"
-      },
-      {
-        "name": "Tackle",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 1"
-      },
-      {
-        "name": "Gust",
-        "type": "flying",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 9"
-      },
-      {
-        "name": "Quick Attack",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 13"
       }
     ]
   },
@@ -2398,32 +2398,32 @@
     ],
     "bestAttacks": [
       {
+        "name": "Fly",
+        "type": "flying",
+        "power": 90,
+        "damageClass": "physical",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Facade",
+        "type": "normal",
+        "power": 70,
+        "damageClass": "physical",
+        "reason": "STAB • 70 power, TM/HM"
+      },
+      {
+        "name": "Secret Power",
+        "type": "normal",
+        "power": 70,
+        "damageClass": "physical",
+        "reason": "STAB • 70 power, TM/HM"
+      },
+      {
         "name": "Wing Attack",
         "type": "flying",
         "power": 60,
         "damageClass": "physical",
         "reason": "STAB • 60 power, learned at level 27"
-      },
-      {
-        "name": "Gust",
-        "type": "flying",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
-      },
-      {
-        "name": "Tackle",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 1"
-      },
-      {
-        "name": "Quick Attack",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 13"
       }
     ]
   },
@@ -2548,32 +2548,32 @@
     ],
     "bestAttacks": [
       {
-        "name": "Wing Attack",
-        "type": "flying",
-        "power": 60,
-        "damageClass": "physical",
-        "reason": "STAB • 60 power, learned at level 27"
-      },
-      {
-        "name": "Gust",
-        "type": "flying",
-        "power": 40,
+        "name": "Hyper Beam",
+        "type": "normal",
+        "power": 150,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 150 power, TM/HM"
       },
       {
-        "name": "Tackle",
-        "type": "normal",
-        "power": 40,
+        "name": "Fly",
+        "type": "flying",
+        "power": 90,
         "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Quick Attack",
+        "name": "Facade",
         "type": "normal",
-        "power": 40,
+        "power": 70,
         "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 70 power, TM/HM"
+      },
+      {
+        "name": "Secret Power",
+        "type": "normal",
+        "power": 70,
+        "damageClass": "physical",
+        "reason": "STAB • 70 power, TM/HM"
       }
     ]
   },
@@ -2699,25 +2699,25 @@
         "reason": "STAB • 80 power, learned at level 13"
       },
       {
-        "name": "Tackle",
+        "name": "Facade",
         "type": "normal",
-        "power": 40,
+        "power": 70,
         "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 70 power, TM/HM"
       },
       {
-        "name": "Quick Attack",
+        "name": "Secret Power",
         "type": "normal",
-        "power": 40,
+        "power": 70,
         "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 7"
+        "reason": "STAB • 70 power, TM/HM"
       },
       {
-        "name": "Pursuit",
-        "type": "dark",
-        "power": 40,
+        "name": "Cut",
+        "type": "normal",
+        "power": 50,
         "damageClass": "physical",
-        "reason": "40 power, learned at level 27"
+        "reason": "STAB • 50 power, TM/HM"
       }
     ]
   },
@@ -2826,6 +2826,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Hyper Beam",
+        "type": "normal",
+        "power": 150,
+        "damageClass": "special",
+        "reason": "STAB • 150 power, TM/HM"
+      },
+      {
         "name": "Hyper Fang",
         "type": "normal",
         "power": 80,
@@ -2833,25 +2840,18 @@
         "reason": "STAB • 80 power, learned at level 13"
       },
       {
-        "name": "Tackle",
+        "name": "Strength",
         "type": "normal",
-        "power": 40,
+        "power": 80,
         "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 80 power, TM/HM"
       },
       {
-        "name": "Quick Attack",
+        "name": "Facade",
         "type": "normal",
-        "power": 40,
+        "power": 70,
         "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 1"
-      },
-      {
-        "name": "Pursuit",
-        "type": "dark",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 30"
+        "reason": "STAB • 70 power, TM/HM"
       }
     ]
   },
@@ -2985,6 +2985,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Fly",
+        "type": "flying",
+        "power": 90,
+        "damageClass": "physical",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Drill Peck",
         "type": "flying",
         "power": 80,
@@ -2992,25 +2999,18 @@
         "reason": "STAB • 80 power, learned at level 37"
       },
       {
-        "name": "Aerial Ace",
-        "type": "flying",
-        "power": 60,
-        "damageClass": "physical",
-        "reason": "STAB • 60 power, learned at level 25"
-      },
-      {
-        "name": "Peck",
-        "type": "flying",
-        "power": 35,
-        "damageClass": "physical",
-        "reason": "STAB • 35 power, learned at level 1"
-      },
-      {
-        "name": "Fury Attack",
+        "name": "Facade",
         "type": "normal",
-        "power": 15,
+        "power": 70,
         "damageClass": "physical",
-        "reason": "STAB • 15 power, learned at level 13"
+        "reason": "STAB • 70 power, TM/HM"
+      },
+      {
+        "name": "Secret Power",
+        "type": "normal",
+        "power": 70,
+        "damageClass": "physical",
+        "reason": "STAB • 70 power, TM/HM"
       }
     ]
   },
@@ -3126,6 +3126,20 @@
     ],
     "bestAttacks": [
       {
+        "name": "Hyper Beam",
+        "type": "normal",
+        "power": 150,
+        "damageClass": "special",
+        "reason": "STAB • 150 power, TM/HM"
+      },
+      {
+        "name": "Fly",
+        "type": "flying",
+        "power": 90,
+        "damageClass": "physical",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Drill Peck",
         "type": "flying",
         "power": 80,
@@ -3133,25 +3147,11 @@
         "reason": "STAB • 80 power, learned at level 40"
       },
       {
-        "name": "Peck",
-        "type": "flying",
-        "power": 35,
-        "damageClass": "physical",
-        "reason": "STAB • 35 power, learned at level 1"
-      },
-      {
-        "name": "Fury Attack",
+        "name": "Facade",
         "type": "normal",
-        "power": 15,
+        "power": 70,
         "damageClass": "physical",
-        "reason": "STAB • 15 power, learned at level 1"
-      },
-      {
-        "name": "Pursuit",
-        "type": "dark",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 26"
+        "reason": "STAB • 70 power, TM/HM"
       }
     ]
   },
@@ -3300,6 +3300,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Acid",
         "type": "poison",
         "power": 40,
@@ -3314,18 +3321,11 @@
         "reason": "STAB • 15 power, learned at level 8"
       },
       {
-        "name": "Bite",
-        "type": "dark",
-        "power": 60,
+        "name": "Earthquake",
+        "type": "ground",
+        "power": 100,
         "damageClass": "physical",
-        "reason": "60 power, learned at level 13"
-      },
-      {
-        "name": "Wrap",
-        "type": "normal",
-        "power": 15,
-        "damageClass": "physical",
-        "reason": "15 power, learned at level 1"
+        "reason": "100 power, TM/HM"
       }
     ]
   },
@@ -3465,6 +3465,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Acid",
         "type": "poison",
         "power": 40,
@@ -3479,18 +3486,11 @@
         "reason": "STAB • 15 power, learned at level 1"
       },
       {
-        "name": "Bite",
-        "type": "dark",
-        "power": 60,
-        "damageClass": "physical",
-        "reason": "60 power, learned at level 1"
-      },
-      {
-        "name": "Wrap",
+        "name": "Hyper Beam",
         "type": "normal",
-        "power": 15,
-        "damageClass": "physical",
-        "reason": "15 power, learned at level 1"
+        "power": 150,
+        "damageClass": "special",
+        "reason": "150 power, TM/HM"
       }
     ]
   },
@@ -3638,18 +3638,18 @@
     ],
     "bestAttacks": [
       {
-        "name": "Thunder",
-        "type": "electric",
-        "power": 110,
-        "damageClass": "special",
-        "reason": "STAB • 110 power, learned at level 41"
-      },
-      {
         "name": "Thunderbolt",
         "type": "electric",
         "power": 90,
         "damageClass": "special",
         "reason": "STAB • 90 power, learned at level 26"
+      },
+      {
+        "name": "Shock Wave",
+        "type": "electric",
+        "power": 60,
+        "damageClass": "special",
+        "reason": "STAB • 60 power, TM/HM"
       },
       {
         "name": "Thunder Shock",
@@ -3659,11 +3659,11 @@
         "reason": "STAB • 40 power, learned at level 1"
       },
       {
-        "name": "Slam",
-        "type": "normal",
-        "power": 80,
+        "name": "Focus Punch",
+        "type": "fighting",
+        "power": 150,
         "damageClass": "physical",
-        "reason": "80 power, learned at level 20"
+        "reason": "150 power, TM/HM"
       }
     ]
   },
@@ -3745,6 +3745,13 @@
         "reason": "STAB • 90 power, learned at level 1"
       },
       {
+        "name": "Shock Wave",
+        "type": "electric",
+        "power": 60,
+        "damageClass": "special",
+        "reason": "STAB • 60 power, TM/HM"
+      },
+      {
         "name": "Thunder Shock",
         "type": "electric",
         "power": 40,
@@ -3752,11 +3759,11 @@
         "reason": "STAB • 40 power, learned at level 1"
       },
       {
-        "name": "Quick Attack",
+        "name": "Hyper Beam",
         "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
+        "power": 150,
+        "damageClass": "special",
+        "reason": "150 power, TM/HM"
       }
     ]
   },
@@ -3889,6 +3896,20 @@
     ],
     "bestAttacks": [
       {
+        "name": "Earthquake",
+        "type": "ground",
+        "power": 100,
+        "damageClass": "physical",
+        "reason": "STAB • 100 power, TM/HM"
+      },
+      {
+        "name": "Dig",
+        "type": "ground",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
         "name": "Sand Tomb",
         "type": "ground",
         "power": 35,
@@ -3896,25 +3917,11 @@
         "reason": "STAB • 35 power, learned at level 45"
       },
       {
-        "name": "Slash",
-        "type": "normal",
-        "power": 70,
+        "name": "Focus Punch",
+        "type": "fighting",
+        "power": 150,
         "damageClass": "physical",
-        "reason": "70 power, learned at level 23"
-      },
-      {
-        "name": "Swift",
-        "type": "normal",
-        "power": 60,
-        "damageClass": "special",
-        "reason": "60 power, learned at level 30"
-      },
-      {
-        "name": "Scratch",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
+        "reason": "150 power, TM/HM"
       }
     ]
   },
@@ -4037,6 +4044,20 @@
     ],
     "bestAttacks": [
       {
+        "name": "Earthquake",
+        "type": "ground",
+        "power": 100,
+        "damageClass": "physical",
+        "reason": "STAB • 100 power, TM/HM"
+      },
+      {
+        "name": "Dig",
+        "type": "ground",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
         "name": "Sand Tomb",
         "type": "ground",
         "power": 35,
@@ -4044,25 +4065,11 @@
         "reason": "STAB • 35 power, learned at level 52"
       },
       {
-        "name": "Slash",
+        "name": "Hyper Beam",
         "type": "normal",
-        "power": 70,
-        "damageClass": "physical",
-        "reason": "70 power, learned at level 24"
-      },
-      {
-        "name": "Swift",
-        "type": "normal",
-        "power": 60,
+        "power": 150,
         "damageClass": "special",
-        "reason": "60 power, learned at level 33"
-      },
-      {
-        "name": "Scratch",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
+        "reason": "150 power, TM/HM"
       }
     ]
   },
@@ -4202,6 +4209,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Poison Sting",
         "type": "poison",
         "power": 15,
@@ -4209,25 +4223,18 @@
         "reason": "STAB • 15 power, learned at level 17"
       },
       {
-        "name": "Crunch",
-        "type": "dark",
-        "power": 80,
+        "name": "Iron Tail",
+        "type": "steel",
+        "power": 100,
         "damageClass": "physical",
-        "reason": "80 power, learned at level 47"
+        "reason": "100 power, TM/HM"
       },
       {
-        "name": "Bite",
-        "type": "dark",
-        "power": 60,
-        "damageClass": "physical",
-        "reason": "60 power, learned at level 20"
-      },
-      {
-        "name": "Scratch",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
+        "name": "Ice Beam",
+        "type": "ice",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "90 power, TM/HM"
       }
     ]
   },
@@ -4367,6 +4374,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Poison Sting",
         "type": "poison",
         "power": 15,
@@ -4374,25 +4388,18 @@
         "reason": "STAB • 15 power, learned at level 18"
       },
       {
-        "name": "Crunch",
-        "type": "dark",
-        "power": 80,
+        "name": "Iron Tail",
+        "type": "steel",
+        "power": 100,
         "damageClass": "physical",
-        "reason": "80 power, learned at level 53"
+        "reason": "100 power, TM/HM"
       },
       {
-        "name": "Bite",
-        "type": "dark",
-        "power": 60,
-        "damageClass": "physical",
-        "reason": "60 power, learned at level 22"
-      },
-      {
-        "name": "Scratch",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
+        "name": "Ice Beam",
+        "type": "ice",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "90 power, TM/HM"
       }
     ]
   },
@@ -4492,32 +4499,32 @@
     ],
     "bestAttacks": [
       {
+        "name": "Earthquake",
+        "type": "ground",
+        "power": 100,
+        "damageClass": "physical",
+        "reason": "STAB • 100 power, TM/HM"
+      },
+      {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Dig",
+        "type": "ground",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
         "name": "Poison Sting",
         "type": "poison",
         "power": 15,
         "damageClass": "physical",
         "reason": "STAB • 15 power, learned at level 1"
-      },
-      {
-        "name": "Superpower",
-        "type": "fighting",
-        "power": 120,
-        "damageClass": "physical",
-        "reason": "120 power, learned at level 43"
-      },
-      {
-        "name": "Body Slam",
-        "type": "normal",
-        "power": 85,
-        "damageClass": "physical",
-        "reason": "85 power, learned at level 22"
-      },
-      {
-        "name": "Scratch",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
       }
     ]
   },
@@ -4657,6 +4664,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Poison Sting",
         "type": "poison",
         "power": 15,
@@ -4664,25 +4678,18 @@
         "reason": "STAB • 15 power, learned at level 17"
       },
       {
-        "name": "Horn Attack",
-        "type": "normal",
-        "power": 65,
+        "name": "Iron Tail",
+        "type": "steel",
+        "power": 100,
         "damageClass": "physical",
-        "reason": "65 power, learned at level 20"
+        "reason": "100 power, TM/HM"
       },
       {
-        "name": "Peck",
-        "type": "flying",
-        "power": 35,
-        "damageClass": "physical",
-        "reason": "35 power, learned at level 1"
-      },
-      {
-        "name": "Double Kick",
-        "type": "fighting",
-        "power": 30,
-        "damageClass": "physical",
-        "reason": "30 power, learned at level 12"
+        "name": "Ice Beam",
+        "type": "ice",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "90 power, TM/HM"
       }
     ]
   },
@@ -4822,6 +4829,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Poison Sting",
         "type": "poison",
         "power": 15,
@@ -4829,25 +4843,18 @@
         "reason": "STAB • 15 power, learned at level 18"
       },
       {
-        "name": "Horn Attack",
-        "type": "normal",
-        "power": 65,
+        "name": "Iron Tail",
+        "type": "steel",
+        "power": 100,
         "damageClass": "physical",
-        "reason": "65 power, learned at level 22"
+        "reason": "100 power, TM/HM"
       },
       {
-        "name": "Peck",
-        "type": "flying",
-        "power": 35,
-        "damageClass": "physical",
-        "reason": "35 power, learned at level 1"
-      },
-      {
-        "name": "Double Kick",
-        "type": "fighting",
-        "power": 30,
-        "damageClass": "physical",
-        "reason": "30 power, learned at level 12"
+        "name": "Ice Beam",
+        "type": "ice",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "90 power, TM/HM"
       }
     ]
   },
@@ -4947,32 +4954,32 @@
     ],
     "bestAttacks": [
       {
+        "name": "Earthquake",
+        "type": "ground",
+        "power": 100,
+        "damageClass": "physical",
+        "reason": "STAB • 100 power, TM/HM"
+      },
+      {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Dig",
+        "type": "ground",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
         "name": "Poison Sting",
         "type": "poison",
         "power": 15,
         "damageClass": "physical",
         "reason": "STAB • 15 power, learned at level 1"
-      },
-      {
-        "name": "Thrash",
-        "type": "normal",
-        "power": 120,
-        "damageClass": "physical",
-        "reason": "120 power, learned at level 22"
-      },
-      {
-        "name": "Megahorn",
-        "type": "bug",
-        "power": 120,
-        "damageClass": "physical",
-        "reason": "120 power, learned at level 43"
-      },
-      {
-        "name": "Peck",
-        "type": "flying",
-        "power": 35,
-        "damageClass": "physical",
-        "reason": "35 power, learned at level 1"
       }
     ]
   },
@@ -5135,25 +5142,32 @@
     ],
     "bestAttacks": [
       {
+        "name": "Strength",
+        "type": "normal",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Facade",
+        "type": "normal",
+        "power": 70,
+        "damageClass": "physical",
+        "reason": "STAB • 70 power, TM/HM"
+      },
+      {
+        "name": "Secret Power",
+        "type": "normal",
+        "power": 70,
+        "damageClass": "physical",
+        "reason": "STAB • 70 power, TM/HM"
+      },
+      {
         "name": "Pound",
         "type": "normal",
         "power": 40,
         "damageClass": "physical",
         "reason": "STAB • 40 power, learned at level 1"
-      },
-      {
-        "name": "Double Slap",
-        "type": "normal",
-        "power": 15,
-        "damageClass": "physical",
-        "reason": "STAB • 15 power, learned at level 13"
-      },
-      {
-        "name": "Meteor Mash",
-        "type": "steel",
-        "power": 90,
-        "damageClass": "physical",
-        "reason": "90 power, learned at level 45"
       }
     ]
   },
@@ -5226,11 +5240,32 @@
     ],
     "bestAttacks": [
       {
-        "name": "Double Slap",
+        "name": "Hyper Beam",
         "type": "normal",
-        "power": 15,
+        "power": 150,
+        "damageClass": "special",
+        "reason": "STAB • 150 power, TM/HM"
+      },
+      {
+        "name": "Strength",
+        "type": "normal",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "STAB • 15 power, learned at level 1"
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Facade",
+        "type": "normal",
+        "power": 70,
+        "damageClass": "physical",
+        "reason": "STAB • 70 power, TM/HM"
+      },
+      {
+        "name": "Secret Power",
+        "type": "normal",
+        "power": 70,
+        "damageClass": "physical",
+        "reason": "STAB • 70 power, TM/HM"
       }
     ]
   },
@@ -5382,6 +5417,20 @@
     ],
     "bestAttacks": [
       {
+        "name": "Overheat",
+        "type": "fire",
+        "power": 130,
+        "damageClass": "special",
+        "reason": "STAB • 130 power, TM/HM"
+      },
+      {
+        "name": "Fire Blast",
+        "type": "fire",
+        "power": 110,
+        "damageClass": "special",
+        "reason": "STAB • 110 power, TM/HM"
+      },
+      {
         "name": "Flamethrower",
         "type": "fire",
         "power": 90,
@@ -5394,20 +5443,6 @@
         "power": 40,
         "damageClass": "special",
         "reason": "STAB • 40 power, learned at level 1"
-      },
-      {
-        "name": "Fire Spin",
-        "type": "fire",
-        "power": 35,
-        "damageClass": "special",
-        "reason": "STAB • 35 power, learned at level 41"
-      },
-      {
-        "name": "Quick Attack",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 13"
       }
     ]
   },
@@ -5495,25 +5530,32 @@
     ],
     "bestAttacks": [
       {
+        "name": "Overheat",
+        "type": "fire",
+        "power": 130,
+        "damageClass": "special",
+        "reason": "STAB • 130 power, TM/HM"
+      },
+      {
+        "name": "Fire Blast",
+        "type": "fire",
+        "power": 110,
+        "damageClass": "special",
+        "reason": "STAB • 110 power, TM/HM"
+      },
+      {
+        "name": "Flamethrower",
+        "type": "fire",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Ember",
         "type": "fire",
         "power": 40,
         "damageClass": "special",
         "reason": "STAB • 40 power, learned at level 1"
-      },
-      {
-        "name": "Fire Spin",
-        "type": "fire",
-        "power": 35,
-        "damageClass": "special",
-        "reason": "STAB • 35 power, learned at level 45"
-      },
-      {
-        "name": "Quick Attack",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
       }
     ]
   },
@@ -5679,11 +5721,11 @@
         "reason": "STAB • 85 power, learned at level 34"
       },
       {
-        "name": "Pound",
+        "name": "Strength",
         "type": "normal",
-        "power": 40,
+        "power": 80,
         "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 9"
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -5756,11 +5798,32 @@
     ],
     "bestAttacks": [
       {
-        "name": "Double Slap",
+        "name": "Hyper Beam",
         "type": "normal",
-        "power": 15,
+        "power": 150,
+        "damageClass": "special",
+        "reason": "STAB • 150 power, TM/HM"
+      },
+      {
+        "name": "Strength",
+        "type": "normal",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "STAB • 15 power, learned at level 1"
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Facade",
+        "type": "normal",
+        "power": 70,
+        "damageClass": "physical",
+        "reason": "STAB • 70 power, TM/HM"
+      },
+      {
+        "name": "Secret Power",
+        "type": "normal",
+        "power": 70,
+        "damageClass": "physical",
+        "reason": "STAB • 70 power, TM/HM"
       }
     ]
   },
@@ -5905,6 +5968,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Wing Attack",
         "type": "flying",
         "power": 60,
@@ -5919,18 +5989,11 @@
         "reason": "STAB • 60 power, learned at level 31"
       },
       {
-        "name": "Poison Fang",
-        "type": "poison",
-        "power": 50,
+        "name": "Aerial Ace",
+        "type": "flying",
+        "power": 60,
         "damageClass": "physical",
-        "reason": "STAB • 50 power, learned at level 41"
-      },
-      {
-        "name": "Leech Life",
-        "type": "bug",
-        "power": 80,
-        "damageClass": "physical",
-        "reason": "80 power, learned at level 1"
+        "reason": "STAB • 60 power, TM/HM"
       }
     ]
   },
@@ -6075,6 +6138,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Wing Attack",
         "type": "flying",
         "power": 60,
@@ -6089,18 +6159,11 @@
         "reason": "STAB • 60 power, learned at level 35"
       },
       {
-        "name": "Poison Fang",
-        "type": "poison",
-        "power": 50,
+        "name": "Aerial Ace",
+        "type": "flying",
+        "power": 60,
         "damageClass": "physical",
-        "reason": "STAB • 50 power, learned at level 49"
-      },
-      {
-        "name": "Leech Life",
-        "type": "bug",
-        "power": 80,
-        "damageClass": "physical",
-        "reason": "80 power, learned at level 1"
+        "reason": "STAB • 60 power, TM/HM"
       }
     ]
   },
@@ -6232,18 +6295,25 @@
         "reason": "STAB • 120 power, learned at level 39"
       },
       {
-        "name": "Acid",
-        "type": "poison",
-        "power": 40,
+        "name": "Solar Beam",
+        "type": "grass",
+        "power": 120,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 23"
+        "reason": "STAB • 120 power, TM/HM"
       },
       {
-        "name": "Absorb",
-        "type": "grass",
-        "power": 20,
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 20 power, learned at level 1"
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Giga Drain",
+        "type": "grass",
+        "power": 75,
+        "damageClass": "special",
+        "reason": "STAB • 75 power, TM/HM"
       }
     ]
   },
@@ -6375,18 +6445,25 @@
         "reason": "STAB • 120 power, learned at level 44"
       },
       {
-        "name": "Acid",
-        "type": "poison",
-        "power": 40,
+        "name": "Solar Beam",
+        "type": "grass",
+        "power": 120,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 24"
+        "reason": "STAB • 120 power, TM/HM"
       },
       {
-        "name": "Absorb",
-        "type": "grass",
-        "power": 20,
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 20 power, learned at level 1"
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Giga Drain",
+        "type": "grass",
+        "power": 75,
+        "damageClass": "special",
+        "reason": "STAB • 75 power, TM/HM"
       }
     ]
   },
@@ -6482,18 +6559,25 @@
         "reason": "STAB • 120 power, learned at level 44"
       },
       {
-        "name": "Mega Drain",
+        "name": "Solar Beam",
         "type": "grass",
-        "power": 40,
+        "power": 120,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 120 power, TM/HM"
       },
       {
-        "name": "Absorb",
-        "type": "grass",
-        "power": 20,
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 20 power, learned at level 1"
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Giga Drain",
+        "type": "grass",
+        "power": 75,
+        "damageClass": "special",
+        "reason": "STAB • 75 power, TM/HM"
       }
     ]
   },
@@ -6630,6 +6714,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Solar Beam",
+        "type": "grass",
+        "power": 120,
+        "damageClass": "special",
+        "reason": "STAB • 120 power, TM/HM"
+      },
+      {
         "name": "Leech Life",
         "type": "bug",
         "power": 80,
@@ -6644,18 +6735,11 @@
         "reason": "STAB • 75 power, learned at level 43"
       },
       {
-        "name": "Slash",
-        "type": "normal",
-        "power": 70,
+        "name": "Bullet Seed",
+        "type": "grass",
+        "power": 25,
         "damageClass": "physical",
-        "reason": "70 power, learned at level 31"
-      },
-      {
-        "name": "Scratch",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
+        "reason": "STAB • 25 power, TM/HM"
       }
     ]
   },
@@ -6783,6 +6867,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Solar Beam",
+        "type": "grass",
+        "power": 120,
+        "damageClass": "special",
+        "reason": "STAB • 120 power, TM/HM"
+      },
+      {
         "name": "Leech Life",
         "type": "bug",
         "power": 80,
@@ -6797,18 +6888,11 @@
         "reason": "STAB • 75 power, learned at level 51"
       },
       {
-        "name": "Slash",
-        "type": "normal",
-        "power": 70,
+        "name": "Bullet Seed",
+        "type": "grass",
+        "power": 25,
         "damageClass": "physical",
-        "reason": "70 power, learned at level 35"
-      },
-      {
-        "name": "Scratch",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
+        "reason": "STAB • 25 power, TM/HM"
       }
     ]
   },
@@ -6960,6 +7044,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Leech Life",
         "type": "bug",
         "power": 80,
@@ -6967,25 +7058,18 @@
         "reason": "STAB • 80 power, learned at level 25"
       },
       {
+        "name": "Solar Beam",
+        "type": "grass",
+        "power": 120,
+        "damageClass": "special",
+        "reason": "120 power, TM/HM"
+      },
+      {
         "name": "Psychic",
         "type": "psychic",
         "power": 90,
         "damageClass": "special",
         "reason": "90 power, learned at level 41"
-      },
-      {
-        "name": "Psybeam",
-        "type": "psychic",
-        "power": 65,
-        "damageClass": "special",
-        "reason": "65 power, learned at level 33"
-      },
-      {
-        "name": "Confusion",
-        "type": "psychic",
-        "power": 50,
-        "damageClass": "special",
-        "reason": "50 power, learned at level 17"
       }
     ]
   },
@@ -7146,6 +7230,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Leech Life",
         "type": "bug",
         "power": 80,
@@ -7160,18 +7251,11 @@
         "reason": "STAB • 60 power, learned at level 1"
       },
       {
-        "name": "Psychic",
-        "type": "psychic",
-        "power": 90,
+        "name": "Hyper Beam",
+        "type": "normal",
+        "power": 150,
         "damageClass": "special",
-        "reason": "90 power, learned at level 52"
-      },
-      {
-        "name": "Psybeam",
-        "type": "psychic",
-        "power": 65,
-        "damageClass": "special",
-        "reason": "65 power, learned at level 36"
+        "reason": "150 power, TM/HM"
       }
     ]
   },
@@ -7334,11 +7418,11 @@
         "reason": "STAB • 20 power, learned at level 25"
       },
       {
-        "name": "Slash",
-        "type": "normal",
-        "power": 70,
-        "damageClass": "physical",
-        "reason": "70 power, learned at level 33"
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "90 power, TM/HM"
       }
     ]
   },
@@ -7657,25 +7741,25 @@
         "reason": "STAB • 70 power, learned at level 40"
       },
       {
-        "name": "Scratch",
+        "name": "Facade",
         "type": "normal",
-        "power": 40,
+        "power": 70,
         "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 70 power, TM/HM"
       },
       {
-        "name": "Pay Day",
+        "name": "Secret Power",
         "type": "normal",
-        "power": 40,
+        "power": 70,
         "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 18"
+        "reason": "STAB • 70 power, TM/HM"
       },
       {
-        "name": "Fake Out",
+        "name": "Cut",
         "type": "normal",
-        "power": 40,
+        "power": 50,
         "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 43"
+        "reason": "STAB • 50 power, TM/HM"
       }
     ]
   },
@@ -7802,6 +7886,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Hyper Beam",
+        "type": "normal",
+        "power": 150,
+        "damageClass": "special",
+        "reason": "STAB • 150 power, TM/HM"
+      },
+      {
         "name": "Slash",
         "type": "normal",
         "power": 70,
@@ -7809,25 +7900,18 @@
         "reason": "STAB • 70 power, learned at level 49"
       },
       {
-        "name": "Scratch",
+        "name": "Facade",
         "type": "normal",
-        "power": 40,
+        "power": 70,
         "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 70 power, TM/HM"
       },
       {
-        "name": "Pay Day",
+        "name": "Secret Power",
         "type": "normal",
-        "power": 40,
+        "power": 70,
         "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 18"
-      },
-      {
-        "name": "Fake Out",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 55"
+        "reason": "STAB • 70 power, TM/HM"
       }
     ]
   },
@@ -7965,25 +8049,25 @@
         "reason": "STAB • 110 power, learned at level 50"
       },
       {
-        "name": "Confusion",
-        "type": "psychic",
-        "power": 50,
+        "name": "Surf",
+        "type": "water",
+        "power": 90,
         "damageClass": "special",
-        "reason": "50 power, learned at level 16"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Scratch",
-        "type": "normal",
-        "power": 40,
+        "name": "Waterfall",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
+        "reason": "STAB • 80 power, TM/HM"
       },
       {
-        "name": "Fury Swipes",
-        "type": "normal",
-        "power": 18,
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "18 power, learned at level 40"
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -8112,25 +8196,25 @@
         "reason": "STAB • 110 power, learned at level 58"
       },
       {
-        "name": "Confusion",
-        "type": "psychic",
-        "power": 50,
+        "name": "Surf",
+        "type": "water",
+        "power": 90,
         "damageClass": "special",
-        "reason": "50 power, learned at level 16"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Scratch",
-        "type": "normal",
-        "power": 40,
+        "name": "Waterfall",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
+        "reason": "STAB • 80 power, TM/HM"
       },
       {
-        "name": "Fury Swipes",
-        "type": "normal",
-        "power": 18,
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "18 power, learned at level 44"
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -8278,6 +8362,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Focus Punch",
+        "type": "fighting",
+        "power": 150,
+        "damageClass": "physical",
+        "reason": "STAB • 150 power, TM/HM"
+      },
+      {
         "name": "Cross Chop",
         "type": "fighting",
         "power": 100,
@@ -8285,25 +8376,18 @@
         "reason": "STAB • 100 power, learned at level 31"
       },
       {
+        "name": "Brick Break",
+        "type": "fighting",
+        "power": 75,
+        "damageClass": "physical",
+        "reason": "STAB • 75 power, TM/HM"
+      },
+      {
         "name": "Karate Chop",
         "type": "fighting",
         "power": 50,
         "damageClass": "physical",
         "reason": "STAB • 50 power, learned at level 11"
-      },
-      {
-        "name": "Thrash",
-        "type": "normal",
-        "power": 120,
-        "damageClass": "physical",
-        "reason": "120 power, learned at level 46"
-      },
-      {
-        "name": "Scratch",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
       }
     ]
   },
@@ -8451,6 +8535,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Focus Punch",
+        "type": "fighting",
+        "power": 150,
+        "damageClass": "physical",
+        "reason": "STAB • 150 power, TM/HM"
+      },
+      {
         "name": "Cross Chop",
         "type": "fighting",
         "power": 100,
@@ -8458,25 +8549,18 @@
         "reason": "STAB • 100 power, learned at level 35"
       },
       {
+        "name": "Brick Break",
+        "type": "fighting",
+        "power": 75,
+        "damageClass": "physical",
+        "reason": "STAB • 75 power, TM/HM"
+      },
+      {
         "name": "Karate Chop",
         "type": "fighting",
         "power": 50,
         "damageClass": "physical",
         "reason": "STAB • 50 power, learned at level 11"
-      },
-      {
-        "name": "Thrash",
-        "type": "normal",
-        "power": 120,
-        "damageClass": "physical",
-        "reason": "120 power, learned at level 62"
-      },
-      {
-        "name": "Scratch",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
       }
     ]
   },
@@ -8619,6 +8703,20 @@
     ],
     "bestAttacks": [
       {
+        "name": "Overheat",
+        "type": "fire",
+        "power": 130,
+        "damageClass": "special",
+        "reason": "STAB • 130 power, TM/HM"
+      },
+      {
+        "name": "Fire Blast",
+        "type": "fire",
+        "power": 110,
+        "damageClass": "special",
+        "reason": "STAB • 110 power, TM/HM"
+      },
+      {
         "name": "Flamethrower",
         "type": "fire",
         "power": 90,
@@ -8631,20 +8729,6 @@
         "power": 60,
         "damageClass": "physical",
         "reason": "STAB • 60 power, learned at level 31"
-      },
-      {
-        "name": "Ember",
-        "type": "fire",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 7"
-      },
-      {
-        "name": "Take Down",
-        "type": "normal",
-        "power": 90,
-        "damageClass": "physical",
-        "reason": "90 power, learned at level 25"
       }
     ]
   },
@@ -8732,25 +8816,32 @@
     ],
     "bestAttacks": [
       {
+        "name": "Overheat",
+        "type": "fire",
+        "power": 130,
+        "damageClass": "special",
+        "reason": "STAB • 130 power, TM/HM"
+      },
+      {
+        "name": "Fire Blast",
+        "type": "fire",
+        "power": 110,
+        "damageClass": "special",
+        "reason": "STAB • 110 power, TM/HM"
+      },
+      {
+        "name": "Flamethrower",
+        "type": "fire",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Ember",
         "type": "fire",
         "power": 40,
         "damageClass": "special",
         "reason": "STAB • 40 power, learned at level 1"
-      },
-      {
-        "name": "Extreme Speed",
-        "type": "normal",
-        "power": 80,
-        "damageClass": "physical",
-        "reason": "80 power, learned at level 49"
-      },
-      {
-        "name": "Bite",
-        "type": "dark",
-        "power": 60,
-        "damageClass": "physical",
-        "reason": "60 power, learned at level 1"
       }
     ]
   },
@@ -8879,25 +8970,25 @@
         "reason": "STAB • 110 power, learned at level 43"
       },
       {
-        "name": "Bubble",
+        "name": "Surf",
         "type": "water",
-        "power": 40,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Water Gun",
+        "name": "Waterfall",
         "type": "water",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 13"
-      },
-      {
-        "name": "Body Slam",
-        "type": "normal",
-        "power": 85,
+        "power": 80,
         "damageClass": "physical",
-        "reason": "85 power, learned at level 31"
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -9026,25 +9117,25 @@
         "reason": "STAB • 110 power, learned at level 51"
       },
       {
-        "name": "Water Gun",
+        "name": "Surf",
         "type": "water",
-        "power": 40,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Bubble",
+        "name": "Waterfall",
         "type": "water",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
-      },
-      {
-        "name": "Body Slam",
-        "type": "normal",
-        "power": 85,
+        "power": 80,
         "damageClass": "physical",
-        "reason": "85 power, learned at level 35"
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -9136,6 +9227,20 @@
     ],
     "bestAttacks": [
       {
+        "name": "Focus Punch",
+        "type": "fighting",
+        "power": 150,
+        "damageClass": "physical",
+        "reason": "STAB • 150 power, TM/HM"
+      },
+      {
+        "name": "Surf",
+        "type": "water",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Submission",
         "type": "fighting",
         "power": 80,
@@ -9143,18 +9248,11 @@
         "reason": "STAB • 80 power, learned at level 1"
       },
       {
-        "name": "Water Gun",
+        "name": "Waterfall",
         "type": "water",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
-      },
-      {
-        "name": "Double Slap",
-        "type": "normal",
-        "power": 15,
+        "power": 80,
         "damageClass": "physical",
-        "reason": "15 power, learned at level 1"
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -9210,7 +9308,36 @@
         "damageClass": "status"
       }
     ],
-    "bestAttacks": []
+    "bestAttacks": [
+      {
+        "name": "Psychic",
+        "type": "psychic",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Focus Punch",
+        "type": "fighting",
+        "power": 150,
+        "damageClass": "physical",
+        "reason": "150 power, TM/HM"
+      },
+      {
+        "name": "Iron Tail",
+        "type": "steel",
+        "power": 100,
+        "damageClass": "physical",
+        "reason": "100 power, TM/HM"
+      },
+      {
+        "name": "Shadow Ball",
+        "type": "ghost",
+        "power": 80,
+        "damageClass": "special",
+        "reason": "80 power, TM/HM"
+      }
+    ]
   },
   {
     "id": 64,
@@ -9702,18 +9829,18 @@
     ],
     "bestAttacks": [
       {
+        "name": "Focus Punch",
+        "type": "fighting",
+        "power": 150,
+        "damageClass": "physical",
+        "reason": "STAB • 150 power, TM/HM"
+      },
+      {
         "name": "Cross Chop",
         "type": "fighting",
         "power": 100,
         "damageClass": "physical",
         "reason": "STAB • 100 power, learned at level 40"
-      },
-      {
-        "name": "Dynamic Punch",
-        "type": "fighting",
-        "power": 100,
-        "damageClass": "physical",
-        "reason": "STAB • 100 power, learned at level 49"
       },
       {
         "name": "Submission",
@@ -9723,11 +9850,11 @@
         "reason": "STAB • 80 power, learned at level 37"
       },
       {
-        "name": "Vital Throw",
+        "name": "Brick Break",
         "type": "fighting",
-        "power": 70,
+        "power": 75,
         "damageClass": "physical",
-        "reason": "STAB • 70 power, learned at level 31"
+        "reason": "STAB • 75 power, TM/HM"
       }
     ]
   },
@@ -9884,18 +10011,18 @@
     ],
     "bestAttacks": [
       {
+        "name": "Focus Punch",
+        "type": "fighting",
+        "power": 150,
+        "damageClass": "physical",
+        "reason": "STAB • 150 power, TM/HM"
+      },
+      {
         "name": "Cross Chop",
         "type": "fighting",
         "power": 100,
         "damageClass": "physical",
         "reason": "STAB • 100 power, learned at level 46"
-      },
-      {
-        "name": "Dynamic Punch",
-        "type": "fighting",
-        "power": 100,
-        "damageClass": "physical",
-        "reason": "STAB • 100 power, learned at level 59"
       },
       {
         "name": "Submission",
@@ -9905,11 +10032,11 @@
         "reason": "STAB • 80 power, learned at level 41"
       },
       {
-        "name": "Vital Throw",
+        "name": "Brick Break",
         "type": "fighting",
-        "power": 70,
+        "power": 75,
         "damageClass": "physical",
-        "reason": "STAB • 70 power, learned at level 33"
+        "reason": "STAB • 75 power, TM/HM"
       }
     ]
   },
@@ -10057,18 +10184,18 @@
     ],
     "bestAttacks": [
       {
+        "name": "Focus Punch",
+        "type": "fighting",
+        "power": 150,
+        "damageClass": "physical",
+        "reason": "STAB • 150 power, TM/HM"
+      },
+      {
         "name": "Cross Chop",
         "type": "fighting",
         "power": 100,
         "damageClass": "physical",
         "reason": "STAB • 100 power, learned at level 46"
-      },
-      {
-        "name": "Dynamic Punch",
-        "type": "fighting",
-        "power": 100,
-        "damageClass": "physical",
-        "reason": "STAB • 100 power, learned at level 59"
       },
       {
         "name": "Submission",
@@ -10078,11 +10205,11 @@
         "reason": "STAB • 80 power, learned at level 41"
       },
       {
-        "name": "Vital Throw",
+        "name": "Brick Break",
         "type": "fighting",
-        "power": 70,
+        "power": 75,
         "damageClass": "physical",
-        "reason": "STAB • 70 power, learned at level 33"
+        "reason": "STAB • 75 power, TM/HM"
       }
     ]
   },
@@ -10225,32 +10352,32 @@
     ],
     "bestAttacks": [
       {
+        "name": "Solar Beam",
+        "type": "grass",
+        "power": 120,
+        "damageClass": "special",
+        "reason": "STAB • 120 power, TM/HM"
+      },
+      {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Giga Drain",
+        "type": "grass",
+        "power": 75,
+        "damageClass": "special",
+        "reason": "STAB • 75 power, TM/HM"
+      },
+      {
         "name": "Razor Leaf",
         "type": "grass",
         "power": 55,
         "damageClass": "physical",
         "reason": "STAB • 55 power, learned at level 37"
-      },
-      {
-        "name": "Vine Whip",
-        "type": "grass",
-        "power": 45,
-        "damageClass": "physical",
-        "reason": "STAB • 45 power, learned at level 1"
-      },
-      {
-        "name": "Acid",
-        "type": "poison",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 23"
-      },
-      {
-        "name": "Slam",
-        "type": "normal",
-        "power": 80,
-        "damageClass": "physical",
-        "reason": "80 power, learned at level 45"
       }
     ]
   },
@@ -10393,32 +10520,32 @@
     ],
     "bestAttacks": [
       {
+        "name": "Solar Beam",
+        "type": "grass",
+        "power": 120,
+        "damageClass": "special",
+        "reason": "STAB • 120 power, TM/HM"
+      },
+      {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Giga Drain",
+        "type": "grass",
+        "power": 75,
+        "damageClass": "special",
+        "reason": "STAB • 75 power, TM/HM"
+      },
+      {
         "name": "Razor Leaf",
         "type": "grass",
         "power": 55,
         "damageClass": "physical",
         "reason": "STAB • 55 power, learned at level 42"
-      },
-      {
-        "name": "Vine Whip",
-        "type": "grass",
-        "power": 45,
-        "damageClass": "physical",
-        "reason": "STAB • 45 power, learned at level 1"
-      },
-      {
-        "name": "Acid",
-        "type": "poison",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 24"
-      },
-      {
-        "name": "Slam",
-        "type": "normal",
-        "power": 80,
-        "damageClass": "physical",
-        "reason": "80 power, learned at level 54"
       }
     ]
   },
@@ -10525,18 +10652,32 @@
     ],
     "bestAttacks": [
       {
+        "name": "Solar Beam",
+        "type": "grass",
+        "power": 120,
+        "damageClass": "special",
+        "reason": "STAB • 120 power, TM/HM"
+      },
+      {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Giga Drain",
+        "type": "grass",
+        "power": 75,
+        "damageClass": "special",
+        "reason": "STAB • 75 power, TM/HM"
+      },
+      {
         "name": "Razor Leaf",
         "type": "grass",
         "power": 55,
         "damageClass": "physical",
         "reason": "STAB • 55 power, learned at level 1"
-      },
-      {
-        "name": "Vine Whip",
-        "type": "grass",
-        "power": 45,
-        "damageClass": "physical",
-        "reason": "STAB • 45 power, learned at level 1"
       }
     ]
   },
@@ -10679,25 +10820,25 @@
         "reason": "STAB • 110 power, learned at level 49"
       },
       {
-        "name": "Bubble Beam",
+        "name": "Surf",
         "type": "water",
-        "power": 65,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 65 power, learned at level 25"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Acid",
+        "name": "Sludge Bomb",
         "type": "poison",
-        "power": 40,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 19"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Poison Sting",
-        "type": "poison",
-        "power": 15,
+        "name": "Waterfall",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "STAB • 15 power, learned at level 1"
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -10831,25 +10972,25 @@
         "reason": "STAB • 110 power, learned at level 55"
       },
       {
-        "name": "Bubble Beam",
+        "name": "Surf",
         "type": "water",
-        "power": 65,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 65 power, learned at level 25"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Acid",
+        "name": "Sludge Bomb",
         "type": "poison",
-        "power": 40,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 19"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Poison Sting",
-        "type": "poison",
-        "power": 15,
+        "name": "Waterfall",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "STAB • 15 power, learned at level 1"
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -11014,25 +11155,25 @@
         "reason": "STAB • 100 power, learned at level 36"
       },
       {
+        "name": "Dig",
+        "type": "ground",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Rock Tomb",
+        "type": "rock",
+        "power": 60,
+        "damageClass": "physical",
+        "reason": "STAB • 60 power, TM/HM"
+      },
+      {
         "name": "Rock Throw",
         "type": "rock",
         "power": 50,
         "damageClass": "physical",
         "reason": "STAB • 50 power, learned at level 11"
-      },
-      {
-        "name": "Rollout",
-        "type": "rock",
-        "power": 30,
-        "damageClass": "physical",
-        "reason": "STAB • 30 power, learned at level 26"
-      },
-      {
-        "name": "Rock Blast",
-        "type": "rock",
-        "power": 25,
-        "damageClass": "physical",
-        "reason": "STAB • 25 power, learned at level 31"
       }
     ]
   },
@@ -11197,25 +11338,25 @@
         "reason": "STAB • 100 power, learned at level 45"
       },
       {
+        "name": "Dig",
+        "type": "ground",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Rock Tomb",
+        "type": "rock",
+        "power": 60,
+        "damageClass": "physical",
+        "reason": "STAB • 60 power, TM/HM"
+      },
+      {
         "name": "Rock Throw",
         "type": "rock",
         "power": 50,
         "damageClass": "physical",
         "reason": "STAB • 50 power, learned at level 1"
-      },
-      {
-        "name": "Rollout",
-        "type": "rock",
-        "power": 30,
-        "damageClass": "physical",
-        "reason": "STAB • 30 power, learned at level 29"
-      },
-      {
-        "name": "Rock Blast",
-        "type": "rock",
-        "power": 25,
-        "damageClass": "physical",
-        "reason": "STAB • 25 power, learned at level 37"
       }
     ]
   },
@@ -11370,25 +11511,25 @@
         "reason": "STAB • 100 power, learned at level 45"
       },
       {
+        "name": "Dig",
+        "type": "ground",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Rock Tomb",
+        "type": "rock",
+        "power": 60,
+        "damageClass": "physical",
+        "reason": "STAB • 60 power, TM/HM"
+      },
+      {
         "name": "Rock Throw",
         "type": "rock",
         "power": 50,
         "damageClass": "physical",
         "reason": "STAB • 50 power, learned at level 1"
-      },
-      {
-        "name": "Rollout",
-        "type": "rock",
-        "power": 30,
-        "damageClass": "physical",
-        "reason": "STAB • 30 power, learned at level 29"
-      },
-      {
-        "name": "Rock Blast",
-        "type": "rock",
-        "power": 25,
-        "damageClass": "physical",
-        "reason": "STAB • 25 power, learned at level 37"
       }
     ]
   },
@@ -11531,6 +11672,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Overheat",
+        "type": "fire",
+        "power": 130,
+        "damageClass": "special",
+        "reason": "STAB • 130 power, TM/HM"
+      },
+      {
         "name": "Fire Blast",
         "type": "fire",
         "power": 110,
@@ -11538,25 +11686,18 @@
         "reason": "STAB • 110 power, learned at level 53"
       },
       {
+        "name": "Flamethrower",
+        "type": "fire",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Ember",
         "type": "fire",
         "power": 40,
         "damageClass": "special",
         "reason": "STAB • 40 power, learned at level 14"
-      },
-      {
-        "name": "Fire Spin",
-        "type": "fire",
-        "power": 35,
-        "damageClass": "special",
-        "reason": "STAB • 35 power, learned at level 25"
-      },
-      {
-        "name": "Take Down",
-        "type": "normal",
-        "power": 90,
-        "damageClass": "physical",
-        "reason": "90 power, learned at level 31"
       }
     ]
   },
@@ -11698,6 +11839,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Overheat",
+        "type": "fire",
+        "power": 130,
+        "damageClass": "special",
+        "reason": "STAB • 130 power, TM/HM"
+      },
+      {
         "name": "Fire Blast",
         "type": "fire",
         "power": 110,
@@ -11705,25 +11853,18 @@
         "reason": "STAB • 110 power, learned at level 63"
       },
       {
+        "name": "Flamethrower",
+        "type": "fire",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Ember",
         "type": "fire",
         "power": 40,
         "damageClass": "special",
         "reason": "STAB • 40 power, learned at level 1"
-      },
-      {
-        "name": "Fire Spin",
-        "type": "fire",
-        "power": 35,
-        "damageClass": "special",
-        "reason": "STAB • 35 power, learned at level 25"
-      },
-      {
-        "name": "Take Down",
-        "type": "normal",
-        "power": 90,
-        "damageClass": "physical",
-        "reason": "90 power, learned at level 31"
       }
     ]
   },
@@ -11886,25 +12027,25 @@
         "reason": "STAB • 90 power, learned at level 40"
       },
       {
-        "name": "Confusion",
-        "type": "psychic",
-        "power": 50,
-        "damageClass": "special",
-        "reason": "STAB • 50 power, learned at level 17"
-      },
-      {
-        "name": "Water Gun",
+        "name": "Surf",
         "type": "water",
-        "power": 40,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 13"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Headbutt",
-        "type": "normal",
-        "power": 70,
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "70 power, learned at level 29"
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Water Pulse",
+        "type": "water",
+        "power": 60,
+        "damageClass": "special",
+        "reason": "STAB • 60 power, TM/HM"
       }
     ]
   },
@@ -12066,25 +12207,25 @@
         "reason": "STAB • 90 power, learned at level 44"
       },
       {
-        "name": "Confusion",
-        "type": "psychic",
-        "power": 50,
-        "damageClass": "special",
-        "reason": "STAB • 50 power, learned at level 17"
-      },
-      {
-        "name": "Water Gun",
+        "name": "Surf",
         "type": "water",
-        "power": 40,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 13"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Headbutt",
-        "type": "normal",
-        "power": 70,
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "70 power, learned at level 29"
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Water Pulse",
+        "type": "water",
+        "power": 60,
+        "damageClass": "special",
+        "reason": "STAB • 60 power, TM/HM"
       }
     ]
   },
@@ -12243,11 +12384,11 @@
     ],
     "bestAttacks": [
       {
-        "name": "Zap Cannon",
+        "name": "Thunderbolt",
         "type": "electric",
-        "power": 120,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 120 power, learned at level 50"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
         "name": "Spark",
@@ -12257,18 +12398,18 @@
         "reason": "STAB • 65 power, learned at level 26"
       },
       {
+        "name": "Shock Wave",
+        "type": "electric",
+        "power": 60,
+        "damageClass": "special",
+        "reason": "STAB • 60 power, TM/HM"
+      },
+      {
         "name": "Thunder Shock",
         "type": "electric",
         "power": 40,
         "damageClass": "special",
         "reason": "STAB • 40 power, learned at level 6"
-      },
-      {
-        "name": "Swift",
-        "type": "normal",
-        "power": 60,
-        "damageClass": "special",
-        "reason": "60 power, learned at level 38"
       }
     ]
   },
@@ -12418,11 +12559,11 @@
     ],
     "bestAttacks": [
       {
-        "name": "Zap Cannon",
+        "name": "Thunderbolt",
         "type": "electric",
-        "power": 120,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 120 power, learned at level 62"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
         "name": "Spark",
@@ -12432,18 +12573,18 @@
         "reason": "STAB • 65 power, learned at level 26"
       },
       {
+        "name": "Shock Wave",
+        "type": "electric",
+        "power": 60,
+        "damageClass": "special",
+        "reason": "STAB • 60 power, TM/HM"
+      },
+      {
         "name": "Thunder Shock",
         "type": "electric",
         "power": 40,
         "damageClass": "special",
         "reason": "STAB • 40 power, learned at level 1"
-      },
-      {
-        "name": "Tri Attack",
-        "type": "normal",
-        "power": 80,
-        "damageClass": "special",
-        "reason": "80 power, learned at level 44"
       }
     ]
   },
@@ -12577,6 +12718,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Fly",
+        "type": "flying",
+        "power": 90,
+        "damageClass": "physical",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Slash",
         "type": "normal",
         "power": 70,
@@ -12584,25 +12732,18 @@
         "reason": "STAB • 70 power, learned at level 41"
       },
       {
-        "name": "False Swipe",
+        "name": "Facade",
         "type": "normal",
-        "power": 40,
+        "power": 70,
         "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 46"
+        "reason": "STAB • 70 power, TM/HM"
       },
       {
-        "name": "Peck",
-        "type": "flying",
-        "power": 35,
-        "damageClass": "physical",
-        "reason": "STAB • 35 power, learned at level 1"
-      },
-      {
-        "name": "Fury Attack",
+        "name": "Secret Power",
         "type": "normal",
-        "power": 15,
+        "power": 70,
         "damageClass": "physical",
-        "reason": "STAB • 15 power, learned at level 16"
+        "reason": "STAB • 70 power, TM/HM"
       }
     ]
   },
@@ -12743,6 +12884,13 @@
         "reason": "STAB • 90 power, learned at level 33"
       },
       {
+        "name": "Fly",
+        "type": "flying",
+        "power": 90,
+        "damageClass": "physical",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Tri Attack",
         "type": "normal",
         "power": 80,
@@ -12755,13 +12903,6 @@
         "power": 80,
         "damageClass": "physical",
         "reason": "STAB • 80 power, learned at level 37"
-      },
-      {
-        "name": "Peck",
-        "type": "flying",
-        "power": 35,
-        "damageClass": "physical",
-        "reason": "STAB • 35 power, learned at level 1"
       }
     ]
   },
@@ -12886,6 +13027,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Hyper Beam",
+        "type": "normal",
+        "power": 150,
+        "damageClass": "special",
+        "reason": "STAB • 150 power, TM/HM"
+      },
+      {
         "name": "Uproar",
         "type": "normal",
         "power": 90,
@@ -12893,25 +13041,18 @@
         "reason": "STAB • 90 power, learned at level 38"
       },
       {
+        "name": "Fly",
+        "type": "flying",
+        "power": 90,
+        "damageClass": "physical",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Tri Attack",
         "type": "normal",
         "power": 80,
         "damageClass": "special",
         "reason": "STAB • 80 power, learned at level 21"
-      },
-      {
-        "name": "Drill Peck",
-        "type": "flying",
-        "power": 80,
-        "damageClass": "physical",
-        "reason": "STAB • 80 power, learned at level 47"
-      },
-      {
-        "name": "Peck",
-        "type": "flying",
-        "power": 35,
-        "damageClass": "physical",
-        "reason": "STAB • 35 power, learned at level 1"
       }
     ]
   },
@@ -13033,32 +13174,32 @@
     ],
     "bestAttacks": [
       {
-        "name": "Take Down",
-        "type": "normal",
-        "power": 90,
-        "damageClass": "physical",
-        "reason": "90 power, learned at level 37"
-      },
-      {
-        "name": "Ice Beam",
-        "type": "ice",
+        "name": "Surf",
+        "type": "water",
         "power": 90,
         "damageClass": "special",
-        "reason": "90 power, learned at level 41"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Headbutt",
-        "type": "normal",
-        "power": 70,
+        "name": "Waterfall",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "70 power, learned at level 1"
+        "reason": "STAB • 80 power, TM/HM"
       },
       {
-        "name": "Aurora Beam",
-        "type": "ice",
-        "power": 65,
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Water Pulse",
+        "type": "water",
+        "power": 60,
         "damageClass": "special",
-        "reason": "65 power, learned at level 21"
+        "reason": "STAB • 60 power, TM/HM"
       }
     ]
   },
@@ -13197,25 +13338,25 @@
         "reason": "STAB • 90 power, learned at level 51"
       },
       {
-        "name": "Aurora Beam",
-        "type": "ice",
-        "power": 65,
-        "damageClass": "special",
-        "reason": "STAB • 65 power, learned at level 1"
-      },
-      {
-        "name": "Icy Wind",
-        "type": "ice",
-        "power": 55,
-        "damageClass": "special",
-        "reason": "STAB • 55 power, learned at level 1"
-      },
-      {
-        "name": "Take Down",
-        "type": "normal",
+        "name": "Surf",
+        "type": "water",
         "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Waterfall",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "90 power, learned at level 42"
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -13370,11 +13511,18 @@
         "reason": "STAB • 65 power, learned at level 13"
       },
       {
-        "name": "Pound",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
+        "name": "Fire Blast",
+        "type": "fire",
+        "power": 110,
+        "damageClass": "special",
+        "reason": "110 power, TM/HM"
+      },
+      {
+        "name": "Flamethrower",
+        "type": "fire",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "90 power, TM/HM"
       }
     ]
   },
@@ -13519,11 +13667,18 @@
         "reason": "STAB • 65 power, learned at level 13"
       },
       {
-        "name": "Pound",
+        "name": "Hyper Beam",
         "type": "normal",
-        "power": 40,
+        "power": 150,
+        "damageClass": "special",
+        "reason": "150 power, TM/HM"
+      },
+      {
+        "name": "Focus Punch",
+        "type": "fighting",
+        "power": 150,
         "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
+        "reason": "150 power, TM/HM"
       }
     ]
   },
@@ -13654,32 +13809,32 @@
     ],
     "bestAttacks": [
       {
+        "name": "Surf",
+        "type": "water",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Water Pulse",
+        "type": "water",
+        "power": 60,
+        "damageClass": "special",
+        "reason": "STAB • 60 power, TM/HM"
+      },
+      {
         "name": "Clamp",
         "type": "water",
         "power": 35,
         "damageClass": "physical",
         "reason": "STAB • 35 power, learned at level 43"
-      },
-      {
-        "name": "Ice Beam",
-        "type": "ice",
-        "power": 90,
-        "damageClass": "special",
-        "reason": "90 power, learned at level 50"
-      },
-      {
-        "name": "Aurora Beam",
-        "type": "ice",
-        "power": 65,
-        "damageClass": "special",
-        "reason": "65 power, learned at level 22"
-      },
-      {
-        "name": "Tackle",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
       }
     ]
   },
@@ -13775,18 +13930,32 @@
     ],
     "bestAttacks": [
       {
+        "name": "Surf",
+        "type": "water",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Ice Beam",
+        "type": "ice",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
         "name": "Aurora Beam",
         "type": "ice",
         "power": 65,
         "damageClass": "special",
         "reason": "STAB • 65 power, learned at level 1"
-      },
-      {
-        "name": "Spike Cannon",
-        "type": "normal",
-        "power": 20,
-        "damageClass": "physical",
-        "reason": "20 power, learned at level 43"
       }
     ]
   },
@@ -13939,6 +14108,13 @@
       }
     ],
     "bestAttacks": [
+      {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
       {
         "name": "Shadow Ball",
         "type": "ghost",
@@ -14121,6 +14297,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Shadow Ball",
         "type": "ghost",
         "power": 80,
@@ -14140,13 +14323,6 @@
         "power": 30,
         "damageClass": "physical",
         "reason": "STAB • 30 power, learned at level 1"
-      },
-      {
-        "name": "Dream Eater",
-        "type": "psychic",
-        "power": 100,
-        "damageClass": "special",
-        "reason": "100 power, learned at level 31"
       }
     ]
   },
@@ -14300,6 +14476,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Shadow Ball",
         "type": "ghost",
         "power": 80,
@@ -14319,13 +14502,6 @@
         "power": 30,
         "damageClass": "physical",
         "reason": "STAB • 30 power, learned at level 1"
-      },
-      {
-        "name": "Dream Eater",
-        "type": "psychic",
-        "power": 100,
-        "damageClass": "special",
-        "reason": "100 power, learned at level 31"
       }
     ]
   },
@@ -14482,32 +14658,32 @@
     ],
     "bestAttacks": [
       {
+        "name": "Earthquake",
+        "type": "ground",
+        "power": 100,
+        "damageClass": "physical",
+        "reason": "STAB • 100 power, TM/HM"
+      },
+      {
+        "name": "Dig",
+        "type": "ground",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Rock Tomb",
+        "type": "rock",
+        "power": 60,
+        "damageClass": "physical",
+        "reason": "STAB • 60 power, TM/HM"
+      },
+      {
         "name": "Rock Throw",
         "type": "rock",
         "power": 50,
         "damageClass": "physical",
         "reason": "STAB • 50 power, learned at level 12"
-      },
-      {
-        "name": "Sand Tomb",
-        "type": "ground",
-        "power": 35,
-        "damageClass": "physical",
-        "reason": "STAB • 35 power, learned at level 52"
-      },
-      {
-        "name": "Double Edge",
-        "type": "normal",
-        "power": 120,
-        "damageClass": "physical",
-        "reason": "120 power, learned at level 56"
-      },
-      {
-        "name": "Iron Tail",
-        "type": "steel",
-        "power": 100,
-        "damageClass": "physical",
-        "reason": "100 power, learned at level 45"
       }
     ]
   },
@@ -14676,11 +14852,11 @@
         "reason": "STAB • 50 power, learned at level 11"
       },
       {
-        "name": "Headbutt",
-        "type": "normal",
-        "power": 70,
+        "name": "Focus Punch",
+        "type": "fighting",
+        "power": 150,
         "damageClass": "physical",
-        "reason": "70 power, learned at level 17"
+        "reason": "150 power, TM/HM"
       }
     ]
   },
@@ -14849,11 +15025,11 @@
         "reason": "STAB • 50 power, learned at level 1"
       },
       {
-        "name": "Headbutt",
+        "name": "Hyper Beam",
         "type": "normal",
-        "power": 70,
-        "damageClass": "physical",
-        "reason": "70 power, learned at level 17"
+        "power": 150,
+        "damageClass": "special",
+        "reason": "150 power, TM/HM"
       }
     ]
   },
@@ -15000,25 +15176,25 @@
         "reason": "STAB • 100 power, learned at level 45"
       },
       {
-        "name": "Bubble",
+        "name": "Surf",
         "type": "water",
-        "power": 40,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Stomp",
-        "type": "normal",
-        "power": 65,
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "65 power, learned at level 27"
+        "reason": "STAB • 80 power, TM/HM"
       },
       {
-        "name": "Vice Grip",
-        "type": "normal",
-        "power": 55,
-        "damageClass": "physical",
-        "reason": "55 power, learned at level 12"
+        "name": "Water Pulse",
+        "type": "water",
+        "power": 60,
+        "damageClass": "special",
+        "reason": "STAB • 60 power, TM/HM"
       }
     ]
   },
@@ -15165,25 +15341,25 @@
         "reason": "STAB • 100 power, learned at level 57"
       },
       {
-        "name": "Bubble",
+        "name": "Surf",
         "type": "water",
-        "power": 40,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Stomp",
-        "type": "normal",
-        "power": 65,
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "65 power, learned at level 27"
+        "reason": "STAB • 80 power, TM/HM"
       },
       {
-        "name": "Vice Grip",
-        "type": "normal",
-        "power": 55,
-        "damageClass": "physical",
-        "reason": "55 power, learned at level 1"
+        "name": "Water Pulse",
+        "type": "water",
+        "power": 60,
+        "damageClass": "special",
+        "reason": "STAB • 60 power, TM/HM"
       }
     ]
   },
@@ -15331,6 +15507,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Thunderbolt",
+        "type": "electric",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Spark",
         "type": "electric",
         "power": 65,
@@ -15338,25 +15521,18 @@
         "reason": "STAB • 65 power, learned at level 21"
       },
       {
-        "name": "Explosion",
-        "type": "normal",
-        "power": 250,
-        "damageClass": "physical",
-        "reason": "250 power, learned at level 46"
-      },
-      {
-        "name": "Self Destruct",
-        "type": "normal",
-        "power": 200,
-        "damageClass": "physical",
-        "reason": "200 power, learned at level 27"
-      },
-      {
-        "name": "Swift",
-        "type": "normal",
+        "name": "Shock Wave",
+        "type": "electric",
         "power": 60,
         "damageClass": "special",
-        "reason": "60 power, learned at level 42"
+        "reason": "STAB • 60 power, TM/HM"
+      },
+      {
+        "name": "Facade",
+        "type": "normal",
+        "power": 70,
+        "damageClass": "physical",
+        "reason": "70 power, TM/HM"
       }
     ]
   },
@@ -15494,6 +15670,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Thunderbolt",
+        "type": "electric",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Spark",
         "type": "electric",
         "power": 65,
@@ -15501,25 +15684,18 @@
         "reason": "STAB • 65 power, learned at level 21"
       },
       {
-        "name": "Explosion",
-        "type": "normal",
-        "power": 250,
-        "damageClass": "physical",
-        "reason": "250 power, learned at level 54"
-      },
-      {
-        "name": "Self Destruct",
-        "type": "normal",
-        "power": 200,
-        "damageClass": "physical",
-        "reason": "200 power, learned at level 27"
-      },
-      {
-        "name": "Swift",
-        "type": "normal",
+        "name": "Shock Wave",
+        "type": "electric",
         "power": 60,
         "damageClass": "special",
-        "reason": "60 power, learned at level 48"
+        "reason": "STAB • 60 power, TM/HM"
+      },
+      {
+        "name": "Hyper Beam",
+        "type": "normal",
+        "power": 150,
+        "damageClass": "special",
+        "reason": "150 power, TM/HM"
       }
     ]
   },
@@ -15675,25 +15851,25 @@
         "reason": "STAB • 120 power, learned at level 43"
       },
       {
+        "name": "Psychic",
+        "type": "psychic",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Giga Drain",
+        "type": "grass",
+        "power": 75,
+        "damageClass": "special",
+        "reason": "STAB • 75 power, TM/HM"
+      },
+      {
         "name": "Confusion",
         "type": "psychic",
         "power": 50,
         "damageClass": "special",
         "reason": "STAB • 50 power, learned at level 19"
-      },
-      {
-        "name": "Uproar",
-        "type": "normal",
-        "power": 90,
-        "damageClass": "special",
-        "reason": "90 power, learned at level 1"
-      },
-      {
-        "name": "Barrage",
-        "type": "normal",
-        "power": 15,
-        "damageClass": "physical",
-        "reason": "15 power, learned at level 1"
       }
     ]
   },
@@ -15787,32 +15963,32 @@
     ],
     "bestAttacks": [
       {
+        "name": "Solar Beam",
+        "type": "grass",
+        "power": 120,
+        "damageClass": "special",
+        "reason": "STAB • 120 power, TM/HM"
+      },
+      {
+        "name": "Psychic",
+        "type": "psychic",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Giga Drain",
+        "type": "grass",
+        "power": 75,
+        "damageClass": "special",
+        "reason": "STAB • 75 power, TM/HM"
+      },
+      {
         "name": "Confusion",
         "type": "psychic",
         "power": 50,
         "damageClass": "special",
         "reason": "STAB • 50 power, learned at level 1"
-      },
-      {
-        "name": "Egg Bomb",
-        "type": "normal",
-        "power": 100,
-        "damageClass": "physical",
-        "reason": "100 power, learned at level 31"
-      },
-      {
-        "name": "Stomp",
-        "type": "normal",
-        "power": 65,
-        "damageClass": "physical",
-        "reason": "65 power, learned at level 19"
-      },
-      {
-        "name": "Barrage",
-        "type": "normal",
-        "power": 15,
-        "damageClass": "physical",
-        "reason": "15 power, learned at level 1"
       }
     ]
   },
@@ -15972,6 +16148,20 @@
     ],
     "bestAttacks": [
       {
+        "name": "Earthquake",
+        "type": "ground",
+        "power": 100,
+        "damageClass": "physical",
+        "reason": "STAB • 100 power, TM/HM"
+      },
+      {
+        "name": "Dig",
+        "type": "ground",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
         "name": "Bone Club",
         "type": "ground",
         "power": 65,
@@ -15984,20 +16174,6 @@
         "power": 50,
         "damageClass": "physical",
         "reason": "STAB • 50 power, learned at level 25"
-      },
-      {
-        "name": "Bone Rush",
-        "type": "ground",
-        "power": 25,
-        "damageClass": "physical",
-        "reason": "STAB • 25 power, learned at level 41"
-      },
-      {
-        "name": "Thrash",
-        "type": "normal",
-        "power": 120,
-        "damageClass": "physical",
-        "reason": "120 power, learned at level 37"
       }
     ]
   },
@@ -16147,6 +16323,20 @@
     ],
     "bestAttacks": [
       {
+        "name": "Earthquake",
+        "type": "ground",
+        "power": 100,
+        "damageClass": "physical",
+        "reason": "STAB • 100 power, TM/HM"
+      },
+      {
+        "name": "Dig",
+        "type": "ground",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
         "name": "Bone Club",
         "type": "ground",
         "power": 65,
@@ -16159,20 +16349,6 @@
         "power": 50,
         "damageClass": "physical",
         "reason": "STAB • 50 power, learned at level 25"
-      },
-      {
-        "name": "Bone Rush",
-        "type": "ground",
-        "power": 25,
-        "damageClass": "physical",
-        "reason": "STAB • 25 power, learned at level 53"
-      },
-      {
-        "name": "Thrash",
-        "type": "normal",
-        "power": 120,
-        "damageClass": "physical",
-        "reason": "120 power, learned at level 46"
       }
     ]
   },
@@ -16329,6 +16505,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Focus Punch",
+        "type": "fighting",
+        "power": 150,
+        "damageClass": "physical",
+        "reason": "STAB • 150 power, TM/HM"
+      },
+      {
         "name": "High Jump Kick",
         "type": "fighting",
         "power": 130,
@@ -16348,13 +16531,6 @@
         "power": 75,
         "damageClass": "physical",
         "reason": "STAB • 75 power, learned at level 20"
-      },
-      {
-        "name": "Revenge",
-        "type": "fighting",
-        "power": 60,
-        "damageClass": "physical",
-        "reason": "STAB • 60 power, learned at level 1"
       }
     ]
   },
@@ -16502,6 +16678,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Focus Punch",
+        "type": "fighting",
+        "power": 150,
+        "damageClass": "physical",
+        "reason": "STAB • 150 power, TM/HM"
+      },
+      {
         "name": "Sky Uppercut",
         "type": "fighting",
         "power": 85,
@@ -16509,25 +16692,18 @@
         "reason": "STAB • 85 power, learned at level 32"
       },
       {
+        "name": "Brick Break",
+        "type": "fighting",
+        "power": 75,
+        "damageClass": "physical",
+        "reason": "STAB • 75 power, TM/HM"
+      },
+      {
         "name": "Revenge",
         "type": "fighting",
         "power": 60,
         "damageClass": "physical",
         "reason": "STAB • 60 power, learned at level 1"
-      },
-      {
-        "name": "Mach Punch",
-        "type": "fighting",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 20"
-      },
-      {
-        "name": "Mega Punch",
-        "type": "normal",
-        "power": 80,
-        "damageClass": "physical",
-        "reason": "80 power, learned at level 38"
       }
     ]
   },
@@ -16654,6 +16830,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Hyper Beam",
+        "type": "normal",
+        "power": 150,
+        "damageClass": "special",
+        "reason": "STAB • 150 power, TM/HM"
+      },
+      {
         "name": "Slam",
         "type": "normal",
         "power": 80,
@@ -16661,25 +16844,18 @@
         "reason": "STAB • 80 power, learned at level 40"
       },
       {
-        "name": "Stomp",
+        "name": "Strength",
         "type": "normal",
-        "power": 65,
+        "power": 80,
         "damageClass": "physical",
-        "reason": "STAB • 65 power, learned at level 23"
+        "reason": "STAB • 80 power, TM/HM"
       },
       {
-        "name": "Wrap",
+        "name": "Facade",
         "type": "normal",
-        "power": 15,
+        "power": 70,
         "damageClass": "physical",
-        "reason": "STAB • 15 power, learned at level 29"
-      },
-      {
-        "name": "Knock Off",
-        "type": "dark",
-        "power": 65,
-        "damageClass": "physical",
-        "reason": "65 power, learned at level 18"
+        "reason": "STAB • 70 power, TM/HM"
       }
     ]
   },
@@ -16820,6 +16996,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Sludge",
         "type": "poison",
         "power": 65,
@@ -16827,25 +17010,18 @@
         "reason": "STAB • 65 power, learned at level 21"
       },
       {
-        "name": "Smog",
-        "type": "poison",
-        "power": 30,
+        "name": "Fire Blast",
+        "type": "fire",
+        "power": 110,
         "damageClass": "special",
-        "reason": "STAB • 30 power, learned at level 9"
+        "reason": "110 power, TM/HM"
       },
       {
-        "name": "Explosion",
-        "type": "normal",
-        "power": 250,
-        "damageClass": "physical",
-        "reason": "250 power, learned at level 41"
-      },
-      {
-        "name": "Self Destruct",
-        "type": "normal",
-        "power": 200,
-        "damageClass": "physical",
-        "reason": "200 power, learned at level 17"
+        "name": "Flamethrower",
+        "type": "fire",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "90 power, TM/HM"
       }
     ]
   },
@@ -16976,6 +17152,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Sludge Bomb",
+        "type": "poison",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Sludge",
         "type": "poison",
         "power": 65,
@@ -16983,25 +17166,18 @@
         "reason": "STAB • 65 power, learned at level 21"
       },
       {
-        "name": "Smog",
-        "type": "poison",
-        "power": 30,
+        "name": "Hyper Beam",
+        "type": "normal",
+        "power": 150,
         "damageClass": "special",
-        "reason": "STAB • 30 power, learned at level 1"
+        "reason": "150 power, TM/HM"
       },
       {
-        "name": "Explosion",
-        "type": "normal",
-        "power": 250,
-        "damageClass": "physical",
-        "reason": "250 power, learned at level 44"
-      },
-      {
-        "name": "Self Destruct",
-        "type": "normal",
-        "power": 200,
-        "damageClass": "physical",
-        "reason": "200 power, learned at level 1"
+        "name": "Fire Blast",
+        "type": "fire",
+        "power": 110,
+        "damageClass": "special",
+        "reason": "110 power, TM/HM"
       }
     ]
   },
@@ -17156,25 +17332,25 @@
         "reason": "STAB • 100 power, learned at level 52"
       },
       {
+        "name": "Dig",
+        "type": "ground",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Rock Tomb",
+        "type": "rock",
+        "power": 60,
+        "damageClass": "physical",
+        "reason": "STAB • 60 power, TM/HM"
+      },
+      {
         "name": "Rock Blast",
         "type": "rock",
         "power": 25,
         "damageClass": "physical",
         "reason": "STAB • 25 power, learned at level 29"
-      },
-      {
-        "name": "Megahorn",
-        "type": "bug",
-        "power": 120,
-        "damageClass": "physical",
-        "reason": "120 power, learned at level 57"
-      },
-      {
-        "name": "Take Down",
-        "type": "normal",
-        "power": 90,
-        "damageClass": "physical",
-        "reason": "90 power, learned at level 43"
       }
     ]
   },
@@ -17320,25 +17496,25 @@
         "reason": "STAB • 100 power, learned at level 58"
       },
       {
+        "name": "Dig",
+        "type": "ground",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Rock Tomb",
+        "type": "rock",
+        "power": 60,
+        "damageClass": "physical",
+        "reason": "STAB • 60 power, TM/HM"
+      },
+      {
         "name": "Rock Blast",
         "type": "rock",
         "power": 25,
         "damageClass": "physical",
         "reason": "STAB • 25 power, learned at level 29"
-      },
-      {
-        "name": "Megahorn",
-        "type": "bug",
-        "power": 120,
-        "damageClass": "physical",
-        "reason": "120 power, learned at level 66"
-      },
-      {
-        "name": "Take Down",
-        "type": "normal",
-        "power": 90,
-        "damageClass": "physical",
-        "reason": "90 power, learned at level 46"
       }
     ]
   },
@@ -17483,6 +17659,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Hyper Beam",
+        "type": "normal",
+        "power": 150,
+        "damageClass": "special",
+        "reason": "STAB • 150 power, TM/HM"
+      },
+      {
         "name": "Double Edge",
         "type": "normal",
         "power": 120,
@@ -17497,18 +17680,11 @@
         "reason": "STAB • 100 power, learned at level 35"
       },
       {
-        "name": "Pound",
+        "name": "Strength",
         "type": "normal",
-        "power": 40,
+        "power": 80,
         "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 1"
-      },
-      {
-        "name": "Double Slap",
-        "type": "normal",
-        "power": 15,
-        "damageClass": "physical",
-        "reason": "STAB • 15 power, learned at level 17"
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -17660,6 +17836,20 @@
     ],
     "bestAttacks": [
       {
+        "name": "Solar Beam",
+        "type": "grass",
+        "power": 120,
+        "damageClass": "special",
+        "reason": "STAB • 120 power, TM/HM"
+      },
+      {
+        "name": "Giga Drain",
+        "type": "grass",
+        "power": 75,
+        "damageClass": "special",
+        "reason": "STAB • 75 power, TM/HM"
+      },
+      {
         "name": "Vine Whip",
         "type": "grass",
         "power": 45,
@@ -17672,20 +17862,6 @@
         "power": 40,
         "damageClass": "special",
         "reason": "STAB • 40 power, learned at level 31"
-      },
-      {
-        "name": "Absorb",
-        "type": "grass",
-        "power": 20,
-        "damageClass": "special",
-        "reason": "STAB • 20 power, learned at level 10"
-      },
-      {
-        "name": "Slam",
-        "type": "normal",
-        "power": 80,
-        "damageClass": "physical",
-        "reason": "80 power, learned at level 40"
       }
     ]
   },
@@ -17812,6 +17988,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Hyper Beam",
+        "type": "normal",
+        "power": 150,
+        "damageClass": "special",
+        "reason": "STAB • 150 power, TM/HM"
+      },
+      {
         "name": "Mega Punch",
         "type": "normal",
         "power": 80,
@@ -17819,25 +18002,18 @@
         "reason": "STAB • 80 power, learned at level 25"
       },
       {
+        "name": "Strength",
+        "type": "normal",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
         "name": "Dizzy Punch",
         "type": "normal",
         "power": 70,
         "damageClass": "physical",
         "reason": "STAB • 70 power, learned at level 43"
-      },
-      {
-        "name": "Fake Out",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 19"
-      },
-      {
-        "name": "Rage",
-        "type": "normal",
-        "power": 20,
-        "damageClass": "physical",
-        "reason": "STAB • 20 power, learned at level 31"
       }
     ]
   },
@@ -17966,25 +18142,25 @@
         "reason": "STAB • 110 power, learned at level 43"
       },
       {
-        "name": "Bubble",
+        "name": "Surf",
         "type": "water",
-        "power": 40,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Water Gun",
+        "name": "Waterfall",
         "type": "water",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 22"
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
       },
       {
-        "name": "Twister",
-        "type": "dragon",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "40 power, learned at level 29"
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -18104,25 +18280,25 @@
         "reason": "STAB • 110 power, learned at level 51"
       },
       {
-        "name": "Water Gun",
+        "name": "Surf",
         "type": "water",
-        "power": 40,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Bubble",
+        "name": "Waterfall",
         "type": "water",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
       },
       {
-        "name": "Twister",
-        "type": "dragon",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "40 power, learned at level 29"
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -18271,6 +18447,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Surf",
+        "type": "water",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Waterfall",
         "type": "water",
         "power": 80,
@@ -18278,25 +18461,18 @@
         "reason": "STAB • 80 power, learned at level 38"
       },
       {
-        "name": "Megahorn",
-        "type": "bug",
-        "power": 120,
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "120 power, learned at level 57"
+        "reason": "STAB • 80 power, TM/HM"
       },
       {
-        "name": "Horn Attack",
-        "type": "normal",
-        "power": 65,
-        "damageClass": "physical",
-        "reason": "65 power, learned at level 15"
-      },
-      {
-        "name": "Peck",
-        "type": "flying",
-        "power": 35,
-        "damageClass": "physical",
-        "reason": "35 power, learned at level 1"
+        "name": "Water Pulse",
+        "type": "water",
+        "power": 60,
+        "damageClass": "special",
+        "reason": "STAB • 60 power, TM/HM"
       }
     ]
   },
@@ -18436,6 +18612,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Surf",
+        "type": "water",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Waterfall",
         "type": "water",
         "power": 80,
@@ -18443,25 +18626,18 @@
         "reason": "STAB • 80 power, learned at level 41"
       },
       {
-        "name": "Megahorn",
-        "type": "bug",
-        "power": 120,
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "120 power, learned at level 69"
+        "reason": "STAB • 80 power, TM/HM"
       },
       {
-        "name": "Horn Attack",
-        "type": "normal",
-        "power": 65,
-        "damageClass": "physical",
-        "reason": "65 power, learned at level 15"
-      },
-      {
-        "name": "Peck",
-        "type": "flying",
-        "power": 35,
-        "damageClass": "physical",
-        "reason": "35 power, learned at level 1"
+        "name": "Water Pulse",
+        "type": "water",
+        "power": 60,
+        "damageClass": "special",
+        "reason": "STAB • 60 power, TM/HM"
       }
     ]
   },
@@ -18626,25 +18802,25 @@
         "reason": "STAB • 110 power, learned at level 46"
       },
       {
-        "name": "Bubble Beam",
+        "name": "Surf",
         "type": "water",
-        "power": 65,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 65 power, learned at level 28"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Water Gun",
+        "name": "Waterfall",
         "type": "water",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 6"
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
       },
       {
-        "name": "Swift",
-        "type": "normal",
-        "power": 60,
-        "damageClass": "special",
-        "reason": "60 power, learned at level 24"
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -18736,25 +18912,32 @@
     ],
     "bestAttacks": [
       {
-        "name": "Water Gun",
+        "name": "Surf",
         "type": "water",
-        "power": 40,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Swift",
-        "type": "normal",
-        "power": 60,
+        "name": "Psychic",
+        "type": "psychic",
+        "power": 90,
         "damageClass": "special",
-        "reason": "60 power, learned at level 1"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Rapid Spin",
-        "type": "normal",
-        "power": 50,
+        "name": "Waterfall",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "50 power, learned at level 1"
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -18959,11 +19142,11 @@
         "reason": "STAB • 50 power, learned at level 5"
       },
       {
-        "name": "Magical Leaf",
-        "type": "grass",
-        "power": 60,
+        "name": "Hyper Beam",
+        "type": "normal",
+        "power": 150,
         "damageClass": "special",
-        "reason": "60 power, learned at level 22"
+        "reason": "150 power, TM/HM"
       }
     ]
   },
@@ -19115,6 +19298,13 @@
         "reason": "STAB • 60 power, learned at level 26"
       },
       {
+        "name": "Aerial Ace",
+        "type": "flying",
+        "power": 60,
+        "damageClass": "physical",
+        "reason": "STAB • 60 power, TM/HM"
+      },
+      {
         "name": "Fury Cutter",
         "type": "bug",
         "power": 40,
@@ -19122,18 +19312,11 @@
         "reason": "STAB • 40 power, learned at level 46"
       },
       {
-        "name": "Slash",
+        "name": "Hyper Beam",
         "type": "normal",
-        "power": 70,
-        "damageClass": "physical",
-        "reason": "70 power, learned at level 31"
-      },
-      {
-        "name": "Quick Attack",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
+        "power": 150,
+        "damageClass": "special",
+        "reason": "150 power, TM/HM"
       }
     ]
   },
@@ -19276,11 +19459,18 @@
     ],
     "bestAttacks": [
       {
-        "name": "Blizzard",
+        "name": "Ice Beam",
         "type": "ice",
-        "power": 110,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 110 power, learned at level 67"
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Psychic",
+        "type": "psychic",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
         "name": "Ice Punch",
@@ -19295,13 +19485,6 @@
         "power": 40,
         "damageClass": "special",
         "reason": "STAB • 40 power, learned at level 1"
-      },
-      {
-        "name": "Body Slam",
-        "type": "normal",
-        "power": 85,
-        "damageClass": "physical",
-        "reason": "85 power, learned at level 51"
       }
     ]
   },
@@ -19412,13 +19595,6 @@
     ],
     "bestAttacks": [
       {
-        "name": "Thunder",
-        "type": "electric",
-        "power": 110,
-        "damageClass": "special",
-        "reason": "STAB • 110 power, learned at level 58"
-      },
-      {
         "name": "Thunderbolt",
         "type": "electric",
         "power": 90,
@@ -19433,11 +19609,18 @@
         "reason": "STAB • 75 power, learned at level 1"
       },
       {
-        "name": "Swift",
-        "type": "normal",
+        "name": "Shock Wave",
+        "type": "electric",
         "power": 60,
         "damageClass": "special",
-        "reason": "60 power, learned at level 25"
+        "reason": "STAB • 60 power, TM/HM"
+      },
+      {
+        "name": "Hyper Beam",
+        "type": "normal",
+        "power": 150,
+        "damageClass": "special",
+        "reason": "150 power, TM/HM"
       }
     ]
   },
@@ -19717,32 +19900,32 @@
     ],
     "bestAttacks": [
       {
+        "name": "Hyper Beam",
+        "type": "normal",
+        "power": 150,
+        "damageClass": "special",
+        "reason": "150 power, TM/HM"
+      },
+      {
+        "name": "Focus Punch",
+        "type": "fighting",
+        "power": 150,
+        "damageClass": "physical",
+        "reason": "150 power, TM/HM"
+      },
+      {
+        "name": "Earthquake",
+        "type": "ground",
+        "power": 100,
+        "damageClass": "physical",
+        "reason": "100 power, TM/HM"
+      },
+      {
         "name": "Submission",
         "type": "fighting",
         "power": 80,
         "damageClass": "physical",
         "reason": "80 power, learned at level 43"
-      },
-      {
-        "name": "Brick Break",
-        "type": "fighting",
-        "power": 75,
-        "damageClass": "physical",
-        "reason": "75 power, learned at level 31"
-      },
-      {
-        "name": "Revenge",
-        "type": "fighting",
-        "power": 60,
-        "damageClass": "physical",
-        "reason": "60 power, learned at level 25"
-      },
-      {
-        "name": "Vice Grip",
-        "type": "normal",
-        "power": 55,
-        "damageClass": "physical",
-        "reason": "55 power, learned at level 1"
       }
     ]
   },
@@ -19869,6 +20052,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Hyper Beam",
+        "type": "normal",
+        "power": 150,
+        "damageClass": "special",
+        "reason": "STAB • 150 power, TM/HM"
+      },
+      {
         "name": "Thrash",
         "type": "normal",
         "power": 120,
@@ -19883,18 +20073,11 @@
         "reason": "STAB • 90 power, learned at level 53"
       },
       {
-        "name": "Horn Attack",
+        "name": "Strength",
         "type": "normal",
-        "power": 65,
+        "power": 80,
         "damageClass": "physical",
-        "reason": "STAB • 65 power, learned at level 8"
-      },
-      {
-        "name": "Tackle",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -20108,25 +20291,25 @@
         "reason": "STAB • 110 power, learned at level 40"
       },
       {
-        "name": "Hyper Beam",
-        "type": "normal",
-        "power": 150,
+        "name": "Surf",
+        "type": "water",
+        "power": 90,
         "damageClass": "special",
-        "reason": "150 power, learned at level 55"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Thrash",
-        "type": "normal",
-        "power": 120,
+        "name": "Waterfall",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "120 power, learned at level 1"
+        "reason": "STAB • 80 power, TM/HM"
       },
       {
-        "name": "Bite",
-        "type": "dark",
-        "power": 60,
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "60 power, learned at level 20"
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -20290,18 +20473,18 @@
         "reason": "STAB • 90 power, learned at level 31"
       },
       {
-        "name": "Water Gun",
+        "name": "Surf",
         "type": "water",
-        "power": 40,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Body Slam",
-        "type": "normal",
-        "power": 85,
+        "name": "Waterfall",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "85 power, learned at level 13"
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -20493,25 +20676,25 @@
         "reason": "STAB • 90 power, learned at level 42"
       },
       {
+        "name": "Facade",
+        "type": "normal",
+        "power": 70,
+        "damageClass": "physical",
+        "reason": "STAB • 70 power, TM/HM"
+      },
+      {
+        "name": "Secret Power",
+        "type": "normal",
+        "power": 70,
+        "damageClass": "physical",
+        "reason": "STAB • 70 power, TM/HM"
+      },
+      {
         "name": "Tackle",
         "type": "normal",
         "power": 40,
         "damageClass": "physical",
         "reason": "STAB • 40 power, learned at level 1"
-      },
-      {
-        "name": "Quick Attack",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 23"
-      },
-      {
-        "name": "Bite",
-        "type": "dark",
-        "power": 60,
-        "damageClass": "physical",
-        "reason": "60 power, learned at level 30"
       }
     ]
   },
@@ -20658,25 +20841,25 @@
         "reason": "STAB • 110 power, learned at level 52"
       },
       {
-        "name": "Water Gun",
+        "name": "Surf",
         "type": "water",
-        "power": 40,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 16"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Aurora Beam",
-        "type": "ice",
-        "power": 65,
-        "damageClass": "special",
-        "reason": "65 power, learned at level 36"
-      },
-      {
-        "name": "Bite",
-        "type": "dark",
-        "power": 60,
+        "name": "Waterfall",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "60 power, learned at level 30"
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -20814,11 +20997,18 @@
     ],
     "bestAttacks": [
       {
-        "name": "Thunder",
+        "name": "Thunderbolt",
         "type": "electric",
-        "power": 110,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 110 power, learned at level 52"
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Shock Wave",
+        "type": "electric",
+        "power": 60,
+        "damageClass": "special",
+        "reason": "STAB • 60 power, TM/HM"
       },
       {
         "name": "Thunder Shock",
@@ -20828,18 +21018,11 @@
         "reason": "STAB • 40 power, learned at level 16"
       },
       {
-        "name": "Tackle",
+        "name": "Hyper Beam",
         "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
-      },
-      {
-        "name": "Quick Attack",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 23"
+        "power": 150,
+        "damageClass": "special",
+        "reason": "150 power, TM/HM"
       }
     ]
   },
@@ -20981,6 +21164,20 @@
     ],
     "bestAttacks": [
       {
+        "name": "Overheat",
+        "type": "fire",
+        "power": 130,
+        "damageClass": "special",
+        "reason": "STAB • 130 power, TM/HM"
+      },
+      {
+        "name": "Fire Blast",
+        "type": "fire",
+        "power": 110,
+        "damageClass": "special",
+        "reason": "STAB • 110 power, TM/HM"
+      },
+      {
         "name": "Flamethrower",
         "type": "fire",
         "power": 90,
@@ -20993,20 +21190,6 @@
         "power": 40,
         "damageClass": "special",
         "reason": "STAB • 40 power, learned at level 16"
-      },
-      {
-        "name": "Fire Spin",
-        "type": "fire",
-        "power": 35,
-        "damageClass": "special",
-        "reason": "STAB • 35 power, learned at level 36"
-      },
-      {
-        "name": "Bite",
-        "type": "dark",
-        "power": 60,
-        "damageClass": "physical",
-        "reason": "60 power, learned at level 30"
       }
     ]
   },
@@ -21142,6 +21325,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Hyper Beam",
+        "type": "normal",
+        "power": 150,
+        "damageClass": "special",
+        "reason": "STAB • 150 power, TM/HM"
+      },
+      {
         "name": "Tri Attack",
         "type": "normal",
         "power": 80,
@@ -21149,25 +21339,18 @@
         "reason": "STAB • 80 power, learned at level 36"
       },
       {
-        "name": "Tackle",
+        "name": "Facade",
         "type": "normal",
-        "power": 40,
+        "power": 70,
         "damageClass": "physical",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 70 power, TM/HM"
       },
       {
-        "name": "Zap Cannon",
-        "type": "electric",
-        "power": 120,
-        "damageClass": "special",
-        "reason": "120 power, learned at level 48"
-      },
-      {
-        "name": "Psybeam",
-        "type": "psychic",
-        "power": 65,
-        "damageClass": "special",
-        "reason": "65 power, learned at level 12"
+        "name": "Secret Power",
+        "type": "normal",
+        "power": 70,
+        "damageClass": "physical",
+        "reason": "STAB • 70 power, TM/HM"
       }
     ]
   },
@@ -21318,25 +21501,25 @@
         "reason": "STAB • 110 power, learned at level 55"
       },
       {
-        "name": "Ancient Power",
-        "type": "rock",
-        "power": 60,
-        "damageClass": "special",
-        "reason": "STAB • 60 power, learned at level 49"
-      },
-      {
-        "name": "Water Gun",
+        "name": "Surf",
         "type": "water",
-        "power": 40,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 19"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Bite",
-        "type": "dark",
-        "power": 60,
+        "name": "Waterfall",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "60 power, learned at level 13"
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -21487,25 +21670,25 @@
         "reason": "STAB • 110 power, learned at level 65"
       },
       {
-        "name": "Ancient Power",
-        "type": "rock",
-        "power": 60,
-        "damageClass": "special",
-        "reason": "STAB • 60 power, learned at level 55"
-      },
-      {
-        "name": "Water Gun",
+        "name": "Surf",
         "type": "water",
-        "power": 40,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Bite",
-        "type": "dark",
-        "power": 60,
+        "name": "Waterfall",
+        "type": "water",
+        "power": 80,
         "damageClass": "physical",
-        "reason": "60 power, learned at level 1"
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
       }
     ]
   },
@@ -21649,6 +21832,20 @@
     ],
     "bestAttacks": [
       {
+        "name": "Surf",
+        "type": "water",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Waterfall",
+        "type": "water",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
         "name": "Ancient Power",
         "type": "rock",
         "power": 60,
@@ -21656,25 +21853,11 @@
         "reason": "STAB • 60 power, learned at level 55"
       },
       {
-        "name": "Mud Shot",
-        "type": "ground",
-        "power": 55,
-        "damageClass": "special",
-        "reason": "55 power, learned at level 25"
-      },
-      {
-        "name": "Scratch",
-        "type": "normal",
-        "power": 40,
+        "name": "Rock Tomb",
+        "type": "rock",
+        "power": 60,
         "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
-      },
-      {
-        "name": "Mega Drain",
-        "type": "grass",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "40 power, learned at level 49"
+        "reason": "STAB • 60 power, TM/HM"
       }
     ]
   },
@@ -21827,32 +22010,32 @@
     ],
     "bestAttacks": [
       {
+        "name": "Surf",
+        "type": "water",
+        "power": 90,
+        "damageClass": "special",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Waterfall",
+        "type": "water",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
+        "name": "Dive",
+        "type": "water",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
         "name": "Ancient Power",
         "type": "rock",
         "power": 60,
         "damageClass": "special",
         "reason": "STAB • 60 power, learned at level 65"
-      },
-      {
-        "name": "Slash",
-        "type": "normal",
-        "power": 70,
-        "damageClass": "physical",
-        "reason": "70 power, learned at level 40"
-      },
-      {
-        "name": "Mud Shot",
-        "type": "ground",
-        "power": 55,
-        "damageClass": "special",
-        "reason": "55 power, learned at level 25"
-      },
-      {
-        "name": "Scratch",
-        "type": "normal",
-        "power": 40,
-        "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
       }
     ]
   },
@@ -21972,6 +22155,13 @@
     ],
     "bestAttacks": [
       {
+        "name": "Fly",
+        "type": "flying",
+        "power": 90,
+        "damageClass": "physical",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
         "name": "Wing Attack",
         "type": "flying",
         "power": 60,
@@ -21986,18 +22176,11 @@
         "reason": "STAB • 60 power, learned at level 29"
       },
       {
-        "name": "Hyper Beam",
-        "type": "normal",
-        "power": 150,
-        "damageClass": "special",
-        "reason": "150 power, learned at level 50"
-      },
-      {
-        "name": "Take Down",
-        "type": "normal",
-        "power": 90,
+        "name": "Rock Tomb",
+        "type": "rock",
+        "power": 60,
         "damageClass": "physical",
-        "reason": "90 power, learned at level 43"
+        "reason": "STAB • 60 power, TM/HM"
       }
     ]
   },
@@ -22174,18 +22357,18 @@
         "reason": "STAB • 85 power, learned at level 33"
       },
       {
+        "name": "Strength",
+        "type": "normal",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
         "name": "Headbutt",
         "type": "normal",
         "power": 70,
         "damageClass": "physical",
         "reason": "STAB • 70 power, learned at level 17"
-      },
-      {
-        "name": "Covet",
-        "type": "normal",
-        "power": 60,
-        "damageClass": "physical",
-        "reason": "STAB • 60 power, learned at level 45"
       }
     ]
   },
@@ -22310,13 +22493,6 @@
     ],
     "bestAttacks": [
       {
-        "name": "Blizzard",
-        "type": "ice",
-        "power": 110,
-        "damageClass": "special",
-        "reason": "STAB • 110 power, learned at level 73"
-      },
-      {
         "name": "Ice Beam",
         "type": "ice",
         "power": 90,
@@ -22324,15 +22500,22 @@
         "reason": "STAB • 90 power, learned at level 49"
       },
       {
-        "name": "Gust",
+        "name": "Fly",
         "type": "flying",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
+        "power": 90,
+        "damageClass": "physical",
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
-        "name": "Powder Snow",
-        "type": "ice",
+        "name": "Aerial Ace",
+        "type": "flying",
+        "power": 60,
+        "damageClass": "physical",
+        "reason": "STAB • 60 power, TM/HM"
+      },
+      {
+        "name": "Gust",
+        "type": "flying",
         "power": 40,
         "damageClass": "special",
         "reason": "STAB • 40 power, learned at level 1"
@@ -22461,11 +22644,18 @@
     ],
     "bestAttacks": [
       {
-        "name": "Thunder",
+        "name": "Fly",
+        "type": "flying",
+        "power": 90,
+        "damageClass": "physical",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Thunderbolt",
         "type": "electric",
-        "power": 110,
+        "power": 90,
         "damageClass": "special",
-        "reason": "STAB • 110 power, learned at level 85"
+        "reason": "STAB • 90 power, TM/HM"
       },
       {
         "name": "Drill Peck",
@@ -22475,18 +22665,11 @@
         "reason": "STAB • 80 power, learned at level 49"
       },
       {
-        "name": "Thunder Shock",
-        "type": "electric",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
-      },
-      {
-        "name": "Peck",
+        "name": "Aerial Ace",
         "type": "flying",
-        "power": 35,
+        "power": 60,
         "damageClass": "physical",
-        "reason": "STAB • 35 power, learned at level 1"
+        "reason": "STAB • 60 power, TM/HM"
       }
     ]
   },
@@ -22620,25 +22803,25 @@
         "reason": "STAB • 140 power, learned at level 85"
       },
       {
+        "name": "Overheat",
+        "type": "fire",
+        "power": 130,
+        "damageClass": "special",
+        "reason": "STAB • 130 power, TM/HM"
+      },
+      {
+        "name": "Fire Blast",
+        "type": "fire",
+        "power": 110,
+        "damageClass": "special",
+        "reason": "STAB • 110 power, TM/HM"
+      },
+      {
         "name": "Heat Wave",
         "type": "fire",
         "power": 95,
         "damageClass": "special",
         "reason": "STAB • 95 power, learned at level 73"
-      },
-      {
-        "name": "Flamethrower",
-        "type": "fire",
-        "power": 90,
-        "damageClass": "special",
-        "reason": "STAB • 90 power, learned at level 49"
-      },
-      {
-        "name": "Wing Attack",
-        "type": "flying",
-        "power": 60,
-        "damageClass": "physical",
-        "reason": "STAB • 60 power, learned at level 1"
       }
     ]
   },
@@ -22799,11 +22982,11 @@
         "reason": "150 power, learned at level 57"
       },
       {
-        "name": "Slam",
-        "type": "normal",
-        "power": 80,
-        "damageClass": "physical",
-        "reason": "80 power, learned at level 29"
+        "name": "Fire Blast",
+        "type": "fire",
+        "power": 110,
+        "damageClass": "special",
+        "reason": "110 power, TM/HM"
       }
     ]
   },
@@ -22964,11 +23147,11 @@
         "reason": "150 power, learned at level 65"
       },
       {
-        "name": "Slam",
-        "type": "normal",
-        "power": 80,
-        "damageClass": "physical",
-        "reason": "80 power, learned at level 29"
+        "name": "Fire Blast",
+        "type": "fire",
+        "power": 110,
+        "damageClass": "special",
+        "reason": "110 power, TM/HM"
       }
     ]
   },
@@ -23120,25 +23303,25 @@
         "reason": "STAB • 120 power, learned at level 61"
       },
       {
+        "name": "Fly",
+        "type": "flying",
+        "power": 90,
+        "damageClass": "physical",
+        "reason": "STAB • 90 power, TM/HM"
+      },
+      {
+        "name": "Dragon Claw",
+        "type": "dragon",
+        "power": 80,
+        "damageClass": "physical",
+        "reason": "STAB • 80 power, TM/HM"
+      },
+      {
         "name": "Wing Attack",
         "type": "flying",
         "power": 60,
         "damageClass": "physical",
         "reason": "STAB • 60 power, learned at level 55"
-      },
-      {
-        "name": "Twister",
-        "type": "dragon",
-        "power": 40,
-        "damageClass": "special",
-        "reason": "STAB • 40 power, learned at level 1"
-      },
-      {
-        "name": "Hyper Beam",
-        "type": "normal",
-        "power": 150,
-        "damageClass": "special",
-        "reason": "150 power, learned at level 75"
       }
     ]
   },
@@ -23298,11 +23481,11 @@
         "reason": "STAB • 50 power, learned at level 1"
       },
       {
-        "name": "Swift",
+        "name": "Hyper Beam",
         "type": "normal",
-        "power": 60,
+        "power": 150,
         "damageClass": "special",
-        "reason": "60 power, learned at level 33"
+        "reason": "150 power, TM/HM"
       }
     ]
   },
@@ -23403,25 +23586,25 @@
         "reason": "STAB • 90 power, learned at level 40"
       },
       {
-        "name": "Mega Punch",
+        "name": "Hyper Beam",
         "type": "normal",
-        "power": 80,
-        "damageClass": "physical",
-        "reason": "80 power, learned at level 20"
-      },
-      {
-        "name": "Ancient Power",
-        "type": "rock",
-        "power": 60,
+        "power": 150,
         "damageClass": "special",
-        "reason": "60 power, learned at level 50"
+        "reason": "150 power, TM/HM"
       },
       {
-        "name": "Pound",
-        "type": "normal",
-        "power": 40,
+        "name": "Focus Punch",
+        "type": "fighting",
+        "power": 150,
         "damageClass": "physical",
-        "reason": "40 power, learned at level 1"
+        "reason": "150 power, TM/HM"
+      },
+      {
+        "name": "Overheat",
+        "type": "fire",
+        "power": 130,
+        "damageClass": "special",
+        "reason": "130 power, TM/HM"
       }
     ]
   }

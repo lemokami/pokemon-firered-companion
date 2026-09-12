@@ -134,41 +134,58 @@ function collectEvolutions(node, out) {
   for (const child of node.evolves_to) collectEvolutions(child, out);
 }
 
-function rankBestAttacks(levelUpMoves, moveDetails, ownTypes) {
-  const damaging = levelUpMoves
+// Ranks the best of a Pokemon's level-up + TM/HM moves for FireRed/LeafGreen.
+// Same-type (STAB) moves are prioritized first (they deal 1.5x damage in-game),
+// then raw power, with a minimum-accuracy cutoff so unreliable moves (e.g. sub-75%
+// accuracy) don't get recommended over safer options when better ones exist.
+// Excluded outright: these deal damage but faint the user, so no in-game guide
+// actually recommends them as a Pokemon's "best attack".
+const SELF_KO_MOVES = new Set(["explosion", "self-destruct"]);
+// Hidden Power's real type/power is set per-Pokemon by hidden IVs in-game;
+// PokeAPI only exposes a placeholder (Normal/60), which would misleadingly
+// show up as "STAB" here, so it's excluded rather than shown as fact.
+const VARIABLE_MOVES = new Set(["hidden-power"]);
+
+function rankBestAttacks(levelUpMoves, machineMoves, moveDetails, ownTypes) {
+  const byName = new Map();
+  for (const m of levelUpMoves) byName.set(m.name, { name: m.name, level: m.level, method: "level-up" });
+  for (const m of machineMoves) if (!byName.has(m.name)) byName.set(m.name, { name: m.name, level: null, method: "machine" });
+
+  const damaging = [...byName.values()]
     .map((m) => ({ ...m, detail: moveDetails.get(m.name) }))
-    .filter((m) => m.detail && m.detail.power != null)
+    .filter(
+      (m) => m.detail && m.detail.power != null && !SELF_KO_MOVES.has(m.name) && !VARIABLE_MOVES.has(m.name)
+    )
     .map((m) => ({
       name: properName(m.name),
       type: m.detail.type,
       power: m.detail.power,
+      accuracy: m.detail.accuracy,
       damageClass: m.detail.damageClass,
       level: m.level,
+      method: m.method,
       stab: ownTypes.includes(m.detail.type),
+      reliable: m.detail.accuracy == null || m.detail.accuracy >= 75,
     }));
 
   damaging.sort((a, b) => {
+    if (a.reliable !== b.reliable) return a.reliable ? -1 : 1;
     if (a.stab !== b.stab) return a.stab ? -1 : 1;
     if (b.power !== a.power) return b.power - a.power;
-    return a.level - b.level;
+    if (a.method !== b.method) return a.method === "level-up" ? -1 : 1;
+    return (a.level ?? 0) - (b.level ?? 0);
   });
 
-  const seen = new Set();
-  const top = [];
-  for (const move of damaging) {
-    if (seen.has(move.name)) continue;
-    seen.add(move.name);
-    top.push({
+  const top = damaging.slice(0, 4).map((move) => {
+    const source = move.method === "machine" ? "TM/HM" : `learned at level ${move.level}`;
+    return {
       name: move.name,
       type: move.type,
       power: move.power,
       damageClass: move.damageClass,
-      reason: move.stab
-        ? `STAB • ${move.power} power, learned at level ${move.level}`
-        : `${move.power} power, learned at level ${move.level}`,
-    });
-    if (top.length === 4) break;
-  }
+      reason: move.stab ? `STAB • ${move.power} power, ${source}` : `${move.power} power, ${source}`,
+    };
+  });
   return top;
 }
 
@@ -235,7 +252,24 @@ async function main() {
       .sort((a, b) => a.level - b.level)
   );
 
-  const allMoveNames = [...new Set(levelUpMovesByPokemon.flat().map((m) => m.name))];
+  // TM/HM-taught moves are what most community "best moveset" guides actually lean
+  // on for coverage (Earthquake, Ice Beam, etc.) — pulled in for ranking purposes,
+  // separate from the level-up table so that stays a straightforward reference.
+  console.log("Collecting FireRed/LeafGreen TM/HM movepools...");
+  const machineMovesByPokemon = pokemonList.map((p) =>
+    p.moves
+      .map((m) => {
+        const learnsByMachine = m.version_group_details.some(
+          (d) => d.version_group.name === VERSION_GROUP && d.move_learn_method.name === "machine"
+        );
+        return learnsByMachine ? { name: m.move.name } : null;
+      })
+      .filter(Boolean)
+  );
+
+  const allMoveNames = [
+    ...new Set([...levelUpMovesByPokemon.flat(), ...machineMovesByPokemon.flat()].map((m) => m.name)),
+  ];
   console.log(`Fetching details for ${allMoveNames.length} unique moves...`);
   const moveJsons = await mapLimit(allMoveNames, 6, (name) => cachedFetch(`${BASE}/move/${name}`));
   const moveDetails = new Map(
@@ -286,7 +320,7 @@ async function main() {
       evolvesFromId: evolvesFromId.get(p.id) ?? null,
       evolutions: evolutionsBySpeciesId.get(p.id) ?? [],
       levelUpMoves,
-      bestAttacks: rankBestAttacks(levelUpMovesByPokemon[i], moveDetails, types),
+      bestAttacks: rankBestAttacks(levelUpMovesByPokemon[i], machineMovesByPokemon[i], moveDetails, types),
     };
   });
 

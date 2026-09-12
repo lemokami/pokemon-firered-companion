@@ -29,6 +29,10 @@ export default function GeneralTips() {
           early game. <strong>Charmander</strong> is the hardest early on — weak to Brock's Rock-types
           — but becomes very strong mid-to-late game once it evolves and learns Fire/Flying coverage.
         </p>
+        <p className="panel-hint">
+          Going Charmander anyway? Grind it to level 13 before the Pewter Gym — it learns the Steel-type
+          move Metal Claw, which is super effective against Brock's Rock-types and evens the fight out.
+        </p>
       </section>
 
       <section className="panel tips-panel">
@@ -106,7 +110,23 @@ export default function GeneralTips() {
           <li>The Itemfinder helps you locate hidden items scattered across routes.</li>
           <li>Old Rod / Good Rod / Super Rod let you fish for Water-types — each is found in a different town.</li>
           <li>The Exp. Share item is invaluable for leveling up newly caught Pokémon without over-training your lead.</li>
+          <li>
+            Unlike modern games, a <strong>TM in FireRed/LeafGreen is consumed the moment you use it</strong> —
+            think about which Pokémon really wants it before teaching it (a few, like Rock Smash and
+            Dig, can be bought again later).
+          </li>
         </ul>
+      </section>
+
+      <section className="panel tips-panel">
+        <h2>Money-Making: The Nugget Bridge Trick</h2>
+        <p>
+          After beating your rival and the five trainers on Nugget Bridge (Route 24), save your game
+          <em> without</em> talking to the Team Rocket grunt waiting at the end. Go heal up, come back,
+          and fight him — he hands you a Nugget and battles you every single time, win or lose, so you
+          can rebattle him over and over for as many Nuggets as you want. Each one sells for 5,000₽ at
+          any Poké Mart, making this the fastest early-game cash method in the game.
+        </p>
       </section>
 
       <section className="panel tips-panel">
@@ -117,6 +137,12 @@ export default function GeneralTips() {
           They add extra story content, new areas, and Pokémon from later generations that aren't
           catchable in the main Kanto region — worth exploring once you've beaten (or while finishing)
           the Elite Four.
+        </p>
+        <p className="panel-hint">
+          After the Hall of Fame, one of the three legendary beasts also starts roaming Kanto — which
+          one is decided by your starter, always the type with an advantage over it: Bulbasaur brings
+          out Entei (Fire), Charmander brings out Suicune (Water), and Squirtle brings out Raikou
+          (Electric). Only that one beast is available per save file.
         </p>
       </section>
 

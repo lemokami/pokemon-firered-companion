@@ -5,14 +5,18 @@ export default function BestAttacks({ attacks }) {
     return (
       <section className="panel best-attacks">
         <h2>Recommended Attacks</h2>
-        <p>No damaging level-up moves found in FireRed/LeafGreen — check the TM/tutor list in-game.</p>
+        <p>No strong damaging moves found for this Pokémon in FireRed/LeafGreen.</p>
       </section>
     );
   }
   return (
     <section className="panel best-attacks">
       <h2>Recommended Attacks</h2>
-      <p className="panel-hint">Best level-up moves for this Pokémon in FireRed/LeafGreen — same-type moves prioritized.</p>
+      <p className="panel-hint">
+        Picked from this Pokémon's level-up and TM/HM moves in FireRed/LeafGreen. A move that matches
+        the Pokémon's own type gets a same-type attack bonus (STAB) — <strong>1.5× damage in-game</strong> —
+        so those are ranked first, then by raw power.
+      </p>
       <div className="best-attacks-grid">
         {attacks.map((a) => (
           <div className="best-attack-card" key={a.name}>

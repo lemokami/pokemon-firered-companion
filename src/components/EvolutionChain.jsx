@@ -14,16 +14,17 @@ function Stage({ id, currentId }) {
   if (!mon) return null;
   return (
     <Link to={`/pokedex/${mon.id}`} className={`evo-stage ${mon.id === currentId ? "current" : ""}`}>
-      <span className="sprite-frame sprite-frame-sm">
-        <img src={mon.sprite} alt={mon.name} className="pixel-sprite" />
-      </span>
+      <img src={mon.sprite} alt={mon.name} className="pixel-sprite evo-sprite" />
       <span>{mon.name}</span>
     </Link>
   );
 }
 
-// Renders one species and, recursively, everything it evolves into.
-// Branching lines (e.g. Eevee) are laid out as stacked rows of arrow+stage.
+// Renders one species and, recursively, everything it evolves into, as ONE
+// connected flow rather than separate floating cards per stage. A straight
+// line (the common case) reads as a single horizontal strip; a branch (e.g.
+// Eevee) fans out into a connected list under its parent, still inside the
+// same card.
 function Branch({ id, currentId }) {
   const mon = byId.get(id);
   if (!mon) return null;
@@ -33,7 +34,7 @@ function Branch({ id, currentId }) {
   return (
     <div className="evo-branch">
       <Stage id={id} currentId={currentId} />
-      <div className="evo-branch-children">
+      <div className={mon.evolutions.length > 1 ? "evo-branch-children multi" : "evo-branch-children"}>
         {mon.evolutions.map((evo) => (
           <div className="evo-arrow-group" key={evo.toId}>
             <div className="evo-arrow">
