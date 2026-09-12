@@ -3,16 +3,22 @@
 // verified acquisition points (Old Rod at Vermilion before Surge, Good/Thunder/
 // Moon/Water Stones sold at the Celadon Dept. Store once you reach Celadon,
 // etc). Gym order is the standard FireRed route order.
+// levelHint is a "be around this level before you walk in" range, set a
+// few levels above that gym's own ace Pokemon (per PokemonDB's verified
+// FireRed trainer data) so you go in with a comfortable buffer:
+// Brock: Onix 14 - Misty: Starmie 21 - Surge: Raichu 24 - Erika: Victreebel/
+// Vileplume 29 - Koga: Weezing 43 - Sabrina: Alakazam 43 - Blaine: Arcanine
+// 47 - Giovanni: Rhyhorn 50 - Champion's ace Charizard is 63.
 export const PLACES = [
-  { id: "pewter", order: 1, name: "Pewter City", leader: "Brock", type: "rock" },
-  { id: "cerulean", order: 2, name: "Cerulean City", leader: "Misty", type: "water" },
-  { id: "vermilion", order: 3, name: "Vermilion City", leader: "Lt. Surge", type: "electric" },
-  { id: "celadon", order: 4, name: "Celadon City", leader: "Erika", type: "grass" },
-  { id: "fuchsia", order: 5, name: "Fuchsia City", leader: "Koga", type: "poison" },
-  { id: "saffron", order: 6, name: "Saffron City", leader: "Sabrina", type: "psychic" },
-  { id: "cinnabar", order: 7, name: "Cinnabar Island", leader: "Blaine", type: "fire" },
-  { id: "viridian", order: 8, name: "Viridian City", leader: "Giovanni", type: "ground" },
-  { id: "elite-four", order: 9, name: "Elite Four & Champion", leader: null, type: null },
+  { id: "pewter", order: 1, name: "Pewter City", leader: "Brock", type: "rock", levelHint: "14-18" },
+  { id: "cerulean", order: 2, name: "Cerulean City", leader: "Misty", type: "water", levelHint: "20-24" },
+  { id: "vermilion", order: 3, name: "Vermilion City", leader: "Lt. Surge", type: "electric", levelHint: "23-27" },
+  { id: "celadon", order: 4, name: "Celadon City", leader: "Erika", type: "grass", levelHint: "28-32" },
+  { id: "fuchsia", order: 5, name: "Fuchsia City", leader: "Koga", type: "poison", levelHint: "40-44" },
+  { id: "saffron", order: 6, name: "Saffron City", leader: "Sabrina", type: "psychic", levelHint: "41-45" },
+  { id: "cinnabar", order: 7, name: "Cinnabar Island", leader: "Blaine", type: "fire", levelHint: "45-49" },
+  { id: "viridian", order: 8, name: "Viridian City", leader: "Giovanni", type: "ground", levelHint: "48-52" },
+  { id: "elite-four", order: 9, name: "Elite Four & Champion", leader: null, type: null, levelHint: "55-65" },
 ];
 
 // Your starter is the one slot this can't hard-code — pick a line, and every

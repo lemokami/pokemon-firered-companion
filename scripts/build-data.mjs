@@ -415,20 +415,47 @@ async function main() {
   ];
   console.log(`Fetching details for ${allMoveNames.length} unique moves...`);
   const moveJsons = await mapLimit(allMoveNames, 6, (name) => cachedFetch(`${BASE}/move/${name}`));
+
+  // PokeAPI's top-level move fields (power/accuracy/pp/type) are the CURRENT
+  // (latest-generation) values. Many moves have changed since Gen III -
+  // Flamethrower/Thunderbolt/Ice Beam were nerfed from 95 to 90 power in Gen
+  // VI, Karate Chop was Normal-type before Gen II, etc. `past_values` records
+  // these changes, each entry naming the version group at which the NEW value
+  // took over (so the recorded value applied to everything before it). This
+  // resolves each field back to what it actually was in FireRed/LeafGreen.
+  console.log("Resolving move data to Gen III values...");
+  const vgNames = new Set([VERSION_GROUP]);
+  for (const m of moveJsons) for (const pv of m.past_values) vgNames.add(pv.version_group.name);
+  const vgJsons = await mapLimit([...vgNames], 6, (name) => cachedFetch(`${BASE}/version-group/${name}`));
+  const versionGroupId = new Map(vgJsons.map((vg) => [vg.name, vg.id]));
+  const targetVgId = versionGroupId.get(VERSION_GROUP);
+
+  function resolveGen3MoveField(move, field, currentValue) {
+    const candidates = move.past_values
+      .filter((pv) => pv[field] != null)
+      .map((pv) => ({ vgId: versionGroupId.get(pv.version_group.name), value: pv[field] }))
+      .filter((c) => c.vgId > targetVgId)
+      .sort((a, b) => a.vgId - b.vgId);
+    return candidates.length > 0 ? candidates[0].value : currentValue;
+  }
+
   const moveDetails = new Map(
-    moveJsons.map((m) => [
-      m.name,
-      {
-        type: m.type.name,
-        power: m.power,
-        accuracy: m.accuracy,
-        pp: m.pp,
-        // Status moves have no physical/special category in any generation;
-        // everything else is reclassified to the Gen III type-based split.
-        damageClass:
-          m.damage_class.name === "status" ? "status" : GEN3_DAMAGE_CLASS_BY_TYPE[m.type.name],
-      },
-    ])
+    moveJsons.map((m) => {
+      // past_values doesn't track damage_class history (physical/special/status
+      // hasn't flipped for any move in our set), only whether it's a status
+      // move is needed from the current data before the Gen III type-based split.
+      const type = resolveGen3MoveField(m, "type", m.type)?.name ?? m.type.name;
+      return [
+        m.name,
+        {
+          type,
+          power: resolveGen3MoveField(m, "power", m.power),
+          accuracy: resolveGen3MoveField(m, "accuracy", m.accuracy),
+          pp: resolveGen3MoveField(m, "pp", m.pp),
+          damageClass: m.damage_class.name === "status" ? "status" : GEN3_DAMAGE_CLASS_BY_TYPE[type],
+        },
+      ];
+    })
   );
 
   console.log("Fetching abilities...");

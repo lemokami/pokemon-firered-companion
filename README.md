@@ -34,6 +34,10 @@ Notable accuracy details baked into the pipeline:
 - Typing is resolved to what it was in Generation III (e.g. Clefairy is Normal, not Fairy).
 - Move categories are reclassified to the Gen I–III type-based physical/special split (PokeAPI reports
   the modern per-move split, e.g. it lists Dark-type moves as Physical, which wasn't true pre-Gen IV).
+- Move power/accuracy/PP/type are resolved to their Gen III values via PokeAPI's `past_values`, not the
+  current top-level fields (which reflect the latest generation). About a fifth of all moves used here
+  have changed since Gen III — e.g. Flamethrower/Thunderbolt/Ice Beam were 95 power (now 90), Knock Off
+  was 20 power (now 65), Karate Chop was Normal-type before Gen II.
 - Evolutions are scoped to the Kanto Dex — later-gen branches (e.g. Eevee's Espeon/Leafeon/etc.) are
   excluded since they aren't part of this dex.
 - "Recommended attacks" ranks each Pokémon's damaging level-up and TM/HM moves by same-type bonus
@@ -42,7 +46,8 @@ Notable accuracy details baked into the pipeline:
 - "Where to Find" pulls real FireRed/LeafGreen encounter data (wild routes, fishing rods, gifts,
   fossils, trades, Game Corner) from PokeAPI's per-Pokémon encounters endpoint.
 - The Recommended Teams page is hand-curated but cross-checked against the same location data and
-  verified item/NPC acquisition points, not just recalled from memory.
+  verified item/NPC acquisition points, not just recalled from memory. Its "team level" hint per gym is
+  set a few levels above that gym's own strongest Pokémon (verified trainer data), not guessed.
 
 ## Build
 

@@ -669,6 +669,17 @@ h2,
   gap: 6px;
 }
 
+.place-level {
+  margin-left: auto;
+  font-family: "VT323", monospace;
+  font-size: 0.95rem;
+  color: var(--accent-dark);
+  background: var(--track-bg);
+  border: 1px solid var(--window-border);
+  border-radius: 4px;
+  padding: 2px 8px;
+}
+
 .roster-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));

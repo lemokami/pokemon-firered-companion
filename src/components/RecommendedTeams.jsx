@@ -110,6 +110,7 @@ export default function RecommendedTeams() {
                   — {place.leader} {place.type && <TypeBadge type={place.type} />}
                 </span>
               )}
+              {place.levelHint && <span className="place-level">Team level: {place.levelHint}</span>}
             </h2>
             <div className="roster-grid">
               {slots.map((slot, i) => (
