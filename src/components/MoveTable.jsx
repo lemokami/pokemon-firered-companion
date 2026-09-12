@@ -5,13 +5,13 @@ export default function MoveTable({ moves }) {
     return (
       <section className="panel">
         <h2>Level-Up Movepool</h2>
-        <p>No level-up moves recorded for FireRed/LeafGreen.</p>
+        <p>No level-up moves recorded for FireRed.</p>
       </section>
     );
   }
   return (
     <section className="panel">
-      <h2>Level-Up Movepool (FireRed/LeafGreen)</h2>
+      <h2>Level-Up Movepool (FireRed)</h2>
       <div className="move-table-wrap">
         <table className="move-table">
           <thead>

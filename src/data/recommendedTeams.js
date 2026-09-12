@@ -2,7 +2,7 @@
 // in this app's own location/level data (see src/data/pokemon.json) and
 // verified acquisition points (Old Rod at Vermilion before Surge, Good/Thunder/
 // Moon/Water Stones sold at the Celadon Dept. Store once you reach Celadon,
-// etc). Gym order is the standard FireRed/LeafGreen route order.
+// etc). Gym order is the standard FireRed route order.
 export const PLACES = [
   { id: "pewter", order: 1, name: "Pewter City", leader: "Brock", type: "rock" },
   { id: "cerulean", order: 2, name: "Cerulean City", leader: "Misty", type: "water" },

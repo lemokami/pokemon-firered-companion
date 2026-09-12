@@ -1,6 +1,6 @@
 # FireRed Companion
 
-A personal companion site for playing Pokémon FireRed/LeafGreen: a Kanto Pokédex (#1–151, grouped by
+A personal companion site for playing Pokémon FireRed: a Kanto Pokédex (#1–151, grouped by
 evolution family) with evolutions, where to find each Pokémon, FireRed-accurate level-up movepools,
 recommended attacks, type matchup tips, a progressive recommended-team builder, and a general
 game-tips page.

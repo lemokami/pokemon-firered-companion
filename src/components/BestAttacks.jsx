@@ -5,7 +5,7 @@ export default function BestAttacks({ attacks }) {
     return (
       <section className="panel best-attacks">
         <h2>Recommended Attacks</h2>
-        <p>No strong damaging moves found for this Pokémon in FireRed/LeafGreen.</p>
+        <p>No strong damaging moves found for this Pokémon in FireRed.</p>
       </section>
     );
   }

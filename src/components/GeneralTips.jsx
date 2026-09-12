@@ -111,7 +111,7 @@ export default function GeneralTips() {
           <li>Old Rod / Good Rod / Super Rod let you fish for Water-types — each is found in a different town.</li>
           <li>The Exp. Share item is invaluable for leveling up newly caught Pokémon without over-training your lead.</li>
           <li>
-            Unlike modern games, a <strong>TM in FireRed/LeafGreen is consumed the moment you use it</strong> —
+            Unlike modern games, a <strong>TM in FireRed is consumed the moment you use it</strong> —
             think about which Pokémon really wants it before teaching it (a few, like Rock Smash and
             Dig, can be bought again later).
           </li>
@@ -132,7 +132,7 @@ export default function GeneralTips() {
       <section className="panel tips-panel">
         <h2>Sevii Islands (Post-Game)</h2>
         <p>
-          FireRed and LeafGreen add the Sevii Islands, a set of seven islands south of Kanto that open
+          FireRed adds the Sevii Islands, a set of seven islands south of Kanto that open
           up progressively after you help Bill's grandfather and connect the Pokémon Network Center.
           They add extra story content, new areas, and Pokémon from later generations that aren't
           catchable in the main Kanto region — worth exploring once you've beaten (or while finishing)
