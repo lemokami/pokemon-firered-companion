@@ -13,9 +13,10 @@ export default function BestAttacks({ attacks }) {
     <section className="panel best-attacks">
       <h2>Recommended Attacks</h2>
       <p className="panel-hint">
-        Picked from this Pokémon's level-up and TM/HM moves in FireRed/LeafGreen. A move that matches
-        the Pokémon's own type gets a same-type attack bonus (STAB) — <strong>1.5× damage in-game</strong> —
-        so those are ranked first, then by raw power.
+        Picked from moves this Pokémon learns by leveling up or via a TM/HM (Technical/Hidden Machine —
+        an item that teaches a move outright, used once per TM in this game) in FireRed. A move that
+        matches the Pokémon's own type gets a same-type attack bonus (STAB) —{" "}
+        <strong>1.5× damage in-game</strong> — so those are ranked first, then by raw power.
       </p>
       <div className="best-attacks-grid">
         {attacks.map((a) => (
@@ -28,7 +29,16 @@ export default function BestAttacks({ attacks }) {
               <span className="damage-class">{a.damageClass}</span>
               <span>{a.power} power</span>
             </div>
-            <span className="unlocked-at-badge">Unlocked: {a.unlockedAt}</span>
+            <span
+              className="unlocked-at-badge"
+              title={
+                a.unlockedAt === "TM/HM"
+                  ? "Taught with a TM/HM item (Technical/Hidden Machine), not learned by leveling up"
+                  : undefined
+              }
+            >
+              Unlocked: {a.unlockedAt}
+            </span>
             <p className="best-attack-reason">{a.reason}</p>
           </div>
         ))}
