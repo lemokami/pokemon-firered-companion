@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
-import { Link } from "react-router-dom";
 import pokemon from "../data/pokemon.json";
-import TypeBadge from "./TypeBadge";
+import { byId, FAMILIES } from "../utils/evolution";
+import { EvolutionTree } from "./EvolutionChain";
 
 const ALL_TYPES = [...new Set(pokemon.flatMap((p) => p.types))].sort();
 
@@ -11,12 +11,16 @@ export default function PokedexList() {
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return pokemon.filter((p) => {
-      const matchesQuery = q === "" || p.name.toLowerCase().includes(q) || String(p.id) === q;
-      const matchesType = typeFilter === "" || p.types.includes(typeFilter);
+    return FAMILIES.filter((family) => {
+      const members = family.memberIds.map((id) => byId.get(id));
+      const matchesQuery =
+        q === "" || members.some((m) => m.name.toLowerCase().includes(q) || String(m.id) === q);
+      const matchesType = typeFilter === "" || members.some((m) => m.types.includes(typeFilter));
       return matchesQuery && matchesType;
     });
   }, [query, typeFilter]);
+
+  const shownCount = filtered.reduce((sum, f) => sum + f.memberIds.length, 0);
 
   return (
     <div className="pokedex-page">
@@ -39,23 +43,14 @@ export default function PokedexList() {
       </div>
 
       <p className="result-count">
-        {filtered.length} of {pokemon.length} Pokémon
+        {filtered.length} of {FAMILIES.length} evolution families ({shownCount} of {pokemon.length} Pokémon)
       </p>
 
-      <div className="pokedex-grid">
-        {filtered.map((p) => (
-          <Link to={`/pokedex/${p.id}`} key={p.id} className="pokemon-card">
-            <span className="pokemon-card-id">#{String(p.id).padStart(3, "0")}</span>
-            <span className="sprite-frame">
-              <img src={p.sprite} alt={p.name} loading="lazy" className="pixel-sprite" />
-            </span>
-            <span className="pokemon-card-name">{p.name}</span>
-            <span className="pokemon-card-types">
-              {p.types.map((t) => (
-                <TypeBadge key={t} type={t} />
-              ))}
-            </span>
-          </Link>
+      <div className="family-list">
+        {filtered.map((family) => (
+          <div key={family.rootId} className="family-card">
+            <EvolutionTree rootId={family.rootId} richInfo />
+          </div>
         ))}
       </div>
     </div>

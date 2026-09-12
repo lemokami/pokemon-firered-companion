@@ -25,6 +25,20 @@ const ALL_TYPES = [
   "ground", "flying", "psychic", "bug", "rock", "ghost", "dragon", "dark", "steel",
 ];
 
+// PokeAPI's move.damage_class reflects the MODERN per-move physical/special
+// split (introduced in Gen IV). Generations I-III (including FireRed/LeafGreen)
+// used an older rule where category was determined purely by the move's type,
+// which disagrees with the modern split for several types (e.g. Dark-type
+// moves were Special pre-Gen IV; Crunch/Bite are Physical today). This maps
+// each type to its Gen III category so the "Cat." column and move rankings
+// are accurate to what FireRed players would actually see.
+const GEN3_DAMAGE_CLASS_BY_TYPE = {
+  normal: "physical", fighting: "physical", flying: "physical", ground: "physical",
+  rock: "physical", bug: "physical", ghost: "physical", poison: "physical", steel: "physical",
+  water: "special", grass: "special", fire: "special", ice: "special",
+  electric: "special", psychic: "special", dragon: "special", dark: "special",
+};
+
 const GEN_ORDER = {
   "generation-i": 1,
   "generation-ii": 2,
@@ -234,8 +248,12 @@ async function main() {
   const chains = await mapLimit(chainUrls, 6, (url) => cachedFetch(url));
   const evolutionsBySpeciesId = new Map();
   for (const chain of chains) collectEvolutions(chain.chain, evolutionsBySpeciesId);
+  // Only within-scope parents count: a few Kanto Pokemon (Pikachu, Clefairy...)
+  // have a Gen II "baby" pre-evolution (Pichu, Cleffa...) outside the Kanto Dex,
+  // which would otherwise leave evolvesFromId pointing at a nonexistent entry.
   const evolvesFromId = new Map();
   for (const [fromId, evolutions] of evolutionsBySpeciesId) {
+    if (fromId > DEX_COUNT) continue;
     for (const evo of evolutions) evolvesFromId.set(evo.toId, fromId);
   }
 
@@ -280,7 +298,10 @@ async function main() {
         power: m.power,
         accuracy: m.accuracy,
         pp: m.pp,
-        damageClass: m.damage_class.name,
+        // Status moves have no physical/special category in any generation;
+        // everything else is reclassified to the Gen III type-based split.
+        damageClass:
+          m.damage_class.name === "status" ? "status" : GEN3_DAMAGE_CLASS_BY_TYPE[m.type.name],
       },
     ])
   );

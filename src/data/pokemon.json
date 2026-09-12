@@ -79,7 +79,7 @@
         "power": 45,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 15,
@@ -106,7 +106,7 @@
         "power": 55,
         "accuracy": 95,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 25,
@@ -157,7 +157,7 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
@@ -171,7 +171,7 @@
         "name": "Razor Leaf",
         "type": "grass",
         "power": 55,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 55 power, learned at level 20"
       }
     ]
@@ -256,7 +256,7 @@
         "power": 45,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 15,
@@ -283,7 +283,7 @@
         "power": 55,
         "accuracy": 95,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 29,
@@ -334,7 +334,7 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
@@ -348,7 +348,7 @@
         "name": "Razor Leaf",
         "type": "grass",
         "power": 55,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 55 power, learned at level 22"
       }
     ]
@@ -397,7 +397,7 @@
         "power": 45,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 1,
@@ -451,7 +451,7 @@
         "power": 55,
         "accuracy": 95,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 29,
@@ -502,7 +502,7 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
@@ -516,7 +516,7 @@
         "name": "Razor Leaf",
         "type": "grass",
         "power": 55,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 55 power, learned at level 22"
       }
     ]
@@ -1129,7 +1129,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 23,
@@ -1196,14 +1196,14 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       }
     ]
@@ -1303,7 +1303,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 25,
@@ -1370,14 +1370,14 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       }
     ]
@@ -1468,7 +1468,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 25,
@@ -1535,14 +1535,14 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       }
     ]
@@ -1774,7 +1774,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 35,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 34,
@@ -1801,7 +1801,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 5,
-        "damageClass": "special"
+        "damageClass": "physical"
       }
     ],
     "bestAttacks": [
@@ -1809,7 +1809,7 @@
         "name": "Silver Wind",
         "type": "bug",
         "power": 60,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 60 power, learned at level 47"
       },
       {
@@ -1823,14 +1823,14 @@
         "name": "Gust",
         "type": "flying",
         "power": 40,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 40 power, learned at level 28"
       },
       {
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "150 power, TM/HM"
       }
     ]
@@ -2048,7 +2048,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 20,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 35,
@@ -2083,7 +2083,7 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
@@ -2104,7 +2104,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "150 power, TM/HM"
       }
     ]
@@ -2180,7 +2180,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 35,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 13,
@@ -2321,7 +2321,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 35,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 1,
@@ -2471,7 +2471,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 35,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 1,
@@ -2551,7 +2551,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 150 power, TM/HM"
       },
       {
@@ -2669,7 +2669,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 20,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 34,
@@ -2803,7 +2803,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 20,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 40,
@@ -2829,7 +2829,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 150 power, TM/HM"
       },
       {
@@ -2944,7 +2944,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 20,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 25,
@@ -3094,7 +3094,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 20,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 32,
@@ -3129,7 +3129,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 150 power, TM/HM"
       },
       {
@@ -3232,7 +3232,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 20,
@@ -3259,7 +3259,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 30,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 37,
@@ -3277,7 +3277,7 @@
         "power": null,
         "accuracy": 100,
         "pp": 10,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 37,
@@ -3303,14 +3303,14 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
         "name": "Acid",
         "type": "poison",
         "power": 40,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 40 power, learned at level 32"
       },
       {
@@ -3397,7 +3397,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 20,
@@ -3424,7 +3424,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 30,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 46,
@@ -3442,7 +3442,7 @@
         "power": null,
         "accuracy": 100,
         "pp": 10,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 46,
@@ -3468,14 +3468,14 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
         "name": "Acid",
         "type": "poison",
         "power": 40,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 40 power, learned at level 38"
       },
       {
@@ -3489,7 +3489,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "150 power, TM/HM"
       }
     ]
@@ -3523,7 +3523,7 @@
       "steel"
     ],
     "immunities": [],
-    "evolvesFromId": 172,
+    "evolvesFromId": null,
     "evolutions": [
       {
         "toId": 26,
@@ -3762,7 +3762,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "150 power, TM/HM"
       }
     ]
@@ -3864,7 +3864,7 @@
         "power": 60,
         "accuracy": null,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 37,
@@ -4012,7 +4012,7 @@
         "power": 60,
         "accuracy": null,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 42,
@@ -4068,7 +4068,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "150 power, TM/HM"
       }
     ]
@@ -4168,7 +4168,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 23,
@@ -4204,7 +4204,7 @@
         "power": 80,
         "accuracy": 100,
         "pp": 15,
-        "damageClass": "physical"
+        "damageClass": "special"
       }
     ],
     "bestAttacks": [
@@ -4212,7 +4212,7 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
@@ -4333,7 +4333,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 26,
@@ -4369,7 +4369,7 @@
         "power": 80,
         "accuracy": 100,
         "pp": 15,
-        "damageClass": "physical"
+        "damageClass": "special"
       }
     ],
     "bestAttacks": [
@@ -4377,7 +4377,7 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
@@ -4509,7 +4509,7 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
@@ -4667,7 +4667,7 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
@@ -4832,7 +4832,7 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
@@ -4964,7 +4964,7 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
@@ -5010,7 +5010,7 @@
     "immunities": [
       "ghost"
     ],
-    "evolvesFromId": 173,
+    "evolvesFromId": null,
     "evolutions": [
       {
         "toId": 36,
@@ -5243,7 +5243,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 150 power, TM/HM"
       },
       {
@@ -5586,7 +5586,7 @@
     "immunities": [
       "ghost"
     ],
-    "evolvesFromId": 174,
+    "evolvesFromId": null,
     "evolutions": [
       {
         "toId": 40,
@@ -5686,7 +5686,7 @@
         "power": 90,
         "accuracy": 100,
         "pp": 10,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 49,
@@ -5710,7 +5710,7 @@
         "name": "Hyper Voice",
         "type": "normal",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, learned at level 44"
       },
       {
@@ -5801,7 +5801,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 150 power, TM/HM"
       },
       {
@@ -5909,7 +5909,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 21,
@@ -5936,7 +5936,7 @@
         "power": 60,
         "accuracy": 95,
         "pp": 25,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 36,
@@ -5971,7 +5971,7 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
@@ -5985,7 +5985,7 @@
         "name": "Air Cutter",
         "type": "flying",
         "power": 60,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 60 power, learned at level 31"
       },
       {
@@ -6079,7 +6079,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 21,
@@ -6106,7 +6106,7 @@
         "power": 60,
         "accuracy": 95,
         "pp": 25,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 42,
@@ -6141,7 +6141,7 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
@@ -6155,7 +6155,7 @@
         "name": "Air Cutter",
         "type": "flying",
         "power": 60,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 60 power, learned at level 35"
       },
       {
@@ -6265,7 +6265,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 30,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 32,
@@ -6305,7 +6305,7 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
@@ -6415,7 +6415,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 30,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 35,
@@ -6455,7 +6455,7 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
@@ -6569,7 +6569,7 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
@@ -6738,7 +6738,7 @@
         "name": "Bullet Seed",
         "type": "grass",
         "power": 25,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 25 power, TM/HM"
       }
     ]
@@ -6891,7 +6891,7 @@
         "name": "Bullet Seed",
         "type": "grass",
         "power": 25,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 25 power, TM/HM"
       }
     ]
@@ -7047,7 +7047,7 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
@@ -7153,7 +7153,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 5,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 17,
@@ -7198,7 +7198,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 35,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 36,
@@ -7233,7 +7233,7 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
@@ -7247,14 +7247,14 @@
         "name": "Silver Wind",
         "type": "bug",
         "power": 60,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 60 power, learned at level 1"
       },
       {
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "150 power, TM/HM"
       }
     ]
@@ -7365,7 +7365,7 @@
         "power": 20,
         "accuracy": 100,
         "pp": 10,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 33,
@@ -7414,14 +7414,14 @@
         "name": "Mud Slap",
         "type": "ground",
         "power": 20,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 20 power, learned at level 25"
       },
       {
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "90 power, TM/HM"
       }
     ]
@@ -7495,7 +7495,7 @@
         "power": 80,
         "accuracy": 100,
         "pp": 10,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 9,
@@ -7531,7 +7531,7 @@
         "power": 20,
         "accuracy": 100,
         "pp": 10,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 26,
@@ -7596,7 +7596,7 @@
         "name": "Mud Slap",
         "type": "ground",
         "power": 20,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 20 power, learned at level 25"
       }
     ]
@@ -7666,7 +7666,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 18,
@@ -7684,7 +7684,7 @@
         "power": 60,
         "accuracy": null,
         "pp": 20,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 31,
@@ -7809,7 +7809,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 1,
@@ -7836,7 +7836,7 @@
         "power": 60,
         "accuracy": null,
         "pp": 20,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 34,
@@ -7889,7 +7889,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 150 power, TM/HM"
       },
       {
@@ -8059,14 +8059,14 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       }
     ]
@@ -8206,14 +8206,14 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       }
     ]
@@ -8617,7 +8617,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 1,
@@ -8671,7 +8671,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 37,
@@ -8727,7 +8727,7 @@
         "name": "Flame Wheel",
         "type": "fire",
         "power": 60,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 60 power, learned at level 31"
       }
     ]
@@ -8775,7 +8775,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 1,
@@ -8980,14 +8980,14 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       }
     ]
@@ -9127,14 +9127,14 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       }
     ]
@@ -9251,7 +9251,7 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       }
     ]
@@ -9334,7 +9334,7 @@
         "name": "Shadow Ball",
         "type": "ghost",
         "power": 80,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "80 power, TM/HM"
       }
     ]
@@ -10266,7 +10266,7 @@
         "power": 45,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 6,
@@ -10320,7 +10320,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 30,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 30,
@@ -10338,7 +10338,7 @@
         "power": 55,
         "accuracy": 95,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 45,
@@ -10362,7 +10362,7 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
@@ -10376,7 +10376,7 @@
         "name": "Razor Leaf",
         "type": "grass",
         "power": 55,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 55 power, learned at level 37"
       }
     ]
@@ -10434,7 +10434,7 @@
         "power": 45,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 1,
@@ -10488,7 +10488,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 30,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 33,
@@ -10506,7 +10506,7 @@
         "power": 55,
         "accuracy": 95,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 54,
@@ -10530,7 +10530,7 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
@@ -10544,7 +10544,7 @@
         "name": "Razor Leaf",
         "type": "grass",
         "power": 55,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 55 power, learned at level 42"
       }
     ]
@@ -10593,7 +10593,7 @@
         "power": 45,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 1,
@@ -10602,7 +10602,7 @@
         "power": 55,
         "accuracy": 95,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 1,
@@ -10638,7 +10638,7 @@
         "power": null,
         "accuracy": 100,
         "pp": 10,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 1,
@@ -10662,7 +10662,7 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
@@ -10676,7 +10676,7 @@
         "name": "Razor Leaf",
         "type": "grass",
         "power": 55,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 55 power, learned at level 1"
       }
     ]
@@ -10763,7 +10763,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 30,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 25,
@@ -10830,14 +10830,14 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       }
     ]
@@ -10915,7 +10915,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 30,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 25,
@@ -10982,14 +10982,14 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       }
     ]
@@ -12037,7 +12037,7 @@
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
@@ -12217,7 +12217,7 @@
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
@@ -12325,7 +12325,7 @@
         "power": null,
         "accuracy": 90,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 21,
@@ -12343,7 +12343,7 @@
         "power": 65,
         "accuracy": 100,
         "pp": 20,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 32,
@@ -12361,7 +12361,7 @@
         "power": 60,
         "accuracy": null,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 44,
@@ -12394,7 +12394,7 @@
         "name": "Spark",
         "type": "electric",
         "power": 65,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 65 power, learned at level 26"
       },
       {
@@ -12500,7 +12500,7 @@
         "power": null,
         "accuracy": 90,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 21,
@@ -12518,7 +12518,7 @@
         "power": 65,
         "accuracy": 100,
         "pp": 20,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 35,
@@ -12536,7 +12536,7 @@
         "power": 80,
         "accuracy": 100,
         "pp": 10,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 53,
@@ -12569,7 +12569,7 @@
         "name": "Spark",
         "type": "electric",
         "power": 65,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 65 power, learned at level 26"
       },
       {
@@ -12668,7 +12668,7 @@
         "power": 65,
         "accuracy": 100,
         "pp": 20,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 26,
@@ -12818,7 +12818,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 20,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 13,
@@ -12836,7 +12836,7 @@
         "power": 80,
         "accuracy": 100,
         "pp": 10,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 25,
@@ -12854,7 +12854,7 @@
         "power": 90,
         "accuracy": 100,
         "pp": 10,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 37,
@@ -12880,7 +12880,7 @@
         "name": "Uproar",
         "type": "normal",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, learned at level 33"
       },
       {
@@ -12894,7 +12894,7 @@
         "name": "Tri Attack",
         "type": "normal",
         "power": 80,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 80 power, learned at level 21"
       },
       {
@@ -12977,7 +12977,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 20,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 21,
@@ -12986,7 +12986,7 @@
         "power": 80,
         "accuracy": 100,
         "pp": 10,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 25,
@@ -13004,7 +13004,7 @@
         "power": 90,
         "accuracy": 100,
         "pp": 10,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 47,
@@ -13030,14 +13030,14 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 150 power, TM/HM"
       },
       {
         "name": "Uproar",
         "type": "normal",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, learned at level 38"
       },
       {
@@ -13051,7 +13051,7 @@
         "name": "Tri Attack",
         "type": "normal",
         "power": 80,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 80 power, learned at level 21"
       }
     ]
@@ -13184,14 +13184,14 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
@@ -13281,7 +13281,7 @@
         "power": 75,
         "accuracy": 100,
         "pp": 15,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 29,
@@ -13348,14 +13348,14 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       }
     ]
@@ -13447,7 +13447,7 @@
         "power": 65,
         "accuracy": 100,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 19,
@@ -13483,7 +13483,7 @@
         "power": 90,
         "accuracy": 100,
         "pp": 10,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 53,
@@ -13500,14 +13500,14 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, learned at level 43"
       },
       {
         "name": "Sludge",
         "type": "poison",
         "power": 65,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 65 power, learned at level 13"
       },
       {
@@ -13603,7 +13603,7 @@
         "power": 65,
         "accuracy": 100,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 19,
@@ -13639,7 +13639,7 @@
         "power": 90,
         "accuracy": 100,
         "pp": 10,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 61,
@@ -13656,21 +13656,21 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, learned at level 47"
       },
       {
         "name": "Sludge",
         "type": "poison",
         "power": 65,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 65 power, learned at level 13"
       },
       {
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "150 power, TM/HM"
       },
       {
@@ -13750,7 +13750,7 @@
         "power": 25,
         "accuracy": 100,
         "pp": 30,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 15,
@@ -13795,7 +13795,7 @@
         "power": 35,
         "accuracy": 85,
         "pp": 15,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 50,
@@ -13819,7 +13819,7 @@
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
@@ -13833,7 +13833,7 @@
         "name": "Clamp",
         "type": "water",
         "power": 35,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 35 power, learned at level 43"
       }
     ]
@@ -13947,7 +13947,7 @@
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
@@ -14050,7 +14050,7 @@
         "power": null,
         "accuracy": 100,
         "pp": 15,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 21,
@@ -14086,7 +14086,7 @@
         "power": 80,
         "accuracy": 100,
         "pp": 15,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 41,
@@ -14112,14 +14112,14 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
         "name": "Shadow Ball",
         "type": "ghost",
         "power": 80,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 80 power, learned at level 36"
       },
       {
@@ -14229,7 +14229,7 @@
         "power": null,
         "accuracy": 100,
         "pp": 15,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 21,
@@ -14274,7 +14274,7 @@
         "power": 80,
         "accuracy": 100,
         "pp": 15,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 53,
@@ -14300,14 +14300,14 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
         "name": "Shadow Ball",
         "type": "ghost",
         "power": 80,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 80 power, learned at level 45"
       },
       {
@@ -14408,7 +14408,7 @@
         "power": null,
         "accuracy": 100,
         "pp": 15,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 21,
@@ -14453,7 +14453,7 @@
         "power": 80,
         "accuracy": 100,
         "pp": 15,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 53,
@@ -14479,14 +14479,14 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
         "name": "Shadow Ball",
         "type": "ghost",
         "power": 80,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 80 power, learned at level 45"
       },
       {
@@ -15028,7 +15028,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "150 power, TM/HM"
       }
     ]
@@ -15119,7 +15119,7 @@
         "power": 55,
         "accuracy": 95,
         "pp": 15,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 27,
@@ -15155,7 +15155,7 @@
         "power": 100,
         "accuracy": 90,
         "pp": 10,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 49,
@@ -15172,7 +15172,7 @@
         "name": "Crabhammer",
         "type": "water",
         "power": 100,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 100 power, learned at level 45"
       },
       {
@@ -15186,7 +15186,7 @@
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
@@ -15284,7 +15284,7 @@
         "power": 55,
         "accuracy": 95,
         "pp": 15,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 27,
@@ -15320,7 +15320,7 @@
         "power": 100,
         "accuracy": 90,
         "pp": 10,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 65,
@@ -15337,7 +15337,7 @@
         "name": "Crabhammer",
         "type": "water",
         "power": 100,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 100 power, learned at level 57"
       },
       {
@@ -15351,7 +15351,7 @@
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
@@ -15439,7 +15439,7 @@
         "power": null,
         "accuracy": 90,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 21,
@@ -15448,7 +15448,7 @@
         "power": 65,
         "accuracy": 100,
         "pp": 20,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 27,
@@ -15484,7 +15484,7 @@
         "power": 60,
         "accuracy": null,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 46,
@@ -15517,7 +15517,7 @@
         "name": "Spark",
         "type": "electric",
         "power": 65,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 65 power, learned at level 21"
       },
       {
@@ -15584,7 +15584,7 @@
         "power": null,
         "accuracy": 90,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 1,
@@ -15611,7 +15611,7 @@
         "power": 65,
         "accuracy": 100,
         "pp": 20,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 27,
@@ -15647,7 +15647,7 @@
         "power": 60,
         "accuracy": null,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 54,
@@ -15680,7 +15680,7 @@
         "name": "Spark",
         "type": "electric",
         "power": 65,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 65 power, learned at level 21"
       },
       {
@@ -15694,7 +15694,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "150 power, TM/HM"
       }
     ]
@@ -15776,7 +15776,7 @@
         "power": 90,
         "accuracy": 100,
         "pp": 10,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 7,
@@ -16382,7 +16382,7 @@
       "dark"
     ],
     "immunities": [],
-    "evolvesFromId": 236,
+    "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
       {
@@ -16564,7 +16564,7 @@
       "dark"
     ],
     "immunities": [],
-    "evolvesFromId": 236,
+    "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
       {
@@ -16601,7 +16601,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 20,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 20,
@@ -16619,7 +16619,7 @@
         "power": 75,
         "accuracy": 100,
         "pp": 15,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 26,
@@ -16628,7 +16628,7 @@
         "power": 75,
         "accuracy": 100,
         "pp": 15,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 26,
@@ -16637,7 +16637,7 @@
         "power": 75,
         "accuracy": 100,
         "pp": 15,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 32,
@@ -16771,7 +16771,7 @@
         "power": 65,
         "accuracy": 100,
         "pp": 20,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 23,
@@ -16833,7 +16833,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 150 power, TM/HM"
       },
       {
@@ -16928,7 +16928,7 @@
         "power": 30,
         "accuracy": 70,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 17,
@@ -16946,7 +16946,7 @@
         "power": 65,
         "accuracy": 100,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 25,
@@ -16999,14 +16999,14 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
         "name": "Sludge",
         "type": "poison",
         "power": 65,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 65 power, learned at level 21"
       },
       {
@@ -17084,7 +17084,7 @@
         "power": 30,
         "accuracy": 70,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 1,
@@ -17102,7 +17102,7 @@
         "power": 65,
         "accuracy": 100,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 25,
@@ -17155,21 +17155,21 @@
         "name": "Sludge Bomb",
         "type": "poison",
         "power": 90,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 90 power, TM/HM"
       },
       {
         "name": "Sludge",
         "type": "poison",
         "power": 65,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 65 power, learned at level 21"
       },
       {
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "150 power, TM/HM"
       },
       {
@@ -17545,7 +17545,7 @@
     "immunities": [
       "ghost"
     ],
-    "evolvesFromId": 440,
+    "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
       {
@@ -17662,7 +17662,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 150 power, TM/HM"
       },
       {
@@ -17786,7 +17786,7 @@
         "power": 45,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 28,
@@ -17853,7 +17853,7 @@
         "name": "Vine Whip",
         "type": "grass",
         "power": 45,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 45 power, learned at level 22"
       },
       {
@@ -17920,7 +17920,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 13,
@@ -17991,7 +17991,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 150 power, TM/HM"
       },
       {
@@ -18152,14 +18152,14 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       }
     ]
@@ -18290,14 +18290,14 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       }
     ]
@@ -18415,7 +18415,7 @@
         "power": 80,
         "accuracy": 100,
         "pp": 15,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 43,
@@ -18457,14 +18457,14 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, learned at level 38"
       },
       {
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
@@ -18580,7 +18580,7 @@
         "power": 80,
         "accuracy": 100,
         "pp": 15,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 49,
@@ -18622,14 +18622,14 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, learned at level 41"
       },
       {
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
@@ -18745,7 +18745,7 @@
         "power": 60,
         "accuracy": null,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 28,
@@ -18812,14 +18812,14 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       }
     ]
@@ -18889,7 +18889,7 @@
         "power": 60,
         "accuracy": null,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 1,
@@ -18929,14 +18929,14 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       }
     ]
@@ -18971,7 +18971,7 @@
       "psychic"
     ],
     "immunities": [],
-    "evolvesFromId": 439,
+    "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
       {
@@ -19145,7 +19145,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "150 power, TM/HM"
       }
     ]
@@ -19223,7 +19223,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 20,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 16,
@@ -19315,7 +19315,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "150 power, TM/HM"
       }
     ]
@@ -19354,7 +19354,7 @@
       "psychic"
     ],
     "immunities": [],
-    "evolvesFromId": 238,
+    "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
       {
@@ -19409,7 +19409,7 @@
         "power": 75,
         "accuracy": 100,
         "pp": 15,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 35,
@@ -19476,7 +19476,7 @@
         "name": "Ice Punch",
         "type": "ice",
         "power": 75,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 75 power, learned at level 25"
       },
       {
@@ -19517,7 +19517,7 @@
       "steel"
     ],
     "immunities": [],
-    "evolvesFromId": 239,
+    "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
       {
@@ -19527,7 +19527,7 @@
         "power": 75,
         "accuracy": 100,
         "pp": 15,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 1,
@@ -19563,7 +19563,7 @@
         "power": 60,
         "accuracy": null,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 36,
@@ -19605,7 +19605,7 @@
         "name": "Thunder Punch",
         "type": "electric",
         "power": 75,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 75 power, learned at level 1"
       },
       {
@@ -19619,7 +19619,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "150 power, TM/HM"
       }
     ]
@@ -19657,7 +19657,7 @@
       "steel"
     ],
     "immunities": [],
-    "evolvesFromId": 240,
+    "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
       {
@@ -19667,7 +19667,7 @@
         "power": 75,
         "accuracy": 100,
         "pp": 15,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 1,
@@ -19694,7 +19694,7 @@
         "power": 30,
         "accuracy": 70,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 25,
@@ -19761,7 +19761,7 @@
         "name": "Fire Punch",
         "type": "fire",
         "power": 75,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 75 power, learned at level 1"
       },
       {
@@ -19903,7 +19903,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "150 power, TM/HM"
       },
       {
@@ -20011,7 +20011,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 20,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 26,
@@ -20055,7 +20055,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 150 power, TM/HM"
       },
       {
@@ -20216,7 +20216,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 25,
@@ -20279,7 +20279,7 @@
         "power": 150,
         "accuracy": 90,
         "pp": 5,
-        "damageClass": "special"
+        "damageClass": "physical"
       }
     ],
     "bestAttacks": [
@@ -20301,14 +20301,14 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       }
     ]
@@ -20483,7 +20483,7 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       }
     ]
@@ -20646,7 +20646,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 36,
@@ -20793,7 +20793,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 36,
@@ -20851,14 +20851,14 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       }
     ]
@@ -21021,7 +21021,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "150 power, TM/HM"
       }
     ]
@@ -21123,7 +21123,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 36,
@@ -21141,7 +21141,7 @@
         "power": 30,
         "accuracy": 70,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 47,
@@ -21302,7 +21302,7 @@
         "power": 80,
         "accuracy": 100,
         "pp": 10,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 44,
@@ -21328,14 +21328,14 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 150 power, TM/HM"
       },
       {
         "name": "Tri Attack",
         "type": "normal",
         "power": 80,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 80 power, learned at level 36"
       },
       {
@@ -21426,7 +21426,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 19,
@@ -21444,7 +21444,7 @@
         "power": 55,
         "accuracy": 95,
         "pp": 15,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 31,
@@ -21480,7 +21480,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 5,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 55,
@@ -21511,14 +21511,14 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       }
     ]
@@ -21568,7 +21568,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 1,
@@ -21604,7 +21604,7 @@
         "power": 55,
         "accuracy": 95,
         "pp": 15,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 31,
@@ -21649,7 +21649,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 5,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 65,
@@ -21680,14 +21680,14 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       }
     ]
@@ -21782,7 +21782,7 @@
         "power": 55,
         "accuracy": 95,
         "pp": 15,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 31,
@@ -21827,7 +21827,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 5,
-        "damageClass": "special"
+        "damageClass": "physical"
       }
     ],
     "bestAttacks": [
@@ -21842,14 +21842,14 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
         "name": "Ancient Power",
         "type": "rock",
         "power": 60,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 60 power, learned at level 55"
       },
       {
@@ -21951,7 +21951,7 @@
         "power": 55,
         "accuracy": 95,
         "pp": 15,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 31,
@@ -22005,7 +22005,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 5,
-        "damageClass": "special"
+        "damageClass": "physical"
       }
     ],
     "bestAttacks": [
@@ -22020,21 +22020,21 @@
         "name": "Waterfall",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
         "name": "Dive",
         "type": "water",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
         "name": "Ancient Power",
         "type": "rock",
         "power": 60,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 60 power, learned at level 65"
       }
     ]
@@ -22105,7 +22105,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 25,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 22,
@@ -22123,7 +22123,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 5,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 36,
@@ -22150,7 +22150,7 @@
         "power": 150,
         "accuracy": 90,
         "pp": 5,
-        "damageClass": "special"
+        "damageClass": "physical"
       }
     ],
     "bestAttacks": [
@@ -22172,7 +22172,7 @@
         "name": "Ancient Power",
         "type": "rock",
         "power": 60,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 60 power, learned at level 29"
       },
       {
@@ -22211,7 +22211,7 @@
     "immunities": [
       "ghost"
     ],
-    "evolvesFromId": 446,
+    "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
       {
@@ -22284,7 +22284,7 @@
         "power": 50,
         "accuracy": 100,
         "pp": 15,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 33,
@@ -22338,7 +22338,7 @@
         "power": 150,
         "accuracy": 90,
         "pp": 5,
-        "damageClass": "special"
+        "damageClass": "physical"
       }
     ],
     "bestAttacks": [
@@ -22346,7 +22346,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 150 power, learned at level 53"
       },
       {
@@ -22416,7 +22416,7 @@
         "power": 40,
         "accuracy": 100,
         "pp": 35,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 1,
@@ -22517,7 +22517,7 @@
         "name": "Gust",
         "type": "flying",
         "power": 40,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "STAB • 40 power, learned at level 1"
       }
     ]
@@ -22947,7 +22947,7 @@
         "power": 120,
         "accuracy": 100,
         "pp": 10,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 57,
@@ -22956,7 +22956,7 @@
         "power": 150,
         "accuracy": 90,
         "pp": 5,
-        "damageClass": "special"
+        "damageClass": "physical"
       }
     ],
     "bestAttacks": [
@@ -22964,7 +22964,7 @@
         "name": "Outrage",
         "type": "dragon",
         "power": 120,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 120 power, learned at level 50"
       },
       {
@@ -22978,7 +22978,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "150 power, learned at level 57"
       },
       {
@@ -23112,7 +23112,7 @@
         "power": 120,
         "accuracy": 100,
         "pp": 10,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 65,
@@ -23121,7 +23121,7 @@
         "power": 150,
         "accuracy": 90,
         "pp": 5,
-        "damageClass": "special"
+        "damageClass": "physical"
       }
     ],
     "bestAttacks": [
@@ -23129,7 +23129,7 @@
         "name": "Outrage",
         "type": "dragon",
         "power": 120,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 120 power, learned at level 56"
       },
       {
@@ -23143,7 +23143,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "150 power, learned at level 65"
       },
       {
@@ -23282,7 +23282,7 @@
         "power": 120,
         "accuracy": 100,
         "pp": 10,
-        "damageClass": "physical"
+        "damageClass": "special"
       },
       {
         "level": 75,
@@ -23291,7 +23291,7 @@
         "power": 150,
         "accuracy": 90,
         "pp": 5,
-        "damageClass": "special"
+        "damageClass": "physical"
       }
     ],
     "bestAttacks": [
@@ -23299,7 +23299,7 @@
         "name": "Outrage",
         "type": "dragon",
         "power": 120,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 120 power, learned at level 61"
       },
       {
@@ -23313,7 +23313,7 @@
         "name": "Dragon Claw",
         "type": "dragon",
         "power": 80,
-        "damageClass": "physical",
+        "damageClass": "special",
         "reason": "STAB • 80 power, TM/HM"
       },
       {
@@ -23401,7 +23401,7 @@
         "power": 60,
         "accuracy": null,
         "pp": 20,
-        "damageClass": "special"
+        "damageClass": "physical"
       },
       {
         "level": 44,
@@ -23484,7 +23484,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "150 power, TM/HM"
       }
     ]
@@ -23574,7 +23574,7 @@
         "power": 60,
         "accuracy": 100,
         "pp": 5,
-        "damageClass": "special"
+        "damageClass": "physical"
       }
     ],
     "bestAttacks": [
@@ -23589,7 +23589,7 @@
         "name": "Hyper Beam",
         "type": "normal",
         "power": 150,
-        "damageClass": "special",
+        "damageClass": "physical",
         "reason": "150 power, TM/HM"
       },
       {

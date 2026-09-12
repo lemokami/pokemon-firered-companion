@@ -1,13 +1,11 @@
 import { Link, useParams } from "react-router-dom";
-import pokemon from "../data/pokemon.json";
+import { byId } from "../utils/evolution";
 import TypeBadge from "./TypeBadge";
 import StatBars from "./StatBars";
 import EvolutionChain from "./EvolutionChain";
 import BestAttacks from "./BestAttacks";
 import MoveTable from "./MoveTable";
 import TypeMatchups from "./TypeMatchups";
-
-const byId = new Map(pokemon.map((p) => [p.id, p]));
 
 export default function PokemonDetail() {
   const { id } = useParams();

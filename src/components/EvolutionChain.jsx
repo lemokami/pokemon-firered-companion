@@ -1,21 +1,24 @@
 import { Link } from "react-router-dom";
-import pokemon from "../data/pokemon.json";
+import { byId, getRootId } from "../utils/evolution";
+import TypeBadge from "./TypeBadge";
 
-const byId = new Map(pokemon.map((p) => [p.id, p]));
-
-function findRootId(id) {
-  let current = byId.get(id);
-  while (current?.evolvesFromId) current = byId.get(current.evolvesFromId);
-  return current?.id ?? id;
-}
-
-function Stage({ id, currentId }) {
+function Stage({ id, currentId, richInfo }) {
   const mon = byId.get(id);
   if (!mon) return null;
   return (
     <Link to={`/pokedex/${mon.id}`} className={`evo-stage ${mon.id === currentId ? "current" : ""}`}>
       <img src={mon.sprite} alt={mon.name} className="pixel-sprite evo-sprite" />
-      <span>{mon.name}</span>
+      <span className="evo-stage-info">
+        {richInfo && <span className="evo-stage-id">#{String(mon.id).padStart(3, "0")}</span>}
+        <span className="evo-stage-name">{mon.name}</span>
+        {richInfo && (
+          <span className="evo-stage-types">
+            {mon.types.map((t) => (
+              <TypeBadge key={t} type={t} />
+            ))}
+          </span>
+        )}
+      </span>
     </Link>
   );
 }
@@ -25,15 +28,15 @@ function Stage({ id, currentId }) {
 // line (the common case) reads as a single horizontal strip; a branch (e.g.
 // Eevee) fans out into a connected list under its parent, still inside the
 // same card.
-function Branch({ id, currentId }) {
+function Branch({ id, currentId, richInfo }) {
   const mon = byId.get(id);
   if (!mon) return null;
   if (mon.evolutions.length === 0) {
-    return <Stage id={id} currentId={currentId} />;
+    return <Stage id={id} currentId={currentId} richInfo={richInfo} />;
   }
   return (
     <div className="evo-branch">
-      <Stage id={id} currentId={currentId} />
+      <Stage id={id} currentId={currentId} richInfo={richInfo} />
       <div className={mon.evolutions.length > 1 ? "evo-branch-children multi" : "evo-branch-children"}>
         {mon.evolutions.map((evo) => (
           <div className="evo-arrow-group" key={evo.toId}>
@@ -41,7 +44,7 @@ function Branch({ id, currentId }) {
               <span className="evo-arrow-line">→</span>
               <span className="evo-arrow-label">{evo.notes[0].split("→")[0].trim()}</span>
             </div>
-            <Branch id={evo.toId} currentId={currentId} />
+            <Branch id={evo.toId} currentId={currentId} richInfo={richInfo} />
           </div>
         ))}
       </div>
@@ -49,8 +52,14 @@ function Branch({ id, currentId }) {
   );
 }
 
+// Reusable tree renderer — used both by the full evolution panel on a
+// Pokemon's detail page and by the grouped family cards in the Pokedex list.
+export function EvolutionTree({ rootId, currentId, richInfo = false }) {
+  return <Branch id={rootId} currentId={currentId} richInfo={richInfo} />;
+}
+
 export default function EvolutionChain({ pokemonId }) {
-  const rootId = findRootId(pokemonId);
+  const rootId = getRootId(pokemonId);
   const root = byId.get(rootId);
   if (!root) return null;
 
@@ -60,7 +69,7 @@ export default function EvolutionChain({ pokemonId }) {
 
   return (
     <div className="evolution-chain">
-      <Branch id={rootId} currentId={pokemonId} />
+      <EvolutionTree rootId={rootId} currentId={pokemonId} />
     </div>
   );
 }

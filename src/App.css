@@ -58,12 +58,11 @@ h1,
 h2,
 .app-title,
 .tab,
-.pokemon-card-name,
-.evo-stage span,
+.evo-stage-name,
+.evo-stage-id,
 .stat-label,
 .matchup-label,
 .best-attack-head strong,
-.pokemon-card-id,
 .detail-id {
   font-family: "Press Start 2P", "VT323", monospace;
 }
@@ -177,42 +176,19 @@ h2,
   margin-bottom: 14px;
 }
 
-.pokedex-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-  gap: 14px;
+/* Pokedex list — grouped by evolution family so a 3-stage line is one card
+   to scan and click, not three separate ones. */
+.family-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
-
-.pokemon-card {
+.family-card {
   background: linear-gradient(160deg, var(--window-1), var(--window-2));
   border: 3px solid var(--window-border);
   box-shadow: inset 0 0 0 2px var(--window-border-hi), 0 3px 0 var(--shadow-hard);
-  border-radius: 8px;
-  padding: 12px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 6px;
-  transition: transform 0.12s ease;
-}
-.pokemon-card:hover {
-  transform: translateY(-3px);
-  border-color: var(--accent);
-}
-.pokemon-card-id {
-  font-size: 0.62rem;
-  color: var(--text-muted);
-}
-.pokemon-card-name {
-  font-size: 0.68rem;
-  line-height: 1.4;
-}
-.pokemon-card-types {
-  display: flex;
-  gap: 4px;
-  flex-wrap: wrap;
-  justify-content: center;
+  border-radius: 10px;
+  padding: 10px 14px;
 }
 
 /* Sprite "screen" frame — evokes the Pokedex info screen the sprite sits on */
@@ -232,10 +208,6 @@ h2,
   width: 148px;
   height: 148px;
   border-width: 3px;
-}
-.sprite-frame-sm {
-  width: 72px;
-  height: 72px;
 }
 .pixel-sprite {
   width: 72%;
@@ -439,12 +411,27 @@ h2,
   border: 2px solid transparent;
 }
 .evo-stage:hover {
-  background: var(--window-1);
+  background: rgba(0, 0, 0, 0.08);
   border-color: var(--window-border);
 }
-.evo-stage span {
+.evo-stage-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+}
+.evo-stage-id {
+  font-size: 0.55rem;
+  color: var(--text-muted);
+}
+.evo-stage-name {
   font-size: 0.68rem;
   line-height: 1.4;
+}
+.evo-stage-types {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
 }
 .evo-stage.current {
   border-color: var(--accent);
