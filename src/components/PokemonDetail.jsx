@@ -47,6 +47,17 @@ export default function PokemonDetail() {
               <TypeBadge key={t} type={t} />
             ))}
           </div>
+          {mon.abilities.length > 0 && (
+            <div className="detail-abilities">
+              <span className="detail-abilities-label">{mon.abilities.length > 1 ? "Abilities" : "Ability"}</span>
+              {mon.abilities.map((a) => (
+                <p key={a.name} className="detail-ability">
+                  <strong>{a.name}</strong>
+                  {a.description && ` — ${a.description}`}
+                </p>
+              ))}
+            </div>
+          )}
           {mon.flavorText.firered && <p className="detail-flavor">{mon.flavorText.firered}</p>}
         </div>
       </header>
@@ -64,7 +75,13 @@ export default function PokemonDetail() {
 
       <MoveTable moves={mon.levelUpMoves} />
 
-      <TypeMatchups weaknesses={mon.weaknesses} resistances={mon.resistances} immunities={mon.immunities} />
+      <TypeMatchups
+        weaknesses={mon.weaknesses}
+        resistances={mon.resistances}
+        immunities={mon.immunities}
+        quadWeaknesses={mon.quadWeaknesses}
+        quadResistances={mon.quadResistances}
+      />
     </div>
   );
 }

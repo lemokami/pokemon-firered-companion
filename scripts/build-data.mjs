@@ -104,6 +104,32 @@ function resolveGen3Types(pokemon) {
   return pastEntries.length > 0 ? pastEntries[0].types : current;
 }
 
+// Hidden abilities didn't exist until Gen V, so they're never available in
+// FireRed regardless of what PokeAPI's current data shows. A handful of
+// Kanto species also had their non-hidden ability slots changed later
+// (past_abilities records this the same way past_types does for typing),
+// so each slot is resolved to what it actually was at Gen III.
+function resolveGen3Abilities(pokemon) {
+  const current = new Map(
+    pokemon.abilities.filter((a) => !a.is_hidden).map((a) => [a.slot, a.ability.name])
+  );
+  const pastBySlot = new Map();
+  for (const past of pokemon.past_abilities || []) {
+    const gen = GEN_ORDER[past.generation.name];
+    if (gen == null || gen < TARGET_GEN) continue;
+    for (const a of past.abilities) {
+      if (a.is_hidden) continue;
+      const existing = pastBySlot.get(a.slot);
+      if (!existing || gen < existing.gen) pastBySlot.set(a.slot, { gen, name: a.ability?.name ?? null });
+    }
+  }
+  for (const [slot, rec] of pastBySlot) {
+    if (rec.name) current.set(slot, rec.name);
+    else current.delete(slot); // didn't exist yet at Gen III
+  }
+  return [...current.values()];
+}
+
 function describeEvolutionDetail(detail, toName) {
   const parts = [];
   switch (detail.trigger?.name) {
@@ -304,12 +330,19 @@ function computeMatchups(ownTypes, typeRelations) {
   const weaknesses = [];
   const resistances = [];
   const immunities = [];
+  const quadWeaknesses = []; // 4x - both types are weak to it, a real one-shot risk
+  const quadResistances = []; // 0.25x
   for (const [type, mult] of Object.entries(multiplier)) {
     if (mult === 0) immunities.push(type);
-    else if (mult > 1) weaknesses.push(type);
-    else if (mult < 1) resistances.push(type);
+    else if (mult > 1) {
+      weaknesses.push(type);
+      if (mult >= 4) quadWeaknesses.push(type);
+    } else if (mult < 1) {
+      resistances.push(type);
+      if (mult <= 0.25) quadResistances.push(type);
+    }
   }
-  return { weaknesses, resistances, immunities };
+  return { weaknesses, resistances, immunities, quadWeaknesses, quadResistances };
 }
 
 async function main() {
@@ -398,6 +431,25 @@ async function main() {
     ])
   );
 
+  console.log("Fetching abilities...");
+  const abilitiesByPokemon = pokemonList.map((p) => resolveGen3Abilities(p));
+  const allAbilityNames = [...new Set(abilitiesByPokemon.flat())];
+  const abilityJsons = await mapLimit(allAbilityNames, 6, (name) => cachedFetch(`${BASE}/ability/${name}`));
+  const abilityDetails = new Map(
+    abilityJsons.map((a) => {
+      // Prefer the actual in-game FireRed/LeafGreen description text; fall
+      // back to the general English short-effect if that's ever missing.
+      const flavor = a.flavor_text_entries.find(
+        (f) => f.language.name === "en" && f.version_group.name === VERSION_GROUP
+      );
+      const shortEffect = a.effect_entries.find((e) => e.language.name === "en")?.short_effect;
+      return [
+        a.name,
+        { name: properName(a.name), description: (flavor?.flavor_text ?? shortEffect ?? "").replace(/[\n\f]+/g, " ") },
+      ];
+    })
+  );
+
   console.log("Assembling final dataset...");
   const result = pokemonList.map((p, i) => {
     const species = speciesList[i];
@@ -424,12 +476,15 @@ async function main() {
         p.sprites.other?.["official-artwork"]?.front_default ??
         p.sprites.front_default,
       types,
+      abilities: abilitiesByPokemon[i].map((name) => abilityDetails.get(name)),
       stats: Object.fromEntries(p.stats.map((s) => [s.stat.name, s.base_stat])),
       genus: species.genera.find((g) => g.language.name === "en")?.genus ?? "",
       flavorText: { firered: flavorFor("firered"), leafgreen: flavorFor("leafgreen") },
       weaknesses: matchups.weaknesses,
       resistances: matchups.resistances,
       immunities: matchups.immunities,
+      quadWeaknesses: matchups.quadWeaknesses,
+      quadResistances: matchups.quadResistances,
       evolvesFromId: evolvesFromId.get(p.id) ?? null,
       evolutions: evolutionsBySpeciesId.get(p.id) ?? [],
       levelUpMoves,

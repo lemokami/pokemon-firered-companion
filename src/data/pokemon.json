@@ -7,6 +7,12 @@
       "grass",
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Overgrow",
+        "description": "Ups GRASS moves in a pinch."
+      }
+    ],
     "stats": {
       "hp": 45,
       "attack": 49,
@@ -33,6 +39,10 @@
       "fighting"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "grass"
+    ],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -197,6 +207,12 @@
       "grass",
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Overgrow",
+        "description": "Ups GRASS moves in a pinch."
+      }
+    ],
     "stats": {
       "hp": 60,
       "attack": 62,
@@ -223,6 +239,10 @@
       "fighting"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "grass"
+    ],
     "evolvesFromId": 1,
     "evolutions": [
       {
@@ -379,6 +399,12 @@
       "grass",
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Overgrow",
+        "description": "Ups GRASS moves in a pinch."
+      }
+    ],
     "stats": {
       "hp": 80,
       "attack": 82,
@@ -405,6 +431,10 @@
       "fighting"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "grass"
+    ],
     "evolvesFromId": 2,
     "evolutions": [],
     "levelUpMoves": [
@@ -551,6 +581,12 @@
     "types": [
       "fire"
     ],
+    "abilities": [
+      {
+        "name": "Blaze",
+        "description": "Ups FIRE moves in a pinch."
+      }
+    ],
     "stats": {
       "hp": 39,
       "attack": 52,
@@ -577,6 +613,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -731,6 +769,12 @@
     "types": [
       "fire"
     ],
+    "abilities": [
+      {
+        "name": "Blaze",
+        "description": "Ups FIRE moves in a pinch."
+      }
+    ],
     "stats": {
       "hp": 58,
       "attack": 64,
@@ -757,6 +801,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 4,
     "evolutions": [
       {
@@ -904,6 +950,12 @@
       "fire",
       "flying"
     ],
+    "abilities": [
+      {
+        "name": "Blaze",
+        "description": "Ups FIRE moves in a pinch."
+      }
+    ],
     "stats": {
       "hp": 78,
       "attack": 84,
@@ -931,6 +983,13 @@
     ],
     "immunities": [
       "ground"
+    ],
+    "quadWeaknesses": [
+      "rock"
+    ],
+    "quadResistances": [
+      "grass",
+      "bug"
     ],
     "evolvesFromId": 5,
     "evolutions": [],
@@ -1087,6 +1146,12 @@
     "types": [
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Torrent",
+        "description": "Ups WATER moves in a pinch."
+      }
+    ],
     "stats": {
       "hp": 44,
       "attack": 48,
@@ -1111,6 +1176,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -1274,6 +1341,12 @@
     "types": [
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Torrent",
+        "description": "Ups WATER moves in a pinch."
+      }
+    ],
     "stats": {
       "hp": 59,
       "attack": 63,
@@ -1298,6 +1371,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 7,
     "evolutions": [
       {
@@ -1453,6 +1528,12 @@
     "types": [
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Torrent",
+        "description": "Ups WATER moves in a pinch."
+      }
+    ],
     "stats": {
       "hp": 79,
       "attack": 83,
@@ -1477,6 +1558,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 8,
     "evolutions": [],
     "levelUpMoves": [
@@ -1623,6 +1706,12 @@
     "types": [
       "bug"
     ],
+    "abilities": [
+      {
+        "name": "Shield Dust",
+        "description": "Prevents added effects."
+      }
+    ],
     "stats": {
       "hp": 45,
       "attack": 30,
@@ -1647,6 +1736,8 @@
       "ground"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -1733,6 +1824,12 @@
     "types": [
       "bug"
     ],
+    "abilities": [
+      {
+        "name": "Shed Skin",
+        "description": "Heals the body by shedding."
+      }
+    ],
     "stats": {
       "hp": 50,
       "attack": 20,
@@ -1757,6 +1854,8 @@
       "ground"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 10,
     "evolutions": [
       {
@@ -1819,6 +1918,12 @@
       "bug",
       "flying"
     ],
+    "abilities": [
+      {
+        "name": "Compound Eyes",
+        "description": "Raises accuracy."
+      }
+    ],
     "stats": {
       "hp": 60,
       "attack": 45,
@@ -1846,6 +1951,13 @@
     ],
     "immunities": [
       "ground"
+    ],
+    "quadWeaknesses": [
+      "rock"
+    ],
+    "quadResistances": [
+      "grass",
+      "fighting"
     ],
     "evolvesFromId": 11,
     "evolutions": [],
@@ -1985,6 +2097,12 @@
       "bug",
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Shield Dust",
+        "description": "Prevents added effects."
+      }
+    ],
     "stats": {
       "hp": 40,
       "attack": 35,
@@ -2011,6 +2129,11 @@
       "bug"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "grass",
+      "fighting"
+    ],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -2098,6 +2221,12 @@
       "bug",
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Shed Skin",
+        "description": "Heals the body by shedding."
+      }
+    ],
     "stats": {
       "hp": 45,
       "attack": 25,
@@ -2124,6 +2253,11 @@
       "bug"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "grass",
+      "fighting"
+    ],
     "evolvesFromId": 13,
     "evolutions": [
       {
@@ -2186,6 +2320,12 @@
       "bug",
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Swarm",
+        "description": "Ups BUG moves in a pinch."
+      }
+    ],
     "stats": {
       "hp": 65,
       "attack": 90,
@@ -2212,6 +2352,11 @@
       "bug"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "grass",
+      "fighting"
+    ],
     "evolvesFromId": 14,
     "evolutions": [],
     "levelUpMoves": [
@@ -2332,6 +2477,12 @@
       "normal",
       "flying"
     ],
+    "abilities": [
+      {
+        "name": "Keen Eye",
+        "description": "Prevents loss of accuracy."
+      }
+    ],
     "stats": {
       "hp": 40,
       "attack": 45,
@@ -2358,6 +2509,8 @@
       "ground",
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -2609,6 +2762,12 @@
       "normal",
       "flying"
     ],
+    "abilities": [
+      {
+        "name": "Keen Eye",
+        "description": "Prevents loss of accuracy."
+      }
+    ],
     "stats": {
       "hp": 63,
       "attack": 60,
@@ -2635,6 +2794,8 @@
       "ground",
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 16,
     "evolutions": [
       {
@@ -2816,6 +2977,12 @@
       "normal",
       "flying"
     ],
+    "abilities": [
+      {
+        "name": "Keen Eye",
+        "description": "Prevents loss of accuracy."
+      }
+    ],
     "stats": {
       "hp": 83,
       "attack": 80,
@@ -2842,6 +3009,8 @@
       "ground",
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 17,
     "evolutions": [],
     "levelUpMoves": [
@@ -2970,6 +3139,16 @@
     "types": [
       "normal"
     ],
+    "abilities": [
+      {
+        "name": "Run Away",
+        "description": "Makes escaping easier."
+      },
+      {
+        "name": "Guts",
+        "description": "Ups ATTACK if suffering."
+      }
+    ],
     "stats": {
       "hp": 30,
       "attack": 56,
@@ -2990,6 +3169,8 @@
     "immunities": [
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -3204,6 +3385,16 @@
     "types": [
       "normal"
     ],
+    "abilities": [
+      {
+        "name": "Run Away",
+        "description": "Makes escaping easier."
+      },
+      {
+        "name": "Guts",
+        "description": "Ups ATTACK if suffering."
+      }
+    ],
     "stats": {
       "hp": 55,
       "attack": 81,
@@ -3224,6 +3415,8 @@
     "immunities": [
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 19,
     "evolutions": [],
     "levelUpMoves": [
@@ -3394,6 +3587,12 @@
       "normal",
       "flying"
     ],
+    "abilities": [
+      {
+        "name": "Keen Eye",
+        "description": "Prevents loss of accuracy."
+      }
+    ],
     "stats": {
       "hp": 40,
       "attack": 60,
@@ -3420,6 +3619,8 @@
       "ground",
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -3678,6 +3879,12 @@
       "normal",
       "flying"
     ],
+    "abilities": [
+      {
+        "name": "Keen Eye",
+        "description": "Prevents loss of accuracy."
+      }
+    ],
     "stats": {
       "hp": 65,
       "attack": 90,
@@ -3704,6 +3911,8 @@
       "ground",
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 21,
     "evolutions": [],
     "levelUpMoves": [
@@ -3901,6 +4110,16 @@
     "types": [
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Intimidate",
+        "description": "Lowers the foe’s ATTACK."
+      },
+      {
+        "name": "Shed Skin",
+        "description": "Heals the body by shedding."
+      }
+    ],
     "stats": {
       "hp": 35,
       "attack": 60,
@@ -3925,6 +4144,8 @@
       "bug"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -4123,6 +4344,16 @@
     "types": [
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Intimidate",
+        "description": "Lowers the foe’s ATTACK."
+      },
+      {
+        "name": "Shed Skin",
+        "description": "Heals the body by shedding."
+      }
+    ],
     "stats": {
       "hp": 60,
       "attack": 95,
@@ -4147,6 +4378,8 @@
       "bug"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 23,
     "evolutions": [],
     "levelUpMoves": [
@@ -4322,6 +4555,12 @@
     "types": [
       "electric"
     ],
+    "abilities": [
+      {
+        "name": "Static",
+        "description": "Paralyzes on contact."
+      }
+    ],
     "stats": {
       "hp": 35,
       "attack": 55,
@@ -4344,6 +4583,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -4522,6 +4763,12 @@
     "types": [
       "electric"
     ],
+    "abilities": [
+      {
+        "name": "Static",
+        "description": "Paralyzes on contact."
+      }
+    ],
     "stats": {
       "hp": 60,
       "attack": 90,
@@ -4544,6 +4791,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 25,
     "evolutions": [],
     "levelUpMoves": [
@@ -4627,6 +4876,12 @@
     "types": [
       "ground"
     ],
+    "abilities": [
+      {
+        "name": "Sand Veil",
+        "description": "Ups evasion in a sandstorm."
+      }
+    ],
     "stats": {
       "hp": 50,
       "attack": 75,
@@ -4652,6 +4907,8 @@
     "immunities": [
       "electric"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -4790,6 +5047,12 @@
     "types": [
       "ground"
     ],
+    "abilities": [
+      {
+        "name": "Sand Veil",
+        "description": "Ups evasion in a sandstorm."
+      }
+    ],
     "stats": {
       "hp": 75,
       "attack": 100,
@@ -4815,6 +5078,8 @@
     "immunities": [
       "electric"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 27,
     "evolutions": [],
     "levelUpMoves": [
@@ -4943,6 +5208,12 @@
     "types": [
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Poison Point",
+        "description": "Poisons foe on contact."
+      }
+    ],
     "stats": {
       "hp": 55,
       "attack": 47,
@@ -4967,6 +5238,8 @@
       "bug"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -5144,6 +5417,12 @@
     "types": [
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Poison Point",
+        "description": "Poisons foe on contact."
+      }
+    ],
     "stats": {
       "hp": 70,
       "attack": 62,
@@ -5168,6 +5447,8 @@
       "bug"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 29,
     "evolutions": [
       {
@@ -5339,6 +5620,12 @@
       "poison",
       "ground"
     ],
+    "abilities": [
+      {
+        "name": "Poison Point",
+        "description": "Poisons foe on contact."
+      }
+    ],
     "stats": {
       "hp": 90,
       "attack": 92,
@@ -5366,6 +5653,10 @@
     ],
     "immunities": [
       "electric"
+    ],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "poison"
     ],
     "evolvesFromId": 30,
     "evolutions": [],
@@ -5468,6 +5759,12 @@
     "types": [
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Poison Point",
+        "description": "Poisons foe on contact."
+      }
+    ],
     "stats": {
       "hp": 46,
       "attack": 57,
@@ -5492,6 +5789,8 @@
       "bug"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -5674,6 +5973,12 @@
     "types": [
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Poison Point",
+        "description": "Poisons foe on contact."
+      }
+    ],
     "stats": {
       "hp": 61,
       "attack": 72,
@@ -5698,6 +6003,8 @@
       "bug"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 32,
     "evolutions": [
       {
@@ -5874,6 +6181,12 @@
       "poison",
       "ground"
     ],
+    "abilities": [
+      {
+        "name": "Poison Point",
+        "description": "Poisons foe on contact."
+      }
+    ],
     "stats": {
       "hp": 81,
       "attack": 102,
@@ -5901,6 +6214,10 @@
     ],
     "immunities": [
       "electric"
+    ],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "poison"
     ],
     "evolvesFromId": 33,
     "evolutions": [],
@@ -6003,6 +6320,12 @@
     "types": [
       "normal"
     ],
+    "abilities": [
+      {
+        "name": "Cute Charm",
+        "description": "Infatuates on contact."
+      }
+    ],
     "stats": {
       "hp": 70,
       "attack": 45,
@@ -6023,6 +6346,8 @@
     "immunities": [
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -6220,6 +6545,12 @@
     "types": [
       "normal"
     ],
+    "abilities": [
+      {
+        "name": "Cute Charm",
+        "description": "Infatuates on contact."
+      }
+    ],
     "stats": {
       "hp": 95,
       "attack": 70,
@@ -6240,6 +6571,8 @@
     "immunities": [
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 35,
     "evolutions": [],
     "levelUpMoves": [
@@ -6323,6 +6656,12 @@
     "types": [
       "fire"
     ],
+    "abilities": [
+      {
+        "name": "Flash Fire",
+        "description": "Powers up if hit by fire."
+      }
+    ],
     "stats": {
       "hp": 38,
       "attack": 41,
@@ -6349,6 +6688,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -6505,6 +6846,12 @@
     "types": [
       "fire"
     ],
+    "abilities": [
+      {
+        "name": "Flash Fire",
+        "description": "Powers up if hit by fire."
+      }
+    ],
     "stats": {
       "hp": 73,
       "attack": 76,
@@ -6531,6 +6878,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 37,
     "evolutions": [],
     "levelUpMoves": [
@@ -6623,6 +6972,12 @@
     "types": [
       "normal"
     ],
+    "abilities": [
+      {
+        "name": "Cute Charm",
+        "description": "Infatuates on contact."
+      }
+    ],
     "stats": {
       "hp": 115,
       "attack": 45,
@@ -6643,6 +6998,8 @@
     "immunities": [
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -6806,6 +7163,12 @@
     "types": [
       "normal"
     ],
+    "abilities": [
+      {
+        "name": "Cute Charm",
+        "description": "Infatuates on contact."
+      }
+    ],
     "stats": {
       "hp": 140,
       "attack": 70,
@@ -6826,6 +7189,8 @@
     "immunities": [
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 39,
     "evolutions": [],
     "levelUpMoves": [
@@ -6910,6 +7275,12 @@
       "poison",
       "flying"
     ],
+    "abilities": [
+      {
+        "name": "Inner Focus",
+        "description": "Prevents flinching."
+      }
+    ],
     "stats": {
       "hp": 40,
       "attack": 45,
@@ -6937,6 +7308,12 @@
     ],
     "immunities": [
       "ground"
+    ],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "grass",
+      "fighting",
+      "bug"
     ],
     "evolvesFromId": null,
     "evolutions": [
@@ -7275,6 +7652,12 @@
       "poison",
       "flying"
     ],
+    "abilities": [
+      {
+        "name": "Inner Focus",
+        "description": "Prevents flinching."
+      }
+    ],
     "stats": {
       "hp": 75,
       "attack": 80,
@@ -7302,6 +7685,12 @@
     ],
     "immunities": [
       "ground"
+    ],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "grass",
+      "fighting",
+      "bug"
     ],
     "evolvesFromId": 41,
     "evolutions": [],
@@ -7633,6 +8022,12 @@
       "grass",
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Chlorophyll",
+        "description": "Raises SPEED in sunshine."
+      }
+    ],
     "stats": {
       "hp": 45,
       "attack": 50,
@@ -7659,6 +8054,10 @@
       "fighting"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "grass"
+    ],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -7880,6 +8279,12 @@
       "grass",
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Chlorophyll",
+        "description": "Raises SPEED in sunshine."
+      }
+    ],
     "stats": {
       "hp": 60,
       "attack": 65,
@@ -7906,6 +8311,10 @@
       "fighting"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "grass"
+    ],
     "evolvesFromId": 43,
     "evolutions": [
       {
@@ -8092,6 +8501,12 @@
       "grass",
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Chlorophyll",
+        "description": "Raises SPEED in sunshine."
+      }
+    ],
     "stats": {
       "hp": 75,
       "attack": 80,
@@ -8118,6 +8533,10 @@
       "fighting"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "grass"
+    ],
     "evolvesFromId": 44,
     "evolutions": [],
     "levelUpMoves": [
@@ -8211,6 +8630,12 @@
       "bug",
       "grass"
     ],
+    "abilities": [
+      {
+        "name": "Effect Spore",
+        "description": "Leaves spores on contact."
+      }
+    ],
     "stats": {
       "hp": 35,
       "attack": 70,
@@ -8240,6 +8665,14 @@
       "ground"
     ],
     "immunities": [],
+    "quadWeaknesses": [
+      "fire",
+      "flying"
+    ],
+    "quadResistances": [
+      "grass",
+      "ground"
+    ],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -8414,6 +8847,12 @@
       "bug",
       "grass"
     ],
+    "abilities": [
+      {
+        "name": "Effect Spore",
+        "description": "Leaves spores on contact."
+      }
+    ],
     "stats": {
       "hp": 60,
       "attack": 95,
@@ -8443,6 +8882,14 @@
       "ground"
     ],
     "immunities": [],
+    "quadWeaknesses": [
+      "fire",
+      "flying"
+    ],
+    "quadResistances": [
+      "grass",
+      "ground"
+    ],
     "evolvesFromId": 46,
     "evolutions": [],
     "levelUpMoves": [
@@ -8608,6 +9055,12 @@
       "bug",
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Compound Eyes",
+        "description": "Raises accuracy."
+      }
+    ],
     "stats": {
       "hp": 60,
       "attack": 55,
@@ -8634,6 +9087,11 @@
       "bug"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "grass",
+      "fighting"
+    ],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -8847,6 +9305,12 @@
       "bug",
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Shield Dust",
+        "description": "Prevents added effects."
+      }
+    ],
     "stats": {
       "hp": 70,
       "attack": 65,
@@ -8873,6 +9337,11 @@
       "bug"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "grass",
+      "fighting"
+    ],
     "evolvesFromId": 48,
     "evolutions": [],
     "levelUpMoves": [
@@ -9059,6 +9528,16 @@
     "types": [
       "ground"
     ],
+    "abilities": [
+      {
+        "name": "Sand Veil",
+        "description": "Ups evasion in a sandstorm."
+      },
+      {
+        "name": "Arena Trap",
+        "description": "Prevents fleeing."
+      }
+    ],
     "stats": {
       "hp": 10,
       "attack": 55,
@@ -9084,6 +9563,8 @@
     "immunities": [
       "electric"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -9239,6 +9720,16 @@
     "types": [
       "ground"
     ],
+    "abilities": [
+      {
+        "name": "Sand Veil",
+        "description": "Ups evasion in a sandstorm."
+      },
+      {
+        "name": "Arena Trap",
+        "description": "Prevents fleeing."
+      }
+    ],
     "stats": {
       "hp": 35,
       "attack": 100,
@@ -9264,6 +9755,8 @@
     "immunities": [
       "electric"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 50,
     "evolutions": [],
     "levelUpMoves": [
@@ -9427,6 +9920,12 @@
     "types": [
       "normal"
     ],
+    "abilities": [
+      {
+        "name": "Pickup",
+        "description": "May pick up items."
+      }
+    ],
     "stats": {
       "hp": 40,
       "attack": 45,
@@ -9447,6 +9946,8 @@
     "immunities": [
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -9686,6 +10187,12 @@
     "types": [
       "normal"
     ],
+    "abilities": [
+      {
+        "name": "Limber",
+        "description": "Prevents paralysis."
+      }
+    ],
     "stats": {
       "hp": 65,
       "attack": 70,
@@ -9706,6 +10213,8 @@
     "immunities": [
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 52,
     "evolutions": [],
     "levelUpMoves": [
@@ -9907,6 +10416,16 @@
     "types": [
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Damp",
+        "description": "Prevents self-destruction."
+      },
+      {
+        "name": "Cloud Nine",
+        "description": "Negates weather effects."
+      }
+    ],
     "stats": {
       "hp": 50,
       "attack": 52,
@@ -9931,6 +10450,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -10650,6 +11171,16 @@
     "types": [
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Damp",
+        "description": "Prevents self-destruction."
+      },
+      {
+        "name": "Cloud Nine",
+        "description": "Negates weather effects."
+      }
+    ],
     "stats": {
       "hp": 80,
       "attack": 82,
@@ -10674,6 +11205,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 54,
     "evolutions": [],
     "levelUpMoves": [
@@ -10880,6 +11413,12 @@
     "types": [
       "fighting"
     ],
+    "abilities": [
+      {
+        "name": "Vital Spirit",
+        "description": "Prevents sleep."
+      }
+    ],
     "stats": {
       "hp": 40,
       "attack": 80,
@@ -10903,6 +11442,8 @@
       "dark"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -11101,6 +11642,12 @@
     "types": [
       "fighting"
     ],
+    "abilities": [
+      {
+        "name": "Vital Spirit",
+        "description": "Prevents sleep."
+      }
+    ],
     "stats": {
       "hp": 65,
       "attack": 105,
@@ -11124,6 +11671,8 @@
       "dark"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 56,
     "evolutions": [],
     "levelUpMoves": [
@@ -11301,6 +11850,16 @@
     "types": [
       "fire"
     ],
+    "abilities": [
+      {
+        "name": "Intimidate",
+        "description": "Lowers the foe’s ATTACK."
+      },
+      {
+        "name": "Flash Fire",
+        "description": "Powers up if hit by fire."
+      }
+    ],
     "stats": {
       "hp": 55,
       "attack": 70,
@@ -11327,6 +11886,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -11517,6 +12078,16 @@
     "types": [
       "fire"
     ],
+    "abilities": [
+      {
+        "name": "Intimidate",
+        "description": "Lowers the foe’s ATTACK."
+      },
+      {
+        "name": "Flash Fire",
+        "description": "Powers up if hit by fire."
+      }
+    ],
     "stats": {
       "hp": 90,
       "attack": 110,
@@ -11543,6 +12114,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 58,
     "evolutions": [],
     "levelUpMoves": [
@@ -11635,6 +12208,16 @@
     "types": [
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Water Absorb",
+        "description": "Changes water into HP."
+      },
+      {
+        "name": "Damp",
+        "description": "Prevents self-destruction."
+      }
+    ],
     "stats": {
       "hp": 40,
       "attack": 50,
@@ -11659,6 +12242,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -11984,6 +12569,16 @@
     "types": [
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Water Absorb",
+        "description": "Changes water into HP."
+      },
+      {
+        "name": "Damp",
+        "description": "Prevents self-destruction."
+      }
+    ],
     "stats": {
       "hp": 65,
       "attack": 65,
@@ -12008,6 +12603,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 60,
     "evolutions": [
       {
@@ -12215,6 +12812,16 @@
       "water",
       "fighting"
     ],
+    "abilities": [
+      {
+        "name": "Water Absorb",
+        "description": "Changes water into HP."
+      },
+      {
+        "name": "Damp",
+        "description": "Prevents self-destruction."
+      }
+    ],
     "stats": {
       "hp": 90,
       "attack": 95,
@@ -12244,6 +12851,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 61,
     "evolutions": [],
     "levelUpMoves": [
@@ -12336,6 +12945,16 @@
     "types": [
       "psychic"
     ],
+    "abilities": [
+      {
+        "name": "Synchronize",
+        "description": "Passes on status problems."
+      },
+      {
+        "name": "Inner Focus",
+        "description": "Prevents flinching."
+      }
+    ],
     "stats": {
       "hp": 25,
       "attack": 20,
@@ -12359,6 +12978,8 @@
       "psychic"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -12448,6 +13069,16 @@
     "types": [
       "psychic"
     ],
+    "abilities": [
+      {
+        "name": "Synchronize",
+        "description": "Passes on status problems."
+      },
+      {
+        "name": "Inner Focus",
+        "description": "Prevents flinching."
+      }
+    ],
     "stats": {
       "hp": 40,
       "attack": 35,
@@ -12471,6 +13102,8 @@
       "psychic"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 63,
     "evolutions": [
       {
@@ -12641,6 +13274,16 @@
     "types": [
       "psychic"
     ],
+    "abilities": [
+      {
+        "name": "Synchronize",
+        "description": "Passes on status problems."
+      },
+      {
+        "name": "Inner Focus",
+        "description": "Prevents flinching."
+      }
+    ],
     "stats": {
       "hp": 55,
       "attack": 50,
@@ -12664,6 +13307,8 @@
       "psychic"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 64,
     "evolutions": [],
     "levelUpMoves": [
@@ -12810,6 +13455,12 @@
     "types": [
       "fighting"
     ],
+    "abilities": [
+      {
+        "name": "Guts",
+        "description": "Ups ATTACK if suffering."
+      }
+    ],
     "stats": {
       "hp": 70,
       "attack": 80,
@@ -12833,6 +13484,8 @@
       "dark"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -13061,6 +13714,12 @@
     "types": [
       "fighting"
     ],
+    "abilities": [
+      {
+        "name": "Guts",
+        "description": "Ups ATTACK if suffering."
+      }
+    ],
     "stats": {
       "hp": 80,
       "attack": 100,
@@ -13084,6 +13743,8 @@
       "dark"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 66,
     "evolutions": [
       {
@@ -13305,6 +13966,12 @@
     "types": [
       "fighting"
     ],
+    "abilities": [
+      {
+        "name": "Guts",
+        "description": "Ups ATTACK if suffering."
+      }
+    ],
     "stats": {
       "hp": 90,
       "attack": 130,
@@ -13328,6 +13995,8 @@
       "dark"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 67,
     "evolutions": [],
     "levelUpMoves": [
@@ -13484,6 +14153,12 @@
       "grass",
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Chlorophyll",
+        "description": "Raises SPEED in sunshine."
+      }
+    ],
     "stats": {
       "hp": 50,
       "attack": 75,
@@ -13510,6 +14185,10 @@
       "fighting"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "grass"
+    ],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -13657,6 +14336,12 @@
       "grass",
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Chlorophyll",
+        "description": "Raises SPEED in sunshine."
+      }
+    ],
     "stats": {
       "hp": 65,
       "attack": 90,
@@ -13683,6 +14368,10 @@
       "fighting"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "grass"
+    ],
     "evolvesFromId": 69,
     "evolutions": [
       {
@@ -13830,6 +14519,12 @@
       "grass",
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Chlorophyll",
+        "description": "Raises SPEED in sunshine."
+      }
+    ],
     "stats": {
       "hp": 80,
       "attack": 105,
@@ -13856,6 +14551,10 @@
       "fighting"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "grass"
+    ],
     "evolvesFromId": 70,
     "evolutions": [],
     "levelUpMoves": [
@@ -13967,6 +14666,16 @@
       "water",
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Clear Body",
+        "description": "Prevents ability reduction."
+      },
+      {
+        "name": "Liquid Ooze",
+        "description": "Draining causes injury."
+      }
+    ],
     "stats": {
       "hp": 40,
       "attack": 40,
@@ -13995,6 +14704,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -14337,6 +15048,16 @@
       "water",
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Clear Body",
+        "description": "Prevents ability reduction."
+      },
+      {
+        "name": "Liquid Ooze",
+        "description": "Draining causes injury."
+      }
+    ],
     "stats": {
       "hp": 80,
       "attack": 70,
@@ -14365,6 +15086,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 72,
     "evolutions": [],
     "levelUpMoves": [
@@ -14600,6 +15323,16 @@
       "rock",
       "ground"
     ],
+    "abilities": [
+      {
+        "name": "Rock Head",
+        "description": "Prevents recoil damage."
+      },
+      {
+        "name": "Sturdy",
+        "description": "Negates 1-hit KO attacks."
+      }
+    ],
     "stats": {
       "hp": 40,
       "attack": 80,
@@ -14630,6 +15363,13 @@
     ],
     "immunities": [
       "electric"
+    ],
+    "quadWeaknesses": [
+      "water",
+      "grass"
+    ],
+    "quadResistances": [
+      "poison"
     ],
     "evolvesFromId": null,
     "evolutions": [
@@ -14978,6 +15718,16 @@
       "rock",
       "ground"
     ],
+    "abilities": [
+      {
+        "name": "Rock Head",
+        "description": "Prevents recoil damage."
+      },
+      {
+        "name": "Sturdy",
+        "description": "Negates 1-hit KO attacks."
+      }
+    ],
     "stats": {
       "hp": 55,
       "attack": 95,
@@ -15008,6 +15758,13 @@
     ],
     "immunities": [
       "electric"
+    ],
+    "quadWeaknesses": [
+      "water",
+      "grass"
+    ],
+    "quadResistances": [
+      "poison"
     ],
     "evolvesFromId": 74,
     "evolutions": [
@@ -15251,6 +16008,16 @@
       "rock",
       "ground"
     ],
+    "abilities": [
+      {
+        "name": "Rock Head",
+        "description": "Prevents recoil damage."
+      },
+      {
+        "name": "Sturdy",
+        "description": "Negates 1-hit KO attacks."
+      }
+    ],
     "stats": {
       "hp": 80,
       "attack": 120,
@@ -15281,6 +16048,13 @@
     ],
     "immunities": [
       "electric"
+    ],
+    "quadWeaknesses": [
+      "water",
+      "grass"
+    ],
+    "quadResistances": [
+      "poison"
     ],
     "evolvesFromId": 75,
     "evolutions": [],
@@ -15428,6 +16202,16 @@
     "types": [
       "fire"
     ],
+    "abilities": [
+      {
+        "name": "Run Away",
+        "description": "Makes escaping easier."
+      },
+      {
+        "name": "Flash Fire",
+        "description": "Powers up if hit by fire."
+      }
+    ],
     "stats": {
       "hp": 50,
       "attack": 85,
@@ -15454,6 +16238,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -15616,6 +16402,16 @@
     "types": [
       "fire"
     ],
+    "abilities": [
+      {
+        "name": "Run Away",
+        "description": "Makes escaping easier."
+      },
+      {
+        "name": "Flash Fire",
+        "description": "Powers up if hit by fire."
+      }
+    ],
     "stats": {
       "hp": 65,
       "attack": 100,
@@ -15642,6 +16438,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 77,
     "evolutions": [],
     "levelUpMoves": [
@@ -15804,6 +16602,16 @@
       "water",
       "psychic"
     ],
+    "abilities": [
+      {
+        "name": "Oblivious",
+        "description": "Prevents attraction."
+      },
+      {
+        "name": "Own Tempo",
+        "description": "Prevents confusion."
+      }
+    ],
     "stats": {
       "hp": 90,
       "attack": 65,
@@ -15833,6 +16641,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -15990,6 +16800,16 @@
       "water",
       "psychic"
     ],
+    "abilities": [
+      {
+        "name": "Oblivious",
+        "description": "Prevents attraction."
+      },
+      {
+        "name": "Own Tempo",
+        "description": "Prevents confusion."
+      }
+    ],
     "stats": {
       "hp": 95,
       "attack": 75,
@@ -16019,6 +16839,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 79,
     "evolutions": [],
     "levelUpMoves": [
@@ -16175,6 +16997,16 @@
       "electric",
       "steel"
     ],
+    "abilities": [
+      {
+        "name": "Magnet Pull",
+        "description": "Traps STEEL-type POKéMON."
+      },
+      {
+        "name": "Sturdy",
+        "description": "Negates 1-hit KO attacks."
+      }
+    ],
     "stats": {
       "hp": 25,
       "attack": 35,
@@ -16207,6 +17039,13 @@
     ],
     "immunities": [
       "poison"
+    ],
+    "quadWeaknesses": [
+      "ground"
+    ],
+    "quadResistances": [
+      "flying",
+      "steel"
     ],
     "evolvesFromId": null,
     "evolutions": [
@@ -16372,6 +17211,16 @@
       "electric",
       "steel"
     ],
+    "abilities": [
+      {
+        "name": "Magnet Pull",
+        "description": "Traps STEEL-type POKéMON."
+      },
+      {
+        "name": "Sturdy",
+        "description": "Negates 1-hit KO attacks."
+      }
+    ],
     "stats": {
       "hp": 50,
       "attack": 60,
@@ -16404,6 +17253,13 @@
     ],
     "immunities": [
       "poison"
+    ],
+    "quadWeaknesses": [
+      "ground"
+    ],
+    "quadResistances": [
+      "flying",
+      "steel"
     ],
     "evolvesFromId": 81,
     "evolutions": [],
@@ -16581,6 +17437,16 @@
       "normal",
       "flying"
     ],
+    "abilities": [
+      {
+        "name": "Keen Eye",
+        "description": "Prevents loss of accuracy."
+      },
+      {
+        "name": "Inner Focus",
+        "description": "Prevents flinching."
+      }
+    ],
     "stats": {
       "hp": 52,
       "attack": 90,
@@ -16607,6 +17473,8 @@
       "ground",
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -16755,6 +17623,16 @@
       "normal",
       "flying"
     ],
+    "abilities": [
+      {
+        "name": "Run Away",
+        "description": "Makes escaping easier."
+      },
+      {
+        "name": "Early Bird",
+        "description": "Awakens quickly from sleep."
+      }
+    ],
     "stats": {
       "hp": 35,
       "attack": 85,
@@ -16781,6 +17659,8 @@
       "ground",
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -16955,6 +17835,16 @@
       "normal",
       "flying"
     ],
+    "abilities": [
+      {
+        "name": "Run Away",
+        "description": "Makes escaping easier."
+      },
+      {
+        "name": "Early Bird",
+        "description": "Awakens quickly from sleep."
+      }
+    ],
     "stats": {
       "hp": 60,
       "attack": 110,
@@ -16981,6 +17871,8 @@
       "ground",
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 84,
     "evolutions": [],
     "levelUpMoves": [
@@ -17109,6 +18001,12 @@
     "types": [
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Thick Fat",
+        "description": "Heat-and-cold protection."
+      }
+    ],
     "stats": {
       "hp": 65,
       "attack": 45,
@@ -17133,6 +18031,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -17349,6 +18249,12 @@
       "water",
       "ice"
     ],
+    "abilities": [
+      {
+        "name": "Thick Fat",
+        "description": "Heat-and-cold protection."
+      }
+    ],
     "stats": {
       "hp": 90,
       "attack": 70,
@@ -17373,6 +18279,10 @@
       "ice"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "ice"
+    ],
     "evolvesFromId": 86,
     "evolutions": [],
     "levelUpMoves": [
@@ -17560,6 +18470,16 @@
     "types": [
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Stench",
+        "description": "Helps repel wild POKéMON."
+      },
+      {
+        "name": "Sticky Hold",
+        "description": "Prevents item theft."
+      }
+    ],
     "stats": {
       "hp": 80,
       "attack": 80,
@@ -17584,6 +18504,8 @@
       "bug"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -17767,6 +18689,16 @@
     "types": [
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Stench",
+        "description": "Helps repel wild POKéMON."
+      },
+      {
+        "name": "Sticky Hold",
+        "description": "Prevents item theft."
+      }
+    ],
     "stats": {
       "hp": 105,
       "attack": 105,
@@ -17791,6 +18723,8 @@
       "bug"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 88,
     "evolutions": [],
     "levelUpMoves": [
@@ -17928,6 +18862,12 @@
     "types": [
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Shell Armor",
+        "description": "Blocks critical hits."
+      }
+    ],
     "stats": {
       "hp": 30,
       "attack": 65,
@@ -17952,6 +18892,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -18140,6 +19082,12 @@
       "water",
       "ice"
     ],
+    "abilities": [
+      {
+        "name": "Shell Armor",
+        "description": "Blocks critical hits."
+      }
+    ],
     "stats": {
       "hp": 50,
       "attack": 95,
@@ -18164,6 +19112,10 @@
       "ice"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "ice"
+    ],
     "evolvesFromId": 90,
     "evolutions": [],
     "levelUpMoves": [
@@ -18266,6 +19218,12 @@
       "ghost",
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Levitate",
+        "description": "Not hit by GROUND attacks."
+      }
+    ],
     "stats": {
       "hp": 30,
       "attack": 35,
@@ -18293,6 +19251,11 @@
     "immunities": [
       "normal",
       "fighting"
+    ],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "poison",
+      "bug"
     ],
     "evolvesFromId": null,
     "evolutions": [
@@ -18563,6 +19526,12 @@
       "ghost",
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Levitate",
+        "description": "Not hit by GROUND attacks."
+      }
+    ],
     "stats": {
       "hp": 45,
       "attack": 50,
@@ -18590,6 +19559,11 @@
     "immunities": [
       "normal",
       "fighting"
+    ],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "poison",
+      "bug"
     ],
     "evolvesFromId": 92,
     "evolutions": [
@@ -18869,6 +19843,12 @@
       "ghost",
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Levitate",
+        "description": "Not hit by GROUND attacks."
+      }
+    ],
     "stats": {
       "hp": 60,
       "attack": 65,
@@ -18896,6 +19876,11 @@
     "immunities": [
       "normal",
       "fighting"
+    ],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "poison",
+      "bug"
     ],
     "evolvesFromId": 93,
     "evolutions": [],
@@ -19053,6 +20038,16 @@
       "rock",
       "ground"
     ],
+    "abilities": [
+      {
+        "name": "Rock Head",
+        "description": "Prevents recoil damage."
+      },
+      {
+        "name": "Sturdy",
+        "description": "Negates 1-hit KO attacks."
+      }
+    ],
     "stats": {
       "hp": 35,
       "attack": 45,
@@ -19083,6 +20078,13 @@
     ],
     "immunities": [
       "electric"
+    ],
+    "quadWeaknesses": [
+      "water",
+      "grass"
+    ],
+    "quadResistances": [
+      "poison"
     ],
     "evolvesFromId": null,
     "evolutions": [],
@@ -19282,6 +20284,12 @@
     "types": [
       "psychic"
     ],
+    "abilities": [
+      {
+        "name": "Insomnia",
+        "description": "Prevents sleep."
+      }
+    ],
     "stats": {
       "hp": 60,
       "attack": 48,
@@ -19305,6 +20313,8 @@
       "psychic"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -19475,6 +20485,12 @@
     "types": [
       "psychic"
     ],
+    "abilities": [
+      {
+        "name": "Insomnia",
+        "description": "Prevents sleep."
+      }
+    ],
     "stats": {
       "hp": 85,
       "attack": 73,
@@ -19498,6 +20514,8 @@
       "psychic"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 96,
     "evolutions": [],
     "levelUpMoves": [
@@ -19668,6 +20686,16 @@
     "types": [
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Hyper Cutter",
+        "description": "Prevents ATTACK reduction."
+      },
+      {
+        "name": "Shell Armor",
+        "description": "Blocks critical hits."
+      }
+    ],
     "stats": {
       "hp": 30,
       "attack": 105,
@@ -19692,6 +20720,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -19951,6 +20981,16 @@
     "types": [
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Hyper Cutter",
+        "description": "Prevents ATTACK reduction."
+      },
+      {
+        "name": "Shell Armor",
+        "description": "Blocks critical hits."
+      }
+    ],
     "stats": {
       "hp": 55,
       "attack": 130,
@@ -19975,6 +21015,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 98,
     "evolutions": [],
     "levelUpMoves": [
@@ -20121,6 +21163,16 @@
     "types": [
       "electric"
     ],
+    "abilities": [
+      {
+        "name": "Soundproof",
+        "description": "Avoids sound-based moves."
+      },
+      {
+        "name": "Static",
+        "description": "Paralyzes on contact."
+      }
+    ],
     "stats": {
       "hp": 40,
       "attack": 30,
@@ -20143,6 +21195,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -20314,6 +21368,16 @@
     "types": [
       "electric"
     ],
+    "abilities": [
+      {
+        "name": "Soundproof",
+        "description": "Avoids sound-based moves."
+      },
+      {
+        "name": "Static",
+        "description": "Paralyzes on contact."
+      }
+    ],
     "stats": {
       "hp": 60,
       "attack": 50,
@@ -20336,6 +21400,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 100,
     "evolutions": [],
     "levelUpMoves": [
@@ -20521,6 +21587,12 @@
       "grass",
       "psychic"
     ],
+    "abilities": [
+      {
+        "name": "Chlorophyll",
+        "description": "Raises SPEED in sunshine."
+      }
+    ],
     "stats": {
       "hp": 60,
       "attack": 40,
@@ -20552,6 +21624,10 @@
       "psychic"
     ],
     "immunities": [],
+    "quadWeaknesses": [
+      "bug"
+    ],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -20736,6 +21812,12 @@
       "grass",
       "psychic"
     ],
+    "abilities": [
+      {
+        "name": "Chlorophyll",
+        "description": "Raises SPEED in sunshine."
+      }
+    ],
     "stats": {
       "hp": 95,
       "attack": 95,
@@ -20767,6 +21849,10 @@
       "psychic"
     ],
     "immunities": [],
+    "quadWeaknesses": [
+      "bug"
+    ],
+    "quadResistances": [],
     "evolvesFromId": 102,
     "evolutions": [],
     "levelUpMoves": [
@@ -20859,6 +21945,16 @@
     "types": [
       "ground"
     ],
+    "abilities": [
+      {
+        "name": "Rock Head",
+        "description": "Prevents recoil damage."
+      },
+      {
+        "name": "Lightning Rod",
+        "description": "Draws electrical moves."
+      }
+    ],
     "stats": {
       "hp": 50,
       "attack": 50,
@@ -20884,6 +21980,8 @@
     "immunities": [
       "electric"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -21092,6 +22190,16 @@
     "types": [
       "ground"
     ],
+    "abilities": [
+      {
+        "name": "Rock Head",
+        "description": "Prevents recoil damage."
+      },
+      {
+        "name": "Lightning Rod",
+        "description": "Draws electrical moves."
+      }
+    ],
     "stats": {
       "hp": 60,
       "attack": 80,
@@ -21117,6 +22225,8 @@
     "immunities": [
       "electric"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 104,
     "evolutions": [],
     "levelUpMoves": [
@@ -21301,6 +22411,12 @@
     "types": [
       "fighting"
     ],
+    "abilities": [
+      {
+        "name": "Limber",
+        "description": "Prevents paralysis."
+      }
+    ],
     "stats": {
       "hp": 50,
       "attack": 120,
@@ -21324,6 +22440,8 @@
       "dark"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -21496,6 +22614,12 @@
     "types": [
       "fighting"
     ],
+    "abilities": [
+      {
+        "name": "Keen Eye",
+        "description": "Prevents loss of accuracy."
+      }
+    ],
     "stats": {
       "hp": 50,
       "attack": 105,
@@ -21519,6 +22643,8 @@
       "dark"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -21682,6 +22808,16 @@
     "types": [
       "normal"
     ],
+    "abilities": [
+      {
+        "name": "Own Tempo",
+        "description": "Prevents confusion."
+      },
+      {
+        "name": "Oblivious",
+        "description": "Prevents attraction."
+      }
+    ],
     "stats": {
       "hp": 90,
       "attack": 55,
@@ -21702,6 +22838,8 @@
     "immunities": [
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -21849,6 +22987,12 @@
     "types": [
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Levitate",
+        "description": "Not hit by GROUND attacks."
+      }
+    ],
     "stats": {
       "hp": 40,
       "attack": 65,
@@ -21873,6 +23017,8 @@
       "bug"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -22056,6 +23202,12 @@
     "types": [
       "poison"
     ],
+    "abilities": [
+      {
+        "name": "Levitate",
+        "description": "Not hit by GROUND attacks."
+      }
+    ],
     "stats": {
       "hp": 65,
       "attack": 90,
@@ -22080,6 +23232,8 @@
       "bug"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 109,
     "evolutions": [],
     "levelUpMoves": [
@@ -22247,6 +23401,16 @@
       "ground",
       "rock"
     ],
+    "abilities": [
+      {
+        "name": "Lightning Rod",
+        "description": "Draws electrical moves."
+      },
+      {
+        "name": "Rock Head",
+        "description": "Prevents recoil damage."
+      }
+    ],
     "stats": {
       "hp": 80,
       "attack": 85,
@@ -22277,6 +23441,13 @@
     ],
     "immunities": [
       "electric"
+    ],
+    "quadWeaknesses": [
+      "water",
+      "grass"
+    ],
+    "quadResistances": [
+      "poison"
     ],
     "evolvesFromId": null,
     "evolutions": [
@@ -22440,6 +23611,16 @@
       "ground",
       "rock"
     ],
+    "abilities": [
+      {
+        "name": "Lightning Rod",
+        "description": "Draws electrical moves."
+      },
+      {
+        "name": "Rock Head",
+        "description": "Prevents recoil damage."
+      }
+    ],
     "stats": {
       "hp": 105,
       "attack": 130,
@@ -22470,6 +23651,13 @@
     ],
     "immunities": [
       "electric"
+    ],
+    "quadWeaknesses": [
+      "water",
+      "grass"
+    ],
+    "quadResistances": [
+      "poison"
     ],
     "evolvesFromId": 111,
     "evolutions": [],
@@ -22608,6 +23796,16 @@
     "types": [
       "normal"
     ],
+    "abilities": [
+      {
+        "name": "Natural Cure",
+        "description": "Heals upon switching out."
+      },
+      {
+        "name": "Serene Grace",
+        "description": "Promotes added effects."
+      }
+    ],
     "stats": {
       "hp": 250,
       "attack": 5,
@@ -22628,6 +23826,8 @@
     "immunities": [
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -22798,6 +23998,12 @@
     "types": [
       "grass"
     ],
+    "abilities": [
+      {
+        "name": "Chlorophyll",
+        "description": "Raises SPEED in sunshine."
+      }
+    ],
     "stats": {
       "hp": 65,
       "attack": 55,
@@ -22825,6 +24031,8 @@
       "ground"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -23004,6 +24212,12 @@
     "types": [
       "normal"
     ],
+    "abilities": [
+      {
+        "name": "Early Bird",
+        "description": "Awakens quickly from sleep."
+      }
+    ],
     "stats": {
       "hp": 105,
       "attack": 95,
@@ -23024,6 +24238,8 @@
     "immunities": [
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -23176,6 +24392,12 @@
     "types": [
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Swift Swim",
+        "description": "Raises SPEED in rain."
+      }
+    ],
     "stats": {
       "hp": 30,
       "attack": 40,
@@ -23200,6 +24422,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -23777,6 +25001,12 @@
     "types": [
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Poison Point",
+        "description": "Poisons foe on contact."
+      }
+    ],
     "stats": {
       "hp": 55,
       "attack": 65,
@@ -23801,6 +25031,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 116,
     "evolutions": [],
     "levelUpMoves": [
@@ -24061,6 +25293,16 @@
     "types": [
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Swift Swim",
+        "description": "Raises SPEED in rain."
+      },
+      {
+        "name": "Water Veil",
+        "description": "Prevents burns."
+      }
+    ],
     "stats": {
       "hp": 45,
       "attack": 67,
@@ -24085,6 +25327,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -24402,6 +25646,16 @@
     "types": [
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Swift Swim",
+        "description": "Raises SPEED in rain."
+      },
+      {
+        "name": "Water Veil",
+        "description": "Prevents burns."
+      }
+    ],
     "stats": {
       "hp": 80,
       "attack": 92,
@@ -24426,6 +25680,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 118,
     "evolutions": [],
     "levelUpMoves": [
@@ -24615,6 +25871,16 @@
     "types": [
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Illuminate",
+        "description": "Encounter rate increases."
+      },
+      {
+        "name": "Natural Cure",
+        "description": "Heals upon switching out."
+      }
+    ],
     "stats": {
       "hp": 30,
       "attack": 45,
@@ -24639,6 +25905,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -24804,6 +26072,16 @@
       "water",
       "psychic"
     ],
+    "abilities": [
+      {
+        "name": "Illuminate",
+        "description": "Encounter rate increases."
+      },
+      {
+        "name": "Natural Cure",
+        "description": "Heals upon switching out."
+      }
+    ],
     "stats": {
       "hp": 60,
       "attack": 75,
@@ -24833,6 +26111,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 120,
     "evolutions": [],
     "levelUpMoves": [
@@ -24925,6 +26205,12 @@
     "types": [
       "psychic"
     ],
+    "abilities": [
+      {
+        "name": "Soundproof",
+        "description": "Avoids sound-based moves."
+      }
+    ],
     "stats": {
       "hp": 40,
       "attack": 45,
@@ -24948,6 +26234,8 @@
       "psychic"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -25150,6 +26438,12 @@
       "bug",
       "flying"
     ],
+    "abilities": [
+      {
+        "name": "Swarm",
+        "description": "Ups BUG moves in a pinch."
+      }
+    ],
     "stats": {
       "hp": 70,
       "attack": 110,
@@ -25177,6 +26471,13 @@
     ],
     "immunities": [
       "ground"
+    ],
+    "quadWeaknesses": [
+      "rock"
+    ],
+    "quadResistances": [
+      "grass",
+      "fighting"
     ],
     "evolvesFromId": null,
     "evolutions": [],
@@ -25349,6 +26650,12 @@
       "ice",
       "psychic"
     ],
+    "abilities": [
+      {
+        "name": "Oblivious",
+        "description": "Prevents attraction."
+      }
+    ],
     "stats": {
       "hp": 65,
       "attack": 50,
@@ -25375,6 +26682,8 @@
       "psychic"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -25531,6 +26840,12 @@
     "types": [
       "electric"
     ],
+    "abilities": [
+      {
+        "name": "Static",
+        "description": "Paralyzes on contact."
+      }
+    ],
     "stats": {
       "hp": 65,
       "attack": 83,
@@ -25553,6 +26868,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -25680,6 +26997,12 @@
     "types": [
       "fire"
     ],
+    "abilities": [
+      {
+        "name": "Flame Body",
+        "description": "Burns the foe on contact."
+      }
+    ],
     "stats": {
       "hp": 65,
       "attack": 95,
@@ -25706,6 +27029,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -25834,6 +27159,12 @@
     "types": [
       "bug"
     ],
+    "abilities": [
+      {
+        "name": "Hyper Cutter",
+        "description": "Prevents ATTACK reduction."
+      }
+    ],
     "stats": {
       "hp": 65,
       "attack": 125,
@@ -25858,6 +27189,8 @@
       "ground"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -25995,6 +27328,12 @@
     "types": [
       "normal"
     ],
+    "abilities": [
+      {
+        "name": "Intimidate",
+        "description": "Lowers the foe’s ATTACK."
+      }
+    ],
     "stats": {
       "hp": 75,
       "attack": 100,
@@ -26015,6 +27354,8 @@
     "immunities": [
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -26167,6 +27508,12 @@
     "types": [
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Swift Swim",
+        "description": "Raises SPEED in rain."
+      }
+    ],
     "stats": {
       "hp": 20,
       "attack": 10,
@@ -26191,6 +27538,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -26959,6 +28308,12 @@
       "water",
       "flying"
     ],
+    "abilities": [
+      {
+        "name": "Intimidate",
+        "description": "Lowers the foe’s ATTACK."
+      }
+    ],
     "stats": {
       "hp": 95,
       "attack": 125,
@@ -26986,6 +28341,10 @@
     "immunities": [
       "ground"
     ],
+    "quadWeaknesses": [
+      "electric"
+    ],
+    "quadResistances": [],
     "evolvesFromId": 129,
     "evolutions": [],
     "levelUpMoves": [
@@ -27424,6 +28783,16 @@
       "water",
       "ice"
     ],
+    "abilities": [
+      {
+        "name": "Water Absorb",
+        "description": "Changes water into HP."
+      },
+      {
+        "name": "Shell Armor",
+        "description": "Blocks critical hits."
+      }
+    ],
     "stats": {
       "hp": 130,
       "attack": 85,
@@ -27448,6 +28817,10 @@
       "ice"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [
+      "ice"
+    ],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -27618,6 +28991,12 @@
     "types": [
       "normal"
     ],
+    "abilities": [
+      {
+        "name": "Limber",
+        "description": "Prevents paralysis."
+      }
+    ],
     "stats": {
       "hp": 48,
       "attack": 48,
@@ -27638,6 +29017,8 @@
     "immunities": [
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -27711,6 +29092,12 @@
     "types": [
       "normal"
     ],
+    "abilities": [
+      {
+        "name": "Run Away",
+        "description": "Makes escaping easier."
+      }
+    ],
     "stats": {
       "hp": 55,
       "attack": 55,
@@ -27731,6 +29118,8 @@
     "immunities": [
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -27892,6 +29281,12 @@
     "types": [
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Water Absorb",
+        "description": "Changes water into HP."
+      }
+    ],
     "stats": {
       "hp": 130,
       "attack": 65,
@@ -27916,6 +29311,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 133,
     "evolutions": [],
     "levelUpMoves": [
@@ -28062,6 +29459,12 @@
     "types": [
       "electric"
     ],
+    "abilities": [
+      {
+        "name": "Volt Absorb",
+        "description": "Turns electricity into HP."
+      }
+    ],
     "stats": {
       "hp": 65,
       "attack": 65,
@@ -28084,6 +29487,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 133,
     "evolutions": [],
     "levelUpMoves": [
@@ -28230,6 +29635,12 @@
     "types": [
       "fire"
     ],
+    "abilities": [
+      {
+        "name": "Flash Fire",
+        "description": "Powers up if hit by fire."
+      }
+    ],
     "stats": {
       "hp": 65,
       "attack": 130,
@@ -28256,6 +29667,8 @@
       "steel"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 133,
     "evolutions": [],
     "levelUpMoves": [
@@ -28402,6 +29815,12 @@
     "types": [
       "normal"
     ],
+    "abilities": [
+      {
+        "name": "Trace",
+        "description": "Copies special ability."
+      }
+    ],
     "stats": {
       "hp": 65,
       "attack": 60,
@@ -28422,6 +29841,8 @@
     "immunities": [
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -28579,6 +30000,16 @@
       "rock",
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Swift Swim",
+        "description": "Raises SPEED in rain."
+      },
+      {
+        "name": "Shell Armor",
+        "description": "Blocks critical hits."
+      }
+    ],
     "stats": {
       "hp": 35,
       "attack": 40,
@@ -28606,6 +30037,12 @@
       "flying"
     ],
     "immunities": [],
+    "quadWeaknesses": [
+      "grass"
+    ],
+    "quadResistances": [
+      "fire"
+    ],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -28763,6 +30200,16 @@
       "rock",
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Swift Swim",
+        "description": "Raises SPEED in rain."
+      },
+      {
+        "name": "Shell Armor",
+        "description": "Blocks critical hits."
+      }
+    ],
     "stats": {
       "hp": 70,
       "attack": 60,
@@ -28790,6 +30237,12 @@
       "flying"
     ],
     "immunities": [],
+    "quadWeaknesses": [
+      "grass"
+    ],
+    "quadResistances": [
+      "fire"
+    ],
     "evolvesFromId": 138,
     "evolutions": [],
     "levelUpMoves": [
@@ -28937,6 +30390,16 @@
       "rock",
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Swift Swim",
+        "description": "Raises SPEED in rain."
+      },
+      {
+        "name": "Battle Armor",
+        "description": "Blocks critical hits."
+      }
+    ],
     "stats": {
       "hp": 30,
       "attack": 80,
@@ -28964,6 +30427,12 @@
       "flying"
     ],
     "immunities": [],
+    "quadWeaknesses": [
+      "grass"
+    ],
+    "quadResistances": [
+      "fire"
+    ],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -29121,6 +30590,16 @@
       "rock",
       "water"
     ],
+    "abilities": [
+      {
+        "name": "Swift Swim",
+        "description": "Raises SPEED in rain."
+      },
+      {
+        "name": "Battle Armor",
+        "description": "Blocks critical hits."
+      }
+    ],
     "stats": {
       "hp": 60,
       "attack": 115,
@@ -29148,6 +30627,12 @@
       "flying"
     ],
     "immunities": [],
+    "quadWeaknesses": [
+      "grass"
+    ],
+    "quadResistances": [
+      "fire"
+    ],
     "evolvesFromId": 140,
     "evolutions": [],
     "levelUpMoves": [
@@ -29304,6 +30789,16 @@
       "rock",
       "flying"
     ],
+    "abilities": [
+      {
+        "name": "Rock Head",
+        "description": "Prevents recoil damage."
+      },
+      {
+        "name": "Pressure",
+        "description": "Raises foe’s PP usage."
+      }
+    ],
     "stats": {
       "hp": 80,
       "attack": 105,
@@ -29334,6 +30829,8 @@
     "immunities": [
       "ground"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -29461,6 +30958,16 @@
     "types": [
       "normal"
     ],
+    "abilities": [
+      {
+        "name": "Immunity",
+        "description": "Prevents poisoning."
+      },
+      {
+        "name": "Thick Fat",
+        "description": "Heat-and-cold protection."
+      }
+    ],
     "stats": {
       "hp": 160,
       "attack": 110,
@@ -29481,6 +30988,8 @@
     "immunities": [
       "ghost"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -29670,6 +31179,12 @@
       "ice",
       "flying"
     ],
+    "abilities": [
+      {
+        "name": "Pressure",
+        "description": "Raises foe’s PP usage."
+      }
+    ],
     "stats": {
       "hp": 90,
       "attack": 85,
@@ -29696,6 +31211,10 @@
     "immunities": [
       "ground"
     ],
+    "quadWeaknesses": [
+      "rock"
+    ],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -29833,6 +31352,12 @@
       "electric",
       "flying"
     ],
+    "abilities": [
+      {
+        "name": "Pressure",
+        "description": "Raises foe’s PP usage."
+      }
+    ],
     "stats": {
       "hp": 90,
       "attack": 90,
@@ -29860,6 +31385,8 @@
     "immunities": [
       "ground"
     ],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -29997,6 +31524,12 @@
       "fire",
       "flying"
     ],
+    "abilities": [
+      {
+        "name": "Pressure",
+        "description": "Raises foe’s PP usage."
+      }
+    ],
     "stats": {
       "hp": 90,
       "attack": 100,
@@ -30024,6 +31557,13 @@
     ],
     "immunities": [
       "ground"
+    ],
+    "quadWeaknesses": [
+      "rock"
+    ],
+    "quadResistances": [
+      "grass",
+      "bug"
     ],
     "evolvesFromId": null,
     "evolutions": [],
@@ -30161,6 +31701,12 @@
     "types": [
       "dragon"
     ],
+    "abilities": [
+      {
+        "name": "Shed Skin",
+        "description": "Heals the body by shedding."
+      }
+    ],
     "stats": {
       "hp": 41,
       "attack": 64,
@@ -30185,6 +31731,8 @@
       "grass"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [
       {
@@ -30369,6 +31917,12 @@
     "types": [
       "dragon"
     ],
+    "abilities": [
+      {
+        "name": "Shed Skin",
+        "description": "Heals the body by shedding."
+      }
+    ],
     "stats": {
       "hp": 61,
       "attack": 84,
@@ -30393,6 +31947,8 @@
       "grass"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": 147,
     "evolutions": [
       {
@@ -30569,6 +32125,12 @@
       "dragon",
       "flying"
     ],
+    "abilities": [
+      {
+        "name": "Inner Focus",
+        "description": "Prevents flinching."
+      }
+    ],
     "stats": {
       "hp": 91,
       "attack": 134,
@@ -30596,6 +32158,12 @@
     ],
     "immunities": [
       "ground"
+    ],
+    "quadWeaknesses": [
+      "ice"
+    ],
+    "quadResistances": [
+      "grass"
     ],
     "evolvesFromId": 148,
     "evolutions": [],
@@ -30743,6 +32311,12 @@
     "types": [
       "psychic"
     ],
+    "abilities": [
+      {
+        "name": "Pressure",
+        "description": "Raises foe’s PP usage."
+      }
+    ],
     "stats": {
       "hp": 106,
       "attack": 110,
@@ -30766,6 +32340,8 @@
       "psychic"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [
@@ -30920,6 +32496,12 @@
     "types": [
       "psychic"
     ],
+    "abilities": [
+      {
+        "name": "Synchronize",
+        "description": "Passes on status problems."
+      }
+    ],
     "stats": {
       "hp": 100,
       "attack": 100,
@@ -30943,6 +32525,8 @@
       "psychic"
     ],
     "immunities": [],
+    "quadWeaknesses": [],
+    "quadResistances": [],
     "evolvesFromId": null,
     "evolutions": [],
     "levelUpMoves": [

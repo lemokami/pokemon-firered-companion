@@ -312,6 +312,20 @@ h2,
   font-size: 1.15rem;
   line-height: 1.4;
 }
+.detail-abilities {
+  margin-bottom: 10px;
+}
+.detail-abilities-label {
+  font-family: "Press Start 2P", monospace;
+  font-size: 0.55rem;
+  color: var(--text-muted);
+}
+.detail-ability {
+  max-width: 50ch;
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin: 2px 0 0;
+}
 
 /* Stat bars — chunky segmented gauge look */
 .stat-bars {
@@ -557,6 +571,20 @@ h2,
   display: flex;
   gap: 6px;
   flex-wrap: wrap;
+}
+.matchup-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+.quad-tag {
+  font-family: "Press Start 2P", monospace;
+  font-size: 0.55rem;
+  color: #fff;
+  background: var(--accent-dark);
+  padding: 2px 4px;
+  border-radius: 3px;
+  line-height: 1;
 }
 
 /* General tips page */

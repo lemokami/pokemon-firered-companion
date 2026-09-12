@@ -6,7 +6,7 @@ const STAT_LABELS = {
   "special-defense": "Sp. Def",
   speed: "Speed",
 };
-const MAX_STAT = 180; // roughly the ceiling for base stats among the Kanto 151, for bar scaling
+const MAX_STAT = 255; // the actual maximum a base stat can be, so bars never clip (e.g. Chansey's 250 HP)
 
 export default function StatBars({ stats }) {
   return (

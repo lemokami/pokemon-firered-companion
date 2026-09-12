@@ -7,7 +7,7 @@ function Stage({ id, currentId, richInfo }) {
   if (!mon) return null;
   return (
     <Link to={`/pokedex/${mon.id}`} className={`evo-stage ${mon.id === currentId ? "current" : ""}`}>
-      <img src={mon.sprite} alt={mon.name} className="pixel-sprite evo-sprite" />
+      <img src={mon.sprite} alt={mon.name} className="pixel-sprite evo-sprite" loading="lazy" />
       <span className="evo-stage-info">
         {richInfo && <span className="evo-stage-id">#{String(mon.id).padStart(3, "0")}</span>}
         <span className="evo-stage-name">{mon.name}</span>
