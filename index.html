@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/pokemon-firered-companion/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FireRed Companion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <!-- GitHub Pages has no server-side rewrite for client-side routes, so a
+         deep link or refresh 404s. 404.html redirects here with the intended
+         path encoded in the query string; this decodes it back before React
+         Router ever mounts. See https://github.com/rafgraph/spa-github-pages -->
+    <script>
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, "", redirect);
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/pokemon-firered-companion/assets/index-Qz7w-EPl.js"></script>
+    <link rel="stylesheet" crossorigin href="/pokemon-firered-companion/assets/index-0Rk9r3Lk.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

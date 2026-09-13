@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>FireRed Companion</title>
+    <!-- GitHub Pages serves this file for any unknown path (e.g. a direct
+         link to /pokedex/25, or a refresh on that page) since it has no
+         server-side rewrite for client-side routes. Stash the intended path
+         and bounce to the real app, which restores it before React Router
+         mounts (see the inline script in index.html). Adapted from
+         https://github.com/rafgraph/spa-github-pages -->
+    <script>
+      sessionStorage.redirect = location.href;
+    </script>
+    <meta http-equiv="refresh" content="0; url=/pokemon-firered-companion/" />
+  </head>
+  <body></body>
+</html>
