@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FireRed Companion</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -11,6 +11,19 @@
       href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap"
       rel="stylesheet"
     />
+    <!-- GitHub Pages has no server-side rewrite for client-side routes, so a
+         deep link or refresh 404s. 404.html redirects here with the intended
+         path encoded in the query string; this decodes it back before React
+         Router ever mounts. See https://github.com/rafgraph/spa-github-pages -->
+    <script>
+      (function () {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, "", redirect);
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

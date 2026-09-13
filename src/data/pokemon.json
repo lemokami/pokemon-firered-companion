@@ -4734,13 +4734,6 @@
     ],
     "locations": [
       {
-        "area": "Pokecenter",
-        "method": "Colosseum Bonus Disc Jpn",
-        "levelRange": "Lv. 10",
-        "chance": 100,
-        "notes": []
-      },
-      {
         "area": "Power Plant",
         "method": "Walking in grass",
         "levelRange": "Lv. 22-26",

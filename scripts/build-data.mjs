@@ -277,6 +277,11 @@ function labelCondition(name) {
 // "slots" PokeAPI reports into one row per (area, method), and merging
 // FireRed/LeafGreen when they're identical (flagging it when they differ,
 // e.g. version-exclusive Pokemon or different levels/rarity per game).
+// Not a real in-game way to get the Pokemon in a normal FireRed cartridge -
+// this required an external Japan-only GameCube bonus-disc distribution
+// event, not just playing the game, so it doesn't belong in "Where to Find".
+const NON_GAMEPLAY_METHODS = new Set(["colosseum-bonus-disc-jpn"]);
+
 function buildLocations(encounters) {
   // This is a FireRed companion, so only FireRed's own encounters apply -
   // a LeafGreen-exclusive Pokemon simply isn't findable in the wild here.
@@ -287,6 +292,7 @@ function buildLocations(encounters) {
     if (!vd) continue;
     const byMethod = new Map();
     for (const detail of vd.encounter_details) {
+      if (NON_GAMEPLAY_METHODS.has(detail.method.name)) continue;
       const key = detail.method.name;
       const entry = byMethod.get(key) ?? {
         method: key,
